@@ -1,0 +1,20 @@
+<UserControl x:Class="CMSBuilder.Views.Elements.CardElementView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             MinWidth="180" MinHeight="200">
+    <Border CornerRadius="10" Padding="0" Cursor="Hand"
+            Background="{Binding Style.BackgroundColor, Converter={StaticResource CssBrush}, FallbackValue=#FFFFFF}"
+            BorderBrush="{Binding Style.BorderColor, Converter={StaticResource CssBrush}, FallbackValue=#D8E0DC}"
+            BorderThickness="{Binding Style.BorderWidth, Converter={StaticResource CssBorderThickness}, FallbackValue=1}">
+        <StackPanel>
+            <Image Source="{Binding Properties.Src}" Stretch="UniformToFill" Height="120" />
+            <StackPanel Margin="12,10,12,12">
+                <TextBlock Text="{Binding Properties.Text, FallbackValue=Название}"
+                           Style="{StaticResource Heading3Text}" Margin="0,0,0,6" />
+                <TextBlock Text="{Binding Properties.Description, FallbackValue=Описание}"
+                           Style="{StaticResource BodyText}" TextWrapping="Wrap"
+                           Foreground="{StaticResource TextSecondaryBrush}" />
+            </StackPanel>
+        </StackPanel>
+    </Border>
+</UserControl>

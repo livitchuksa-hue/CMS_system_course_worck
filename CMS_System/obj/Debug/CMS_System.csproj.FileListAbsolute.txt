@@ -1,0 +1,15 @@
+E:\Курсовая бд\CMS_System\CMS_System\bin\Debug\CMS_System.exe.config
+E:\Курсовая бд\CMS_System\CMS_System\bin\Debug\CMS_System.exe
+E:\Курсовая бд\CMS_System\CMS_System\bin\Debug\CMS_System.pdb
+E:\Курсовая бд\CMS_System\CMS_System\obj\Debug\CMS_System.csproj.AssemblyReference.cache
+E:\Курсовая бд\CMS_System\CMS_System\obj\Debug\MainWindow.g.cs
+E:\Курсовая бд\CMS_System\CMS_System\obj\Debug\App.g.cs
+E:\Курсовая бд\CMS_System\CMS_System\obj\Debug\CMS_System_MarkupCompile.cache
+E:\Курсовая бд\CMS_System\CMS_System\obj\Debug\CMS_System_MarkupCompile.lref
+E:\Курсовая бд\CMS_System\CMS_System\obj\Debug\MainWindow.baml
+E:\Курсовая бд\CMS_System\CMS_System\obj\Debug\CMS_System.g.resources
+E:\Курсовая бд\CMS_System\CMS_System\obj\Debug\CMS_System.Properties.Resources.resources
+E:\Курсовая бд\CMS_System\CMS_System\obj\Debug\CMS_System.csproj.GenerateResource.cache
+E:\Курсовая бд\CMS_System\CMS_System\obj\Debug\CMS_System.csproj.CoreCompileInputs.cache
+E:\Курсовая бд\CMS_System\CMS_System\obj\Debug\CMS_System.exe
+E:\Курсовая бд\CMS_System\CMS_System\obj\Debug\CMS_System.pdb

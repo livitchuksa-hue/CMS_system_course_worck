@@ -1,0 +1,9 @@
+<UserControl x:Class="CMSBuilder.Views.Elements.FooterElementView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             MinHeight="40" MinWidth="200">
+    <Border Background="#1A2420" Padding="12,8" CornerRadius="4">
+        <TextBlock Text="{Binding Properties.Text, FallbackValue=Подвал}"
+                   Foreground="White" HorizontalAlignment="Center" />
+    </Border>
+</UserControl>

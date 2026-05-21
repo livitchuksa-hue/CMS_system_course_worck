@@ -1,0 +1,26 @@
+<UserControl x:Class="CMSBuilder.Views.Properties.ContainerPropertiesView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <StackPanel>
+        <TextBlock Text="Направление" Style="{StaticResource LabelText}" />
+        <ComboBox Margin="0,0,0,14">
+            <ComboBoxItem Content="Vertical" IsSelected="True" />
+            <ComboBoxItem Content="Horizontal" />
+        </ComboBox>
+
+        <TextBlock Text="Padding" Style="{StaticResource LabelText}" />
+        <TextBox Margin="0,0,0,14" Text="16" />
+
+        <TextBlock Text="Gap" Style="{StaticResource LabelText}" />
+        <TextBox Margin="0,0,0,14" Text="12" />
+
+        <TextBlock Text="Фон" Style="{StaticResource LabelText}" />
+        <TextBox Text="transparent" />
+
+        <TextBlock Text="Min height"
+                   Style="{StaticResource LabelText}"
+                   Margin="0,14,0,6" />
+        <TextBox Text="120" />
+    </StackPanel>
+</UserControl>

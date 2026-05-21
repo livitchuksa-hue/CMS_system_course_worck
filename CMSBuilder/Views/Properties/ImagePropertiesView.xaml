@@ -1,0 +1,10 @@
+<UserControl x:Class="CMSBuilder.Views.Properties.ImagePropertiesView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <StackPanel>
+        <TextBlock Text="URL" Style="{StaticResource LabelText}" />
+        <TextBox Text="{Binding Properties.Src, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+        <TextBlock Text="Alt" Style="{StaticResource LabelText}" />
+        <TextBox Text="{Binding Properties.Alt, UpdateSourceTrigger=PropertyChanged}" />
+    </StackPanel>
+</UserControl>

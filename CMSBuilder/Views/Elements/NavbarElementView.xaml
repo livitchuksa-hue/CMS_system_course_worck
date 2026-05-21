@@ -1,0 +1,34 @@
+<UserControl x:Class="CMSBuilder.Views.Elements.NavbarElementView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             MinHeight="48">
+    <Border Background="{StaticResource SurfaceBrush}"
+            BorderBrush="{StaticResource BorderBrush}"
+            BorderThickness="1"
+            CornerRadius="8"
+            Padding="16,10">
+        <DockPanel>
+            <StackPanel DockPanel.Dock="Left" Orientation="Horizontal">
+                <Image MaxHeight="32" MaxWidth="120" Stretch="Uniform" Margin="0,0,8,0"
+                       Source="{Binding Properties.LogoSrc}" />
+                <TextBlock Text="{Binding Properties.LogoText, FallbackValue=Logo}"
+                           Style="{StaticResource Heading3Text}"
+                           Foreground="{StaticResource AccentBrush}" />
+            </StackPanel>
+            <ItemsControl ItemsSource="{Binding Properties.NavItems}"
+                          DockPanel.Dock="Right"
+                          HorizontalAlignment="Right">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel Orientation="Horizontal" />
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding Text}" Style="{StaticResource BodyText}" Margin="0,0,16,0" />
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </DockPanel>
+    </Border>
+</UserControl>

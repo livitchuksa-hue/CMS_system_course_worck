@@ -1,0 +1,332 @@
+<UserControl x:Class="CMSBuilder.Views.Editor.PropertiesPanelView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:props="clr-namespace:CMSBuilder.Views.Properties"
+             Width="300"
+             Background="{StaticResource SurfaceBrush}">
+
+    <Border BorderBrush="{StaticResource BorderBrush}" BorderThickness="1,0,0,0" Padding="14">
+        <DockPanel DataContext="{Binding}">
+            <Button DockPanel.Dock="Bottom" Content="Удалить элемент"
+                    Style="{StaticResource SecondaryButton}"
+                    Margin="0,12,0,0"
+                    Command="{Binding DeleteElementCommand}"
+                    Visibility="{Binding HasSelection, Converter={StaticResource BoolToVis}}" />
+
+            <TextBlock DockPanel.Dock="Top" Text="Свойства" Style="{StaticResource Heading2Text}" Margin="0,0,0,8" />
+            <TextBlock DockPanel.Dock="Top" Text="Выберите элемент на холсте"
+                       Style="{StaticResource CaptionText}" Margin="0,0,0,12"
+                       Visibility="{Binding HasSelection, Converter={StaticResource InverseBoolToVis}}" />
+
+            <ScrollViewer Style="{StaticResource AppScrollViewer}"
+                          Visibility="{Binding HasSelection, Converter={StaticResource BoolToVis}}">
+                <StackPanel>
+                    <TextBlock Text="{Binding SelectedElement.Type}" Style="{StaticResource CaptionText}" Margin="0,0,0,12" />
+
+                    <props:ElementCommonPropertiesView DataContext="{Binding SelectedElement}" Margin="0,0,0,16" />
+
+                    <TextBlock Text="Контент" Style="{StaticResource SectionHeader}" />
+
+                    <StackPanel Visibility="{Binding IsTextSelected, Converter={StaticResource BoolToVis}}">
+                        <TextBlock Text="Текст" Style="{StaticResource LabelText}" />
+                        <TextBox Text="{Binding SelectedElement.Properties.Text, UpdateSourceTrigger=PropertyChanged}" />
+                    </StackPanel>
+
+                    <StackPanel Visibility="{Binding IsHeaderSelected, Converter={StaticResource BoolToVis}}">
+                        <TextBlock Text="Заголовок" Style="{StaticResource LabelText}" />
+                        <TextBox Text="{Binding SelectedElement.Properties.Text, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBlock Text="Уровень (h1-h3)" Style="{StaticResource LabelText}" />
+                        <ComboBox SelectedItem="{Binding SelectedElement.Properties.Level}" Margin="0,0,0,8">
+                            <ComboBoxItem Content="h1" />
+                            <ComboBoxItem Content="h2" />
+                            <ComboBoxItem Content="h3" />
+                        </ComboBox>
+                    </StackPanel>
+
+                    <StackPanel Visibility="{Binding IsImageSelected, Converter={StaticResource BoolToVis}}">
+                        <TextBlock Text="URL изображения" Style="{StaticResource LabelText}" />
+                        <TextBox Text="{Binding SelectedElement.Properties.Src, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBlock Text="Alt" Style="{StaticResource LabelText}" />
+                        <TextBox Text="{Binding SelectedElement.Properties.Alt, UpdateSourceTrigger=PropertyChanged}" />
+                    </StackPanel>
+
+                    <StackPanel Visibility="{Binding IsCardSelected, Converter={StaticResource BoolToVis}}">
+                        <TextBlock Text="URL изображения" Style="{StaticResource LabelText}" />
+                        <TextBox Text="{Binding SelectedElement.Properties.Src, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBlock Text="Название" Style="{StaticResource LabelText}" />
+                        <TextBox Text="{Binding SelectedElement.Properties.Text, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBlock Text="Описание" Style="{StaticResource LabelText}" />
+                        <TextBox Text="{Binding SelectedElement.Properties.Description, UpdateSourceTrigger=PropertyChanged}"
+                                 Height="60" AcceptsReturn="True" TextWrapping="Wrap" Margin="0,0,0,16" />
+                        <TextBlock Text="Действие (как у кнопки)" Style="{StaticResource SectionHeader}" />
+                        <TextBlock Text="Тип" Style="{StaticResource LabelText}" />
+                        <ComboBox ItemsSource="{Binding ActionTypes}" SelectedItem="{Binding ButtonActionType}" Margin="0,0,0,12" />
+                        <StackPanel Margin="0,0,0,12">
+                            <StackPanel.Style>
+                                <Style TargetType="StackPanel">
+                                    <Setter Property="Visibility" Value="Collapsed" />
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding ButtonActionType}" Value="NavigateToPage">
+                                            <Setter Property="Visibility" Value="Visible" />
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </StackPanel.Style>
+                            <TextBlock Text="Страница" Style="{StaticResource LabelText}" />
+                            <ComboBox ItemsSource="{Binding PagesForAction}" DisplayMemberPath="Name"
+                                      SelectedValuePath="Id" SelectedValue="{Binding ButtonTargetPageId}" />
+                        </StackPanel>
+                        <StackPanel Margin="0,0,0,12">
+                            <StackPanel.Style>
+                                <Style TargetType="StackPanel">
+                                    <Setter Property="Visibility" Value="Collapsed" />
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding ButtonActionType}" Value="OpenUrl">
+                                            <Setter Property="Visibility" Value="Visible" />
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </StackPanel.Style>
+                            <TextBlock Text="URL" Style="{StaticResource LabelText}" />
+                            <TextBox Text="{Binding ButtonTargetUrl, UpdateSourceTrigger=PropertyChanged}" />
+                        </StackPanel>
+                        <Button Content="Применить действие" Style="{StaticResource PrimaryButton}"
+                                Command="{Binding ApplyButtonActionCommand}" />
+                    </StackPanel>
+
+                    <StackPanel Visibility="{Binding IsButtonSelected, Converter={StaticResource BoolToVis}}">
+                        <TextBlock Text="Текст кнопки" Style="{StaticResource LabelText}" />
+                        <TextBox Text="{Binding SelectedElement.Properties.Text, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,16" />
+
+                        <TextBlock Text="Действие кнопки" Style="{StaticResource SectionHeader}" />
+                        <TextBlock Text="Тип" Style="{StaticResource LabelText}" />
+                        <ComboBox ItemsSource="{Binding ActionTypes}" SelectedItem="{Binding ButtonActionType}" Margin="0,0,0,12" />
+
+                        <StackPanel Margin="0,0,0,12">
+                            <StackPanel.Style>
+                                <Style TargetType="StackPanel">
+                                    <Setter Property="Visibility" Value="Collapsed" />
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding ButtonActionType}" Value="NavigateToPage">
+                                            <Setter Property="Visibility" Value="Visible" />
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </StackPanel.Style>
+                            <TextBlock Text="Страница" Style="{StaticResource LabelText}" />
+                            <ComboBox ItemsSource="{Binding PagesForAction}" DisplayMemberPath="Name"
+                                      SelectedValuePath="Id" SelectedValue="{Binding ButtonTargetPageId}" />
+                        </StackPanel>
+
+                        <StackPanel Margin="0,0,0,12">
+                            <StackPanel.Style>
+                                <Style TargetType="StackPanel">
+                                    <Setter Property="Visibility" Value="Collapsed" />
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding ButtonActionType}" Value="OpenUrl">
+                                            <Setter Property="Visibility" Value="Visible" />
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </StackPanel.Style>
+                            <TextBlock Text="URL" Style="{StaticResource LabelText}" />
+                            <TextBox Text="{Binding ButtonTargetUrl, UpdateSourceTrigger=PropertyChanged}" />
+                        </StackPanel>
+
+                        <StackPanel Margin="0,0,0,12">
+                            <StackPanel.Style>
+                                <Style TargetType="StackPanel">
+                                    <Setter Property="Visibility" Value="Collapsed" />
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding ButtonActionType}" Value="SubmitForm">
+                                            <Setter Property="Visibility" Value="Visible" />
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </StackPanel.Style>
+                            <TextBlock Text="Форма для отправки" Style="{StaticResource LabelText}" />
+                            <ComboBox ItemsSource="{Binding FormsOnPage}" DisplayMemberPath="Label"
+                                      SelectedValuePath="Id" SelectedValue="{Binding ButtonTargetElementId}" />
+                        </StackPanel>
+
+                        <StackPanel Margin="0,0,0,12">
+                            <StackPanel.Style>
+                                <Style TargetType="StackPanel">
+                                    <Setter Property="Visibility" Value="Collapsed" />
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding ButtonActionType}" Value="CustomScript">
+                                            <Setter Property="Visibility" Value="Visible" />
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </StackPanel.Style>
+                            <TextBlock Text="Свой JS (в script.js)" Style="{StaticResource LabelText}" />
+                            <TextBox Text="{Binding ButtonCustomJs, UpdateSourceTrigger=PropertyChanged}"
+                                     Height="80" AcceptsReturn="True" TextWrapping="Wrap" />
+                        </StackPanel>
+
+                        <Button Content="Применить действие" Style="{StaticResource PrimaryButton}"
+                                Command="{Binding ApplyButtonActionCommand}" Margin="0,0,0,12" />
+                        <TextBlock Text="Привязка к форме (опционально)" Style="{StaticResource LabelText}" />
+                        <ComboBox ItemsSource="{Binding FormsOnPage}" DisplayMemberPath="Label"
+                                  SelectedValuePath="Id"
+                                  SelectedValue="{Binding SelectedElement.Properties.FormElementId, UpdateSourceTrigger=PropertyChanged}" />
+                    </StackPanel>
+
+                    <StackPanel Visibility="{Binding IsInputSelected, Converter={StaticResource BoolToVis}}">
+                        <TextBlock Text="Placeholder" Style="{StaticResource LabelText}" />
+                        <TextBox Text="{Binding SelectedElement.Properties.Placeholder, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBlock Text="Тип поля" Style="{StaticResource LabelText}" />
+                        <ComboBox SelectedItem="{Binding SelectedElement.Properties.InputType, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12">
+                            <ComboBoxItem Content="text" />
+                            <ComboBoxItem Content="email" />
+                            <ComboBoxItem Content="password" />
+                            <ComboBoxItem Content="number" />
+                            <ComboBoxItem Content="tel" />
+                        </ComboBox>
+                        <TextBlock Text="Имя поля (name)" Style="{StaticResource LabelText}" />
+                        <TextBox Text="{Binding SelectedElement.Properties.FieldName, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <CheckBox Content="Обязательное" IsChecked="{Binding SelectedElement.Properties.Required}" Margin="0,0,0,12" />
+                        <TextBlock Text="Форма" Style="{StaticResource LabelText}" />
+                        <ComboBox ItemsSource="{Binding FormsOnPage}" DisplayMemberPath="Label"
+                                  SelectedValuePath="Id"
+                                  SelectedValue="{Binding SelectedElement.Properties.FormElementId, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBlock Text="Связанная кнопка" Style="{StaticResource LabelText}" />
+                        <ComboBox ItemsSource="{Binding ButtonsOnPage}" DisplayMemberPath="Label"
+                                  SelectedValuePath="Id"
+                                  SelectedValue="{Binding SelectedElement.Properties.LinkedButtonId, UpdateSourceTrigger=PropertyChanged}" />
+                    </StackPanel>
+
+                    <StackPanel Visibility="{Binding IsCheckboxSelected, Converter={StaticResource BoolToVis}}">
+                        <TextBlock Text="Подпись" Style="{StaticResource LabelText}" />
+                        <TextBox Text="{Binding SelectedElement.Properties.Text, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBlock Text="Вид чекбокса" Style="{StaticResource LabelText}" />
+                        <ComboBox ItemsSource="{Binding CheckboxVariants}"
+                                  SelectedItem="{Binding SelectedElement.Properties.CheckboxVariant, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBlock Text="Имя поля" Style="{StaticResource LabelText}" />
+                        <TextBox Text="{Binding SelectedElement.Properties.FieldName, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <CheckBox Content="Обязательное" IsChecked="{Binding SelectedElement.Properties.Required}" Margin="0,0,0,12" />
+                        <TextBlock Text="Форма" Style="{StaticResource LabelText}" />
+                        <ComboBox ItemsSource="{Binding FormsOnPage}" DisplayMemberPath="Label"
+                                  SelectedValuePath="Id"
+                                  SelectedValue="{Binding SelectedElement.Properties.FormElementId, UpdateSourceTrigger=PropertyChanged}" />
+                    </StackPanel>
+
+                    <StackPanel Visibility="{Binding IsContainerSelected, Converter={StaticResource BoolToVis}}">
+                        <TextBlock Text="Подпись контейнера" Style="{StaticResource LabelText}" />
+                        <TextBox Text="{Binding SelectedElement.Properties.Text, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBlock Text="Направление (flex)" Style="{StaticResource LabelText}" />
+                        <ComboBox SelectedItem="{Binding SelectedElement.Properties.FlexDirection, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12">
+                            <ComboBoxItem Content="row" />
+                            <ComboBoxItem Content="column" />
+                        </ComboBox>
+                        <TextBlock Text="Отступ между элементами (gap)" Style="{StaticResource LabelText}" />
+                        <TextBox Text="{Binding SelectedElement.Properties.Gap, UpdateSourceTrigger=PropertyChanged}" />
+                    </StackPanel>
+
+                    <StackPanel Visibility="{Binding IsFormSelected, Converter={StaticResource BoolToVis}}">
+                        <TextBlock Text="Заголовок формы" Style="{StaticResource LabelText}" />
+                        <TextBox Text="{Binding SelectedElement.Properties.Text, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBlock Text="Метод" Style="{StaticResource LabelText}" />
+                        <ComboBox SelectedItem="{Binding SelectedElement.Properties.FormMethod, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12">
+                            <ComboBoxItem Content="post" />
+                            <ComboBoxItem Content="get" />
+                        </ComboBox>
+                        <TextBlock Text="URL отправки (необязательно)" Style="{StaticResource LabelText}" />
+                        <TextBox Text="{Binding SelectedElement.Properties.FormActionUrl, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,8" />
+                        <TextBlock Style="{StaticResource CaptionText}"
+                                   Text="Привяжите поля Input/Checkbox к этой форме через «Форма» в их свойствах." TextWrapping="Wrap" />
+                    </StackPanel>
+
+                    <StackPanel Visibility="{Binding IsNavbarSelected, Converter={StaticResource BoolToVis}}">
+                        <TextBlock Text="Текст логотипа" Style="{StaticResource LabelText}" />
+                        <TextBox Text="{Binding SelectedElement.Properties.LogoText, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBlock Text="URL картинки логотипа" Style="{StaticResource LabelText}" />
+                        <TextBox Text="{Binding SelectedElement.Properties.LogoSrc, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBlock Text="Пункты меню (строка: Текст|url или Текст|page:ID)" Style="{StaticResource LabelText}" />
+                        <TextBox Height="72" AcceptsReturn="True" TextWrapping="Wrap"
+                                 Text="{Binding NavItemsText, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,8" />
+                        <Button Content="Добавить пункт" Style="{StaticResource SecondaryButton}"
+                                Command="{Binding AddNavItemCommand}" />
+                    </StackPanel>
+
+                    <StackPanel Visibility="{Binding IsGallerySelected, Converter={StaticResource BoolToVis}}">
+                        <TextBlock Text="URL картинок (по одному в строке)" Style="{StaticResource LabelText}" />
+                        <TextBox Height="80" AcceptsReturn="True" TextWrapping="Wrap"
+                                 Text="{Binding GalleryImagesText, UpdateSourceTrigger=PropertyChanged}" />
+                    </StackPanel>
+
+                    <StackPanel Visibility="{Binding IsLinkSelected, Converter={StaticResource BoolToVis}}">
+                        <TextBlock Text="Текст ссылки" Style="{StaticResource LabelText}" />
+                        <TextBox Text="{Binding SelectedElement.Properties.Text, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBlock Text="Href" Style="{StaticResource LabelText}" />
+                        <TextBox Text="{Binding SelectedElement.Properties.Href, UpdateSourceTrigger=PropertyChanged}" />
+                    </StackPanel>
+
+                    <StackPanel Visibility="{Binding IsDividerSelected, Converter={StaticResource BoolToVis}}">
+                        <TextBlock Style="{StaticResource CaptionText}" Text="Разделитель — настройте позицию и стиль выше." />
+                    </StackPanel>
+
+                    <StackPanel Visibility="{Binding IsSpacerSelected, Converter={StaticResource BoolToVis}}">
+                        <TextBlock Style="{StaticResource CaptionText}" Text="Отступ — задайте высоту в блоке «Позиция»." />
+                    </StackPanel>
+
+
+                    <StackPanel Visibility="{Binding IsFooterSelected, Converter={StaticResource BoolToVis}}">
+                        <TextBlock Text="Текст подвала" Style="{StaticResource LabelText}" />
+                        <TextBox Text="{Binding SelectedElement.Properties.Text, UpdateSourceTrigger=PropertyChanged}" />
+                    </StackPanel>
+
+                    <StackPanel Visibility="{Binding IsTextAreaSelected, Converter={StaticResource BoolToVis}}">
+                        <TextBlock Text="Placeholder" Style="{StaticResource LabelText}" />
+                        <TextBox Text="{Binding SelectedElement.Properties.Placeholder, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBlock Text="Имя поля" Style="{StaticResource LabelText}" />
+                        <TextBox Text="{Binding SelectedElement.Properties.FieldName, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBlock Text="Форма" Style="{StaticResource LabelText}" />
+                        <ComboBox ItemsSource="{Binding FormsOnPage}" DisplayMemberPath="Label"
+                                  SelectedValuePath="Id"
+                                  SelectedValue="{Binding SelectedElement.Properties.FormElementId, UpdateSourceTrigger=PropertyChanged}" />
+                    </StackPanel>
+
+                    <StackPanel Visibility="{Binding IsFaqSelected, Converter={StaticResource BoolToVis}}">
+                        <TextBlock Text="Вопросы (Вопрос|Ответ, по строке)" Style="{StaticResource LabelText}" />
+                        <TextBox Height="100" AcceptsReturn="True" TextWrapping="Wrap"
+                                 Text="{Binding FaqItemsText, UpdateSourceTrigger=PropertyChanged}" />
+                    </StackPanel>
+
+                    <StackPanel Visibility="{Binding IsSliderSelected, Converter={StaticResource BoolToVis}}">
+                        <TextBlock Text="Подпись слайдера" Style="{StaticResource LabelText}" />
+                        <TextBox Text="{Binding SelectedElement.Properties.Text, UpdateSourceTrigger=PropertyChanged}" />
+                    </StackPanel>
+
+                    <StackPanel Visibility="{Binding IsCommentsSelected, Converter={StaticResource BoolToVis}}">
+                        <TextBlock Text="Заголовок блока" Style="{StaticResource LabelText}" />
+                        <TextBox Text="{Binding SelectedElement.Properties.Text, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <CheckBox Content="Разрешить добавление" IsChecked="{Binding SelectedElement.Properties.AllowComments}" Margin="0,0,0,12" />
+                        <TextBlock Text="Макс. комментариев" Style="{StaticResource LabelText}" />
+                        <TextBox Text="{Binding SelectedElement.Properties.MaxComments, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBlock Text="Комментарии (превью / БД)" Style="{StaticResource SectionHeader}" />
+                        <ItemsControl ItemsSource="{Binding BlockComments}" MaxHeight="120" Margin="0,0,0,8">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <Border Background="{StaticResource SurfaceMutedBrush}" Padding="6" Margin="0,0,0,4" CornerRadius="4">
+                                        <StackPanel>
+                                            <TextBlock Text="{Binding AuthorName}" FontWeight="SemiBold" />
+                                            <TextBlock Text="{Binding Text}" TextWrapping="Wrap" />
+                                        </StackPanel>
+                                    </Border>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                        <TextBox Text="{Binding NewCommentAuthor, UpdateSourceTrigger=PropertyChanged}"
+                                 Tag="Имя" Margin="0,0,0,8" />
+                        <TextBox Text="{Binding NewCommentText, UpdateSourceTrigger=PropertyChanged}"
+                                 Height="48" AcceptsReturn="True" TextWrapping="Wrap" Margin="0,0,0,8" />
+                        <Button Content="Добавить комментарий" Style="{StaticResource PrimaryButton}"
+                                Command="{Binding AddCommentCommand}" />
+                    </StackPanel>
+                </StackPanel>
+            </ScrollViewer>
+        </DockPanel>
+    </Border>
+</UserControl>

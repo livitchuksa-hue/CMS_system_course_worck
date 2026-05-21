@@ -1,0 +1,26 @@
+<UserControl x:Class="CMSBuilder.Views.Properties.ButtonPropertiesView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <StackPanel>
+        <TextBlock Text="Текст кнопки" Style="{StaticResource LabelText}" />
+        <TextBox Margin="0,0,0,14" Text="Нажми" />
+
+        <TextBlock Text="Цвет фона" Style="{StaticResource LabelText}" />
+        <TextBox Margin="0,0,0,14" Text="#1B6B3A" />
+
+        <TextBlock Text="Radius" Style="{StaticResource LabelText}" />
+        <TextBox Margin="0,0,0,14" Text="8" />
+
+        <TextBlock Text="Действие" Style="{StaticResource LabelText}" />
+        <ComboBox Margin="0,0,0,14">
+            <ComboBoxItem Content="Navigation" IsSelected="True" />
+            <ComboBoxItem Content="Open URL" />
+            <ComboBoxItem Content="Submit Form" />
+            <ComboBoxItem Content="Open Popup" />
+        </ComboBox>
+
+        <TextBlock Text="Action ID" Style="{StaticResource LabelText}" />
+        <TextBox Text="action-001" />
+    </StackPanel>
+</UserControl>

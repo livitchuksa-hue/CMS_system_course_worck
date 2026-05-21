@@ -1,0 +1,14 @@
+<UserControl x:Class="CMSBuilder.Views.Elements.CheckboxElementView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             MinHeight="28" MinWidth="160">
+    <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+        <CheckBox IsEnabled="False" Margin="0,0,8,0" />
+        <TextBlock VerticalAlignment="Center">
+            <Run Text="{Binding Properties.Text, Mode=OneWay}" />
+            <Run Text=" (" Foreground="#888" />
+            <Run Text="{Binding Properties.CheckboxVariant, Mode=OneWay, FallbackValue=default}" Foreground="#888" />
+            <Run Text=")" Foreground="#888" />
+        </TextBlock>
+    </StackPanel>
+</UserControl>

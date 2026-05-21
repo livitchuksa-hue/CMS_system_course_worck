@@ -1,0 +1,142 @@
+<UserControl x:Class="CMSBuilder.Views.Editor.WebsiteSettingsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:editor="clr-namespace:CMSBuilder.Views.Editor"
+             xmlns:helpers="clr-namespace:CMSBuilder.Helpers"
+             Background="{StaticResource BackgroundBrush}">
+
+    <ScrollViewer Style="{StaticResource AppScrollViewer}" Padding="20" MaxHeight="520">
+        <StackPanel MinWidth="400">
+            <TextBlock Text="Настройки сайта"
+                       Style="{StaticResource Heading2Text}"
+                       Margin="0,0,0,16" />
+
+            <Border Style="{StaticResource CardBorder}" Margin="0,0,0,12">
+                <StackPanel>
+                    <TextBlock Text="Основное" Style="{StaticResource SectionHeader}" />
+                    <TextBlock Text="Название сайта" Style="{StaticResource LabelText}" />
+                    <TextBox Margin="0,0,0,8"
+                             Text="{Binding SiteTitle, UpdateSourceTrigger=PropertyChanged}" />
+                    <Button Content="Сгенерировать slug из названия"
+                            Style="{StaticResource SecondaryButton}"
+                            HorizontalAlignment="Left"
+                            Margin="0,0,0,12"
+                            Command="{Binding SyncSlugFromTitleCommand}" />
+                    <TextBlock Text="Описание" Style="{StaticResource LabelText}" />
+                    <TextBox Height="60"
+                             AcceptsReturn="True"
+                             TextWrapping="Wrap"
+                             VerticalContentAlignment="Top"
+                             Margin="0,0,0,12"
+                             Text="{Binding MetaDescription, UpdateSourceTrigger=PropertyChanged}" />
+                    <TextBlock Text="URL (slug)" Style="{StaticResource LabelText}" />
+                    <TextBox Text="{Binding Slug, UpdateSourceTrigger=PropertyChanged}" />
+                </StackPanel>
+            </Border>
+
+            <Border Style="{StaticResource CardBorder}" Margin="0,0,0,12">
+                <StackPanel>
+                    <TextBlock Text="Цвета сайта" Style="{StaticResource SectionHeader}" />
+                    <TextBlock Text="Основной" Style="{StaticResource LabelText}" />
+                    <TextBox Text="{Binding PrimaryColor, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,8" />
+                    <TextBlock Text="Вторичный" Style="{StaticResource LabelText}" />
+                    <TextBox Text="{Binding SecondaryColor, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,8" />
+                    <TextBlock Text="Акцентный" Style="{StaticResource LabelText}" />
+                    <TextBox Text="{Binding AccentColor, UpdateSourceTrigger=PropertyChanged}" />
+                </StackPanel>
+            </Border>
+
+            <Border Style="{StaticResource CardBorder}" Margin="0,0,0,12">
+                <StackPanel>
+                    <TextBlock Text="Размер страницы (макет)" Style="{StaticResource SectionHeader}" />
+                    <TextBlock Text="Пресет" Style="{StaticResource LabelText}" />
+                    <ComboBox Margin="0,0,0,8"
+                              ItemsSource="{Binding SizePresets}"
+                              SelectedItem="{Binding SelectedPreset}" />
+                    <Button Content="Применить пресет"
+                            Style="{StaticResource SecondaryButton}"
+                            HorizontalAlignment="Left"
+                            Margin="0,0,0,12"
+                            Command="{Binding ApplyPresetCommand}" />
+                    <Grid Margin="0,0,0,12">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="8" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <StackPanel>
+                            <TextBlock Text="Ширина (px)" Style="{StaticResource LabelText}" />
+                            <TextBox Text="{Binding PageWidth, UpdateSourceTrigger=PropertyChanged}" />
+                        </StackPanel>
+                        <StackPanel Grid.Column="2">
+                            <TextBlock Text="Высота (px)" Style="{StaticResource LabelText}" />
+                            <TextBox Text="{Binding PageHeight, UpdateSourceTrigger=PropertyChanged}" />
+                        </StackPanel>
+                    </Grid>
+                    <TextBlock Text="Фон страницы" Style="{StaticResource LabelText}" />
+                    <TextBox Text="{Binding PageBackground, UpdateSourceTrigger=PropertyChanged}" />
+                </StackPanel>
+            </Border>
+
+            <Border Style="{StaticResource CardBorder}" Margin="0,0,0,12">
+                <StackPanel>
+                    <TextBlock Text="Страницы" Style="{StaticResource SectionHeader}" />
+                    <ItemsControl ItemsSource="{Binding PageItems}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Margin="0,0,0,8">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="8" />
+                                        <ColumnDefinition Width="120" />
+                                    </Grid.ColumnDefinitions>
+                                    <StackPanel>
+                                        <TextBlock Text="Название" Style="{StaticResource CaptionText}" />
+                                        <TextBox Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}" />
+                                    </StackPanel>
+                                    <StackPanel Grid.Column="2">
+                                        <TextBlock Text="Slug" Style="{StaticResource CaptionText}" />
+                                        <TextBox Text="{Binding Slug, UpdateSourceTrigger=PropertyChanged}" />
+                                    </StackPanel>
+                                </Grid>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </StackPanel>
+            </Border>
+
+            <Border Style="{StaticResource CardBorder}" Margin="0,0,0,12">
+                <StackPanel>
+                    <TextBlock Text="Комментарии сайта" Style="{StaticResource SectionHeader}" />
+                    <Button Content="Обновить список" Style="{StaticResource SecondaryButton}"
+                            HorizontalAlignment="Left" Margin="0,0,0,8"
+                            Command="{Binding RefreshCommentsCommand}" />
+                    <ItemsControl ItemsSource="{Binding SiteComments}" MaxHeight="160">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Border Background="{StaticResource SurfaceMutedBrush}" Padding="8" Margin="0,0,0,6" CornerRadius="6">
+                                    <StackPanel>
+                                        <TextBlock>
+                                            <Run Text="{Binding PageName}" FontWeight="SemiBold" />
+                                            <Run Text=" · " />
+                                            <Run Text="{Binding AuthorName}" />
+                                            <Run Text=" · " Foreground="#888" />
+                                            <Run Text="{Binding CreatedAt}" Foreground="#888" />
+                                        </TextBlock>
+                                        <TextBlock Text="{Binding Text}" TextWrapping="Wrap" Margin="0,4,0,0" />
+                                    </StackPanel>
+                                </Border>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </StackPanel>
+            </Border>
+
+            <TextBlock Text="{Binding StatusMessage}" Style="{StaticResource CaptionText}" Margin="0,0,0,8" />
+            <Button Content="Сохранить настройки"
+                    Style="{StaticResource PrimaryButton}"
+                    Command="{Binding SaveCommand}"
+                    IsEnabled="{Binding CanSave}" />
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

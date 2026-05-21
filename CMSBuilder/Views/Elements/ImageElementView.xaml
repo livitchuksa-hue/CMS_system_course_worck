@@ -1,0 +1,10 @@
+<UserControl x:Class="CMSBuilder.Views.Elements.ImageElementView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             MinWidth="80" MinHeight="60">
+    <Border Background="#EEF2F0" BorderBrush="#D8E0DC" BorderThickness="1" CornerRadius="8">
+        <Image Source="{Binding Properties.Src}" Stretch="Uniform"
+               Width="{Binding Width, Converter={StaticResource NullableDoubleToSize}}"
+               Height="{Binding Height, Converter={StaticResource NullableDoubleToSize}}" />
+    </Border>
+</UserControl>

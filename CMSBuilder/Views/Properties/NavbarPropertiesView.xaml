@@ -1,0 +1,22 @@
+<UserControl x:Class="CMSBuilder.Views.Properties.NavbarPropertiesView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <StackPanel>
+        <TextBlock Text="Логотип текст" Style="{StaticResource LabelText}" />
+        <TextBox Margin="0,0,0,14" Text="Logo" />
+
+        <TextBlock Text="Пункты меню" Style="{StaticResource LabelText}" />
+        <TextBox Margin="0,0,0,14"
+                 Height="80"
+                 AcceptsReturn="True"
+                 Text="Главная&#x0a;О нас&#x0a;Контакты"
+                 TextWrapping="Wrap" />
+
+        <TextBlock Text="Sticky" Style="{StaticResource LabelText}" />
+        <CheckBox Content="Закрепить при прокрутке" IsChecked="True" Margin="0,0,0,14" />
+
+        <TextBlock Text="Фон" Style="{StaticResource LabelText}" />
+        <TextBox Text="#FFFFFF" />
+    </StackPanel>
+</UserControl>

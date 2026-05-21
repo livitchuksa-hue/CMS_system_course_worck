@@ -1,0 +1,20 @@
+﻿CMSBuilder
+
+
+winexe
+C#
+.cs
+E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\
+CMSBuilder
+none
+false
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+E:\Курсовая бд\CMS_System\CMSBuilder\App.xaml
+431237634875
+
+1691789162311
+217-2111878774
+MainWindow.xaml;Resources\Colors.xaml;Resources\Icons.xaml;Resources\Styles.xaml;Resources\Templates.xaml;Views\Auth\LoginView.xaml;Views\Auth\RegisterView.xaml;Views\Dashboard\DashboardView.xaml;Views\Dashboard\FilterPanelView.xaml;Views\Dashboard\WebsiteCardView.xaml;Views\Editor\EditorCanvasView.xaml;Views\Editor\OrganizationPanelView.xaml;Views\Editor\PageTabsView.xaml;Views\Editor\PropertiesPanelView.xaml;Views\Editor\SiteMembersView.xaml;Views\Editor\ThemeSettingsView.xaml;Views\Editor\ToolboxView.xaml;Views\Editor\TopBarView.xaml;Views\Editor\WebsiteEditorView.xaml;Views\Editor\WebsiteSettingsView.xaml;Views\Elements\ButtonElementView.xaml;Views\Elements\CardElementView.xaml;Views\Elements\CheckboxElementView.xaml;Views\Elements\CommentsBlockElementView.xaml;Views\Elements\ContainerElementView.xaml;Views\Elements\FooterElementView.xaml;Views\Elements\FormElementView.xaml;Views\Elements\GalleryElementView.xaml;Views\Elements\HeaderElementView.xaml;Views\Elements\ImageElementView.xaml;Views\Elements\InputElementView.xaml;Views\Elements\LinkElementView.xaml;Views\Elements\NavbarElementView.xaml;Views\Elements\TextAreaElementView.xaml;Views\Elements\TextElementView.xaml;Views\Properties\ButtonPropertiesView.xaml;Views\Properties\ContainerPropertiesView.xaml;Views\Properties\ElementCommonPropertiesView.xaml;Views\Properties\GalleryPropertiesView.xaml;Views\Properties\ImagePropertiesView.xaml;Views\Properties\InputPropertiesView.xaml;Views\Properties\NavbarPropertiesView.xaml;Views\Properties\TextPropertiesView.xaml;
+
+True
+

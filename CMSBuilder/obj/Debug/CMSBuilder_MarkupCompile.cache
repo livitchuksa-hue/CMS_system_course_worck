@@ -1,0 +1,20 @@
+﻿CMSBuilder
+
+
+winexe
+C#
+.cs
+E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\
+CMSBuilder
+none
+false
+DEBUG;TRACE
+E:\Курсовая бд\CMS_System\CMSBuilder\App.xaml
+36-962963270
+
+125731886674
+13-1505183044
+MainWindow.xaml;Resources\Colors.xaml;Resources\Styles.xaml;Resources\Templates.xaml;Resources\Icons.xaml;Views\Auth\LoginView.xaml;Views\Auth\RegisterView.xaml;Views\Dashboard\DashboardView.xaml;Views\Dashboard\FilterPanelView.xaml;Views\Dashboard\WebsiteCardView.xaml;Views\Editor\EditorCanvasView.xaml;Views\Editor\OrganizationPanelView.xaml;Views\Editor\PageTabsView.xaml;Views\Editor\PropertiesPanelView.xaml;Views\Editor\SiteMembersView.xaml;Views\Editor\ThemeSettingsView.xaml;Views\Editor\ToolboxView.xaml;Views\Editor\TopBarView.xaml;Views\Editor\WebsiteEditorView.xaml;Views\Editor\WebsiteSettingsView.xaml;Views\Elements\ButtonElementView.xaml;Views\Elements\CommentsBlockElementView.xaml;Views\Elements\ContainerElementView.xaml;Views\Elements\GalleryElementView.xaml;Views\Elements\HeaderElementView.xaml;Views\Elements\ImageElementView.xaml;Views\Elements\InputElementView.xaml;Views\Elements\NavbarElementView.xaml;Views\Elements\TextElementView.xaml;Views\Properties\ButtonPropertiesView.xaml;Views\Properties\ContainerPropertiesView.xaml;Views\Properties\GalleryPropertiesView.xaml;Views\Properties\ImagePropertiesView.xaml;Views\Properties\InputPropertiesView.xaml;Views\Properties\NavbarPropertiesView.xaml;Views\Properties\TextPropertiesView.xaml;
+
+False
+

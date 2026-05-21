@@ -1,0 +1,87 @@
+<UserControl x:Class="CMSBuilder.Views.Properties.ElementCommonPropertiesView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:helpers="clr-namespace:CMSBuilder.Helpers">
+
+    <StackPanel>
+        <TextBlock Text="Позиция и размер" Style="{StaticResource SectionHeader}" />
+
+        <Grid Margin="0,0,0,12">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="8" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <TextBlock Text="X" Style="{StaticResource LabelText}" />
+            <TextBlock Grid.Column="2" Text="Y" Style="{StaticResource LabelText}" />
+            <TextBox Grid.Row="1" Text="{Binding X, UpdateSourceTrigger=PropertyChanged}" />
+            <TextBox Grid.Row="1" Grid.Column="2" Text="{Binding Y, UpdateSourceTrigger=PropertyChanged}" />
+        </Grid>
+
+        <Grid Margin="0,0,0,12">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="8" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <TextBlock Text="Ширина" Style="{StaticResource LabelText}" />
+            <TextBlock Grid.Column="2" Text="Высота" Style="{StaticResource LabelText}" />
+            <TextBox Grid.Row="1" Text="{Binding Width, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource NullableDouble}}" />
+            <TextBox Grid.Row="1" Grid.Column="2" Text="{Binding Height, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource NullableDouble}}" />
+        </Grid>
+
+        <CheckBox Content="Масштабируется (адаптивно)"
+                  IsChecked="{Binding Properties.IsScalable}"
+                  Margin="0,0,0,16" />
+
+        <TextBlock Text="Оформление" Style="{StaticResource SectionHeader}" />
+
+        <TextBlock Text="Шрифт" Style="{StaticResource LabelText}" />
+        <ComboBox Margin="0,0,0,12"
+                  ItemsSource="{x:Static helpers:ProjectFonts.All}"
+                  Text="{Binding Style.FontFamily, UpdateSourceTrigger=PropertyChanged}"
+                  IsEditable="True" />
+
+        <TextBlock Text="Размер шрифта" Style="{StaticResource LabelText}" />
+        <TextBox Text="{Binding Style.FontSize, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+
+        <TextBlock Text="Цвет текста" Style="{StaticResource LabelText}" />
+        <TextBox Text="{Binding Style.Color, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+
+        <TextBlock Text="Фон" Style="{StaticResource LabelText}" />
+        <TextBox Text="{Binding Style.BackgroundColor, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+
+        <TextBlock Text="Цвет обводки" Style="{StaticResource LabelText}" />
+        <TextBox Text="{Binding Style.BorderColor, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+
+        <TextBlock Text="Толщина обводки" Style="{StaticResource LabelText}" />
+        <TextBox Text="{Binding Style.BorderWidth, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+
+        <TextBlock Text="Жирность" Style="{StaticResource LabelText}" />
+        <TextBox Text="{Binding Style.FontWeight, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+
+        <TextBlock Text="Выравнивание" Style="{StaticResource LabelText}" />
+        <ComboBox SelectedValue="{Binding Style.TextAlign}" Margin="0,0,0,12">
+            <ComboBoxItem Content="left" />
+            <ComboBoxItem Content="center" />
+            <ComboBoxItem Content="right" />
+        </ComboBox>
+
+        <TextBlock Text="Отступы (padding)" Style="{StaticResource LabelText}" />
+        <TextBox Text="{Binding Style.Padding, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+
+        <TextBlock Text="Внешний отступ (margin)" Style="{StaticResource LabelText}" />
+        <TextBox Text="{Binding Style.Margin, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+
+        <TextBlock Text="Скругление" Style="{StaticResource LabelText}" />
+        <TextBox Text="{Binding Style.BorderRadius, UpdateSourceTrigger=PropertyChanged}" />
+    </StackPanel>
+</UserControl>

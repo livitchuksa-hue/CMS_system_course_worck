@@ -1,0 +1,37 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Segoe UI, sans-serif; color: #1A2420; background: #f4f6f5; }
+.page {
+  position: relative;
+  width: 960px;
+  min-height: 6400px;
+  margin: 0 auto;
+  background: #FFFFFF;
+  overflow: hidden;
+}
+.el { position: absolute; margin: 0; }
+.btn-primary { border: none; cursor: pointer; padding: 12px 24px; }
+.navbar-el { display: flex; justify-content: space-between; align-items: center; padding: 12px 16px; border-bottom: 1px solid #e0e0e0; }
+.navbar-el a { margin-left: 12px; text-decoration: none; }
+.gallery-el { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.gallery-el img { width: 100%; border-radius: 8px; object-fit: cover; }
+.container-box { border: 1px dashed #ccc; padding: 16px; border-radius: 8px; }
+.divider-el { border-top: 1px solid #ddd; min-height: 1px; }
+.spacer-el { min-height: 24px; }
+.navbar-logo-img { max-height: 36px; max-width: 140px; object-fit: contain; }
+.form-box { display: flex; flex-direction: column; gap: 8px; }
+.form-title { font-weight: 600; margin-bottom: 8px; }
+.form-field { position: relative !important; left: 0 !important; top: 0 !important; width: 100% !important; }
+.checkbox-el { display: flex; align-items: center; gap: 8px; cursor: pointer; }
+.checkbox-switch input { appearance: none; width: 0; height: 0; opacity: 0; }
+.checkbox-rounded input { border-radius: 50%; }
+.comments-block { display: flex; flex-direction: column; gap: 10px; padding: 12px; border: 1px solid #e0e0e0; border-radius: 8px; }
+.comments-list { display: flex; flex-direction: column; gap: 8px; max-height: 200px; overflow-y: auto; }
+.comment-item { background: #f4f6f5; padding: 8px; border-radius: 6px; }
+.comments-form { display: flex; flex-direction: column; gap: 8px; }
+.comments-form textarea { min-height: 60px; }
+.faq-el details { margin-bottom: 8px; }
+.footer-el { text-align: center; padding: 16px; }
+#el-8 { position:absolute;left:440px;top:32.98000000000002px;width:200px;font-size:16px;color:#1A2420 }
+#el-9 { position:absolute;left:506px;top:544.98px;width:160px;height:40px }
+#el-10 { position:absolute;left:199px;top:110.98000000000002px;width:300px;height:120px }
+#el-11 { position:absolute;left:79px;top:5.980000000000018px;width:160px;height:40px }

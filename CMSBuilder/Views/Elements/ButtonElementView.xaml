@@ -1,0 +1,10 @@
+<UserControl x:Class="CMSBuilder.Views.Elements.ButtonElementView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Button Content="{Binding Properties.Text}" IsHitTestVisible="False" HorizontalAlignment="Left"
+            Padding="12,8" BorderThickness="0"
+            FontFamily="{Binding Style.FontFamily}"
+            FontSize="{Binding Style.FontSize, Converter={StaticResource CssFontSize}}"
+            Foreground="{Binding Style.Color, Converter={StaticResource CssBrush}, FallbackValue=White}"
+            Background="{Binding Style.BackgroundColor, Converter={StaticResource CssBrush}, FallbackValue={StaticResource AccentBrush}}" />
+</UserControl>
