@@ -56,6 +56,13 @@ public class CssGeneratorService
         css.AppendLine(".comments-form textarea { min-height: 60px; }");
         css.AppendLine(".faq-el details { margin-bottom: 8px; }");
         css.AppendLine(".footer-el { text-align: center; padding: 16px; }");
+        css.AppendLine(".video-embed-el iframe { width: 100%; height: 100%; border: 0; border-radius: 8px; }");
+        css.AppendLine(".video-embed-el { overflow: hidden; }");
+        css.AppendLine(".video-player-el video { width: 100%; height: 100%; object-fit: contain; background: #000; border-radius: 8px; }");
+        css.AppendLine(".comments-viewer { display: flex; flex-direction: column; gap: 10px; padding: 12px; border: 1px solid #e0e0e0; border-radius: 8px; }");
+        css.AppendLine(".comments-viewer .comments-list { display: flex; flex-direction: column; gap: 8px; max-height: 280px; overflow-y: auto; }");
+        css.AppendLine(".comments-viewer .comment-date { font-size: 0.75rem; color: #888; }");
+        css.AppendLine(".comments-empty { color: #888; font-style: italic; margin: 0; }");
 
         foreach (var el in allElements)
             css.AppendLine("#el-" + el.Id + " { " + ExportLayoutHelper.BuildElementCssRules(el) + " }");

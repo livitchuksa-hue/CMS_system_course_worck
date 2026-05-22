@@ -28,6 +28,9 @@ public class ElementTypeToViewConverter : System.Windows.Data.IValueConverter
             ElementType.Link => new LinkElementView(),
             ElementType.TextArea => new TextAreaElementView(),
             ElementType.Footer => new FooterElementView(),
+            ElementType.VideoEmbed => new VideoEmbedElementView(),
+            ElementType.VideoPlayer => new VideoPlayerElementView(),
+            ElementType.CommentsViewer => new CommentsViewerElementView(),
             _ => new TextElementView()
         };
         return view;

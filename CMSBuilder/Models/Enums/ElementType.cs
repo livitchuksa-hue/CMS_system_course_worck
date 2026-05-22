@@ -20,5 +20,8 @@ public enum ElementType
     Gallery,
     Slider,
     FAQ,
-    CommentsBlock
+    CommentsBlock,
+    VideoEmbed,
+    VideoPlayer,
+    CommentsViewer
 }

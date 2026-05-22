@@ -78,8 +78,8 @@ public class WebsiteEditorViewModel : BaseViewModel
         DeleteElementCommand = new RelayCommand(DeleteSelected, () => CanEdit && SelectedElement != null);
         ApplyButtonActionCommand = new RelayCommand(ApplyButtonAction, () => CanEdit && (SelectedElement?.Type == ElementType.Button || SelectedElement?.Type == ElementType.Card));
         AddNavItemCommand = new RelayCommand(AddNavItem, () => IsNavbarSelected);
-        AddCommentCommand = new RelayCommand(AddComment, () => IsCommentsSelected && SelectedPage != null);
-        RefreshCommentsCommand = new RelayCommand(LoadBlockComments, () => IsCommentsSelected);
+        AddCommentCommand = new RelayCommand(AddComment, () => IsCommentElementSelected && SelectedPage != null);
+        RefreshCommentsCommand = new RelayCommand(LoadBlockComments, () => IsCommentElementSelected);
         OpenAccountCommand = Account.ToggleCommand;
         var canDeleteWebsite = _roleCode == "owner";
         Settings = new WebsiteSettingsPanelViewModel(_websiteId, OnSettingsSaved, OnWebsiteDeleted, CanChangeSettings, canDeleteWebsite);
@@ -164,9 +164,15 @@ public class WebsiteEditorViewModel : BaseViewModel
                 OnPropertyChanged(nameof(IsFooterSelected));
                 OnPropertyChanged(nameof(IsFaqSelected));
                 OnPropertyChanged(nameof(IsCommentsSelected));
+                OnPropertyChanged(nameof(IsCommentsViewerSelected));
+                OnPropertyChanged(nameof(IsCommentElementSelected));
+                OnPropertyChanged(nameof(IsVideoEmbedSelected));
+                OnPropertyChanged(nameof(IsVideoPlayerSelected));
                 OnPropertyChanged(nameof(IsCheckboxSelected));
                 OnPropertyChanged(nameof(IsTextAreaSelected));
                 OnPropertyChanged(nameof(IsSliderSelected));
+                AddCommentCommand.RaiseCanExecuteChanged();
+                RefreshCommentsCommand.RaiseCanExecuteChanged();
                 LoadButtonActionFromSelection();
                 RefreshElementRefLists();
                 LoadNavItemsText();
@@ -275,6 +281,10 @@ public class WebsiteEditorViewModel : BaseViewModel
     public bool IsFooterSelected => SelectedElement?.Type == ElementType.Footer;
     public bool IsFaqSelected => SelectedElement?.Type == ElementType.FAQ;
     public bool IsCommentsSelected => SelectedElement?.Type == ElementType.CommentsBlock;
+    public bool IsCommentsViewerSelected => SelectedElement?.Type == ElementType.CommentsViewer;
+    public bool IsCommentElementSelected => SelectedElement?.Type is ElementType.CommentsBlock or ElementType.CommentsViewer;
+    public bool IsVideoEmbedSelected => SelectedElement?.Type == ElementType.VideoEmbed;
+    public bool IsVideoPlayerSelected => SelectedElement?.Type == ElementType.VideoPlayer;
     public bool IsCheckboxSelected => SelectedElement?.Type == ElementType.Checkbox;
     public bool IsTextAreaSelected => SelectedElement?.Type == ElementType.TextArea;
     public bool IsSliderSelected => SelectedElement?.Type == ElementType.Slider;
@@ -803,14 +813,14 @@ public class WebsiteEditorViewModel : BaseViewModel
     private void LoadBlockComments()
     {
         BlockComments.Clear();
-        if (SelectedElement?.Type != ElementType.CommentsBlock || SelectedPage == null) return;
+        if (SelectedElement?.Type is not (ElementType.CommentsBlock or ElementType.CommentsViewer) || SelectedPage == null) return;
         foreach (var c in App.Comments.GetForBlock(SelectedPage.Page.Id, SelectedElement.Id))
             BlockComments.Add(c);
     }
 
     private void AddComment()
     {
-        if (SelectedElement?.Type != ElementType.CommentsBlock || SelectedPage == null) return;
+        if (SelectedElement?.Type is not (ElementType.CommentsBlock or ElementType.CommentsViewer) || SelectedPage == null) return;
         if (string.IsNullOrWhiteSpace(NewCommentText)) return;
         var c = App.Comments.Add(SelectedPage.Page.Id, SelectedElement.Id, NewCommentAuthor, NewCommentText);
         BlockComments.Add(c);

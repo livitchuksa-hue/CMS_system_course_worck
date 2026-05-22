@@ -1,4 +1,5 @@
 using CMSBuilder.Models;
+using CMSBuilder.Models.ComplexElements;
 using Microsoft.EntityFrameworkCore;
 
 namespace CMSBuilder.Data;
@@ -17,6 +18,9 @@ public class AppDbContext : DbContext
     public DbSet<WebsiteSettings> WebsiteSettings => Set<WebsiteSettings>();
     public DbSet<SiteTheme> SiteThemes => Set<SiteTheme>();
     public DbSet<PageComment> PageComments => Set<PageComment>();
+    public DbSet<CardElementData> CardElementData => Set<CardElementData>();
+    public DbSet<VideoPlayerElementData> VideoPlayerElementData => Set<VideoPlayerElementData>();
+    public DbSet<CommentsViewerElementData> CommentsViewerElementData => Set<CommentsViewerElementData>();
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
@@ -78,6 +82,27 @@ public class AppDbContext : DbContext
         {
             e.HasOne(x => x.Page).WithMany().HasForeignKey(x => x.PageId);
             e.HasIndex(x => new { x.PageId, x.ElementId });
+        });
+
+        modelBuilder.Entity<CardElementData>(e =>
+        {
+            e.HasKey(x => x.PageElementId);
+            e.HasOne(x => x.PageElement).WithOne().HasForeignKey<CardElementData>(x => x.PageElementId)
+                .OnDelete(DeleteBehavior.Cascade);
+        });
+
+        modelBuilder.Entity<VideoPlayerElementData>(e =>
+        {
+            e.HasKey(x => x.PageElementId);
+            e.HasOne(x => x.PageElement).WithOne().HasForeignKey<VideoPlayerElementData>(x => x.PageElementId)
+                .OnDelete(DeleteBehavior.Cascade);
+        });
+
+        modelBuilder.Entity<CommentsViewerElementData>(e =>
+        {
+            e.HasKey(x => x.PageElementId);
+            e.HasOne(x => x.PageElement).WithOne().HasForeignKey<CommentsViewerElementData>(x => x.PageElementId)
+                .OnDelete(DeleteBehavior.Cascade);
         });
     }
 }

@@ -69,6 +69,9 @@ public class HtmlGeneratorService
             ElementType.Slider => $"{pad}<div {idAttr} class=\"el slider-el\" {pos}><div class=\"slider-track\">{WebUtility.HtmlEncode(props.Text ?? "Слайдер")}</div></div>",
             ElementType.FAQ => RenderFaq(el, props, indent),
             ElementType.CommentsBlock => RenderCommentsBlock(el, props, comments, indent),
+            ElementType.VideoEmbed => RenderVideoEmbed(el, props, indent, relativePosition),
+            ElementType.VideoPlayer => RenderVideoPlayer(el, props, indent, relativePosition),
+            ElementType.CommentsViewer => RenderCommentsViewer(el, props, comments, indent),
             _ => $"{pad}<div {idAttr} class=\"el\" {pos}>{WebUtility.HtmlEncode(props.Text ?? el.Type.ToString())}</div>"
         };
     }
@@ -230,6 +233,57 @@ public class HtmlGeneratorService
         foreach (var item in props.FaqItems ?? new List<FaqItemDto>())
             sb.AppendLine($"{pad}  <details><summary>{WebUtility.HtmlEncode(item.Question)}</summary><p>{WebUtility.HtmlEncode(item.Answer)}</p></details>");
         sb.AppendLine($"{pad}</div>");
+        return sb.ToString();
+    }
+
+    private static string RenderVideoEmbed(PageElement el, ElementPropertiesDto props, int indent, bool relative)
+    {
+        var pad = new string(' ', indent);
+        var pos = relative ? RelativePos(el) : Pos(el);
+        var embed = VideoUrlHelper.ToEmbedUrl(props.VideoUrl);
+        if (string.IsNullOrWhiteSpace(embed))
+            return $"{pad}<div id=\"el-{el.Id}\" class=\"el video-embed-el\" {pos}><span>Видео не задано</span></div>";
+        return $"{pad}<div id=\"el-{el.Id}\" class=\"el video-embed-el\" {pos}>" +
+               $"<iframe src=\"{WebUtility.HtmlEncode(embed)}\" title=\"video\" allowfullscreen loading=\"lazy\"></iframe></div>";
+    }
+
+    private static string RenderVideoPlayer(PageElement el, ElementPropertiesDto props, int indent, bool relative)
+    {
+        var pad = new string(' ', indent);
+        var pos = relative ? RelativePos(el) : Pos(el);
+        var url = WebUtility.HtmlEncode(props.VideoUrl ?? "");
+        var poster = string.IsNullOrWhiteSpace(props.VideoPosterUrl) ? "" : $" poster=\"{WebUtility.HtmlEncode(props.VideoPosterUrl)}\"";
+        var controls = props.VideoControls ? " controls" : "";
+        var autoplay = props.VideoAutoplay ? " autoplay muted" : "";
+        var loop = props.VideoLoop ? " loop" : "";
+        return $"{pad}<div id=\"el-{el.Id}\" class=\"el video-player-el\" {pos}>" +
+               $"<video src=\"{url}\"{poster}{controls}{autoplay}{loop} playsinline></video></div>";
+    }
+
+    private static string RenderCommentsViewer(PageElement el, ElementPropertiesDto props,
+        List<PageComment> comments, int indent)
+    {
+        var pad = new string(' ', indent);
+        var max = props.MaxComments ?? 50;
+        var blockComments = comments.Where(c => c.ElementId == el.Id).Take(max).ToList();
+        var sb = new StringBuilder();
+        sb.AppendLine($"{pad}<section id=\"el-{el.Id}\" class=\"el comments-viewer\" {Pos(el)} data-comments-viewer=\"{el.Id}\">");
+        sb.AppendLine($"{pad}  <h3 class=\"comments-title\">{WebUtility.HtmlEncode(props.Text ?? "Комментарии")}</h3>");
+        sb.AppendLine($"{pad}  <div class=\"comments-list\">");
+        foreach (var c in blockComments)
+        {
+            sb.AppendLine($"{pad}    <article class=\"comment-item\">");
+            if (props.ShowCommentAuthor)
+                sb.AppendLine($"{pad}      <strong>{WebUtility.HtmlEncode(c.AuthorName)}</strong>");
+            sb.AppendLine($"{pad}      <p>{WebUtility.HtmlEncode(c.Text)}</p>");
+            if (props.ShowCommentDate)
+                sb.AppendLine($"{pad}      <time class=\"comment-date\">{c.CreatedAt.ToLocalTime():g}</time>");
+            sb.AppendLine($"{pad}    </article>");
+        }
+        if (blockComments.Count == 0)
+            sb.AppendLine($"{pad}    <p class=\"comments-empty\">Комментариев пока нет.</p>");
+        sb.AppendLine($"{pad}  </div>");
+        sb.AppendLine($"{pad}</section>");
         return sb.ToString();
     }
 

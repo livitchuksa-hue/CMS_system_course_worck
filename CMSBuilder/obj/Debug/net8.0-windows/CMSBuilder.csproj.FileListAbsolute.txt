@@ -4,12 +4,9 @@ E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Resource
 E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Resources\Styles.baml
 E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Resources\Templates.baml
 E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Dashboard\DashboardView.baml
-E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Dashboard\FilterPanelView.baml
 E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Dashboard\WebsiteCardView.baml
 E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Editor\OrganizationPanelView.baml
 E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Editor\PageTabsView.baml
-E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Editor\SiteMembersView.baml
-E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Editor\ThemeSettingsView.baml
 E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Editor\ToolboxView.baml
 E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Elements\ButtonElementView.baml
 E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Elements\CommentsBlockElementView.baml
@@ -24,14 +21,11 @@ E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\MainWind
 E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Auth\LoginView.g.cs
 E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Auth\RegisterView.g.cs
 E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Dashboard\DashboardView.g.cs
-E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Dashboard\FilterPanelView.g.cs
 E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Dashboard\WebsiteCardView.g.cs
 E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Editor\EditorCanvasView.g.cs
 E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Editor\OrganizationPanelView.g.cs
 E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Editor\PageTabsView.g.cs
 E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Editor\PropertiesPanelView.g.cs
-E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Editor\SiteMembersView.g.cs
-E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Editor\ThemeSettingsView.g.cs
 E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Editor\ToolboxView.g.cs
 E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Editor\TopBarView.g.cs
 E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Editor\WebsiteEditorView.g.cs
@@ -195,3 +189,9 @@ e:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\El
 E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Editor\ElementActionEditorView.baml
 E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Editor\ElementActionEditorView.g.cs
 E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\CMSBuilder.sourcelink.json
+E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Elements\CommentsViewerElementView.baml
+E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Elements\VideoEmbedElementView.baml
+E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Elements\VideoPlayerElementView.baml
+E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Elements\CommentsViewerElementView.g.cs
+E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Elements\VideoEmbedElementView.g.cs
+E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Elements\VideoPlayerElementView.g.cs

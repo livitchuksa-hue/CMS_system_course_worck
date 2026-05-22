@@ -32,7 +32,7 @@ public class ElementService
 
         using var db = new AppDbContext();
 
-        return db.PageElements
+        var list = db.PageElements
 
             .Include(e => e.Action)
 
@@ -41,6 +41,11 @@ public class ElementService
             .OrderBy(e => e.SortOrder)
 
             .ToList();
+
+        foreach (var el in list)
+            ComplexElementService.HydrateProperties(el, db);
+
+        return list;
 
     }
 
@@ -96,6 +101,10 @@ public class ElementService
 
         db.SaveChanges();
 
+        ComplexElementService.EnsureCreated(db, element, props);
+
+        db.SaveChanges();
+
         return element;
 
     }
@@ -129,6 +138,8 @@ public class ElementService
         existing.SortOrder = element.SortOrder;
 
         existing.ParentElementId = element.ParentElementId;
+
+        ComplexElementService.Persist(db, element);
 
         db.SaveChanges();
 
@@ -175,6 +186,10 @@ public class ElementService
         }
 
 
+
+        ComplexElementService.DeleteForElement(db, el);
+
+        db.PageComments.RemoveRange(db.PageComments.Where(c => c.ElementId == elementId));
 
         db.PageElements.Remove(el);
 
@@ -342,6 +357,26 @@ public class ElementService
 
         ElementType.Spacer => new ElementPropertiesDto(),
 
+        ElementType.VideoEmbed => new ElementPropertiesDto
+        {
+            VideoUrl = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        },
+
+        ElementType.VideoPlayer => new ElementPropertiesDto
+        {
+            VideoUrl = "https://www.w3schools.com/html/mov_bbb.mp4",
+            VideoControls = true
+        },
+
+        ElementType.CommentsViewer => new ElementPropertiesDto
+        {
+            Text = "Комментарии",
+            MaxComments = 50,
+            ShowCommentAuthor = true,
+            ShowCommentDate = true,
+            AllowComments = false
+        },
+
         _ => new ElementPropertiesDto { Text = type.ToString() }
 
     };
@@ -375,6 +410,12 @@ public class ElementService
         ElementType.Header => (320d, null),
 
         ElementType.Text => (200d, null),
+
+        ElementType.VideoEmbed => (360d, 200d),
+
+        ElementType.VideoPlayer => (360d, 220d),
+
+        ElementType.CommentsViewer => (360d, 240d),
 
         _ => (160d, 40d)
 
@@ -437,6 +478,19 @@ public class ElementService
         ElementType.Header => new ElementStyleDto { FontSize = "28px", FontWeight = "600", Color = "#1A2420" },
 
         ElementType.Text => new ElementStyleDto { FontSize = "16px", Color = "#1A2420" },
+
+        ElementType.VideoEmbed => new ElementStyleDto { BorderRadius = "8px" },
+
+        ElementType.VideoPlayer => new ElementStyleDto { BorderRadius = "8px", BackgroundColor = "#000000" },
+
+        ElementType.CommentsViewer => new ElementStyleDto
+        {
+            BackgroundColor = "#FFFFFF",
+            BorderColor = "#D8E0DC",
+            BorderWidth = "1px",
+            BorderRadius = "8px",
+            Padding = "12px"
+        },
 
         _ => new ElementStyleDto()
 

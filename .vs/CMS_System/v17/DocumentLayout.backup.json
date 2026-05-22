@@ -3,16 +3,204 @@
   "WorkspaceRootPath": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\resources\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\resources\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\core\\websitepermissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\core\\websitepermissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\core\\sessioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\core\\sessioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\core\\relaycommandgeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\core\\relaycommandgeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\core\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\core\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\converters\\stringtovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\converters\\stringtovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\converters\\nulltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\converters\\nulltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\converters\\nullabledoubletosizeconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\converters\\nullabledoubletosizeconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\converters\\nullabledoubleconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\converters\\nullabledoubleconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\converters\\inversebooltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\converters\\inversebooltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\converters\\elementtypetoviewconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\converters\\elementtypetoviewconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\converters\\cssfontsizeconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\converters\\cssfontsizeconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\converters\\cssbrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\converters\\cssbrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\converters\\cssborderthicknessconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\converters\\cssborderthicknessconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\converters\\booltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\converters\\booltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\properties\\elementcommonpropertiesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\properties\\elementcommonpropertiesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\elements\\videoplayerelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\elements\\videoplayerelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\elements\\videoembedelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\elements\\videoembedelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\elements\\textelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\elements\\textelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\elements\\textareaelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\elements\\textareaelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\elements\\navbarelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\elements\\navbarelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\elements\\linkelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\elements\\linkelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\elements\\inputelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\elements\\inputelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\elements\\imageelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\elements\\imageelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\elements\\headerelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\elements\\headerelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\elements\\galleryelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\elements\\galleryelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\elements\\formelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\elements\\formelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\elements\\footerelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\elements\\footerelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\elements\\containerelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\elements\\containerelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\elements\\commentsviewerelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\elements\\commentsviewerelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\elements\\checkboxelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\elements\\checkboxelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\elements\\cardelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\elements\\cardelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\elements\\buttonelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\elements\\buttonelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\editor\\websitesettingsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\editor\\websitesettingsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\editor\\websiteeditorview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\editor\\websiteeditorview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\editor\\topbarview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\editor\\topbarview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\editor\\toolboxview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\editor\\toolboxview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\editor\\propertiespanelview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\editor\\propertiespanelview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\editor\\pagetabsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\editor\\pagetabsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\editor\\organizationpanelview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\editor\\organizationpanelview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\editor\\elementactioneditorview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\editor\\elementactioneditorview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\editor\\editorcanvasview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\editor\\editorcanvasview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\editor\\editorcanvasinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\editor\\editorcanvasinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\viewmodels\\editor\\websitesettingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\viewmodels\\editor\\websitesettingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\dashboard\\websitecardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\dashboard\\websitecardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\dashboard\\dashboardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\dashboard\\dashboardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\auth\\registerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\auth\\registerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\auth\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\auth\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\viewmodels\\editor\\websitesettingspanelviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,32 +211,8 @@
       "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\viewmodels\\editor\\websiteeditorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\viewmodels\\editor\\topbarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\viewmodels\\editor\\topbarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\viewmodels\\editor\\toolboxviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\viewmodels\\editor\\toolboxviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\viewmodels\\editor\\themesettingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\viewmodels\\editor\\themesettingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\viewmodels\\editor\\propertiespanelviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\viewmodels\\editor\\propertiespanelviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\viewmodels\\editor\\sitemembersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\viewmodels\\editor\\sitemembersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\viewmodels\\editor\\pagetabviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\viewmodels\\editor\\pagetabviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\viewmodels\\editor\\pagetabsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\viewmodels\\editor\\pagetabsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\viewmodels\\editor\\pagesettingsitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,20 +223,12 @@
       "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\viewmodels\\editor\\organizationpanelviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\viewmodels\\editor\\editorcanvasviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\viewmodels\\editor\\editorcanvasviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\viewmodels\\editor\\canvaselementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\viewmodels\\editor\\canvaselementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\viewmodels\\dashboard\\websitecardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\viewmodels\\dashboard\\websitecardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\viewmodels\\dashboard\\filterpanelviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\viewmodels\\dashboard\\filterpanelviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\viewmodels\\dashboard\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -103,18 +259,6 @@
       "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\services\\websitememberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\services\\statisticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\services\\statisticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\services\\themeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\services\\themeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\services\\pageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\services\\pageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -127,6 +271,10 @@
       "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\services\\elementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\services\\complexelementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\services\\complexelementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\services\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\services\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -137,6 +285,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\services\\appsettingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\services\\appsettingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\resources\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\resources\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\services\\export\\websiteexportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -267,160 +419,8 @@
       "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\helpers\\csshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\core\\sessioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\core\\sessioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\core\\relaycommandgeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\core\\relaycommandgeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\core\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\core\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\converters\\stringtovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\converters\\stringtovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\converters\\nulltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\converters\\nulltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\converters\\nullabledoubletosizeconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\converters\\nullabledoubletosizeconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\converters\\nullabledoubleconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\converters\\nullabledoubleconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\converters\\elementtypetoviewconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\converters\\elementtypetoviewconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\converters\\inversebooltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\converters\\inversebooltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\converters\\cssfontsizeconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\converters\\cssfontsizeconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\converters\\cssbrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\converters\\cssbrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\converters\\booltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\converters\\booltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\elements\\textelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\elements\\textelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\elements\\navbarelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\elements\\navbarelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\elements\\inputelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\elements\\inputelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\elements\\imageelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\elements\\imageelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\elements\\headerelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\elements\\headerelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\elements\\galleryelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\elements\\galleryelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\elements\\containerelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\elements\\containerelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\elements\\commentsblockelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\elements\\commentsblockelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\elements\\buttonelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\elements\\buttonelementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\editor\\websitesettingsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\editor\\websitesettingsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\editor\\websiteeditorview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\editor\\websiteeditorview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\editor\\topbarview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\editor\\topbarview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\editor\\toolboxview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\editor\\toolboxview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\editor\\themesettingsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\editor\\themesettingsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\editor\\sitemembersview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\editor\\sitemembersview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\editor\\propertiespanelview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\editor\\propertiespanelview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\editor\\pagetabsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\editor\\pagetabsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\editor\\organizationpanelview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\editor\\organizationpanelview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\editor\\editorcanvasview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\editor\\editorcanvasview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\dashboard\\websitecardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\dashboard\\websitecardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\dashboard\\filterpanelview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\dashboard\\filterpanelview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\dashboard\\dashboardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\dashboard\\dashboardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\auth\\registerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\auth\\registerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\views\\auth\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\views\\auth\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|solutionrelative:cmsbuilder\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|CMSBuilder\\CMSBuilder.csproj|e:\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\cms_system\\cmsbuilder\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -574,23 +574,629 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Colors.xaml",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Resources\\Colors.xaml",
-              "RelativeDocumentMoniker": "CMSBuilder\\Resources\\Colors.xaml",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Resources\\Colors.xaml",
-              "RelativeToolTip": "CMSBuilder\\Resources\\Colors.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-22T11:39:23.53Z",
+              "DocumentIndex": 2,
+              "Title": "WebsitePermissions.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Core\\WebsitePermissions.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\Core\\WebsitePermissions.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Core\\WebsitePermissions.cs",
+              "RelativeToolTip": "CMSBuilder\\Core\\WebsitePermissions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T15:28:11.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NullableDoubleToSizeConverter.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\NullableDoubleToSizeConverter.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\Converters\\NullableDoubleToSizeConverter.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\NullableDoubleToSizeConverter.cs",
+              "RelativeToolTip": "CMSBuilder\\Converters\\NullableDoubleToSizeConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:30:57.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NullToVisibilityConverter.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\NullToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\Converters\\NullToVisibilityConverter.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\NullToVisibilityConverter.cs",
+              "RelativeToolTip": "CMSBuilder\\Converters\\NullToVisibilityConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:30:58.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StringToVisibilityConverter.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\StringToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\Converters\\StringToVisibilityConverter.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\StringToVisibilityConverter.cs",
+              "RelativeToolTip": "CMSBuilder\\Converters\\StringToVisibilityConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:30:58.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Core\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\Core\\RelayCommand.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Core\\RelayCommand.cs",
+              "RelativeToolTip": "CMSBuilder\\Core\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:31:01.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RelayCommandGeneric.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Core\\RelayCommandGeneric.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\Core\\RelayCommandGeneric.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Core\\RelayCommandGeneric.cs",
+              "RelativeToolTip": "CMSBuilder\\Core\\RelayCommandGeneric.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:31:04.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\Data\\AppDbContext.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "CMSBuilder\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:31:18.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\Data\\DbInitializer.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "CMSBuilder\\Data\\DbInitializer.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:31:22.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NullableDoubleConverter.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\NullableDoubleConverter.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\Converters\\NullableDoubleConverter.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\NullableDoubleConverter.cs",
+              "RelativeToolTip": "CMSBuilder\\Converters\\NullableDoubleConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:30:56.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SessionContext.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Core\\SessionContext.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\Core\\SessionContext.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Core\\SessionContext.cs",
+              "RelativeToolTip": "CMSBuilder\\Core\\SessionContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:31:09.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InverseBoolToVisibilityConverter.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\InverseBoolToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\Converters\\InverseBoolToVisibilityConverter.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\InverseBoolToVisibilityConverter.cs",
+              "RelativeToolTip": "CMSBuilder\\Converters\\InverseBoolToVisibilityConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:30:51.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ElementTypeToViewConverter.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\ElementTypeToViewConverter.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\Converters\\ElementTypeToViewConverter.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\ElementTypeToViewConverter.cs",
+              "RelativeToolTip": "CMSBuilder\\Converters\\ElementTypeToViewConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:30:51.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CssFontSizeConverter.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\CssFontSizeConverter.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\Converters\\CssFontSizeConverter.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\CssFontSizeConverter.cs",
+              "RelativeToolTip": "CMSBuilder\\Converters\\CssFontSizeConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:30:50.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CssBrushConverter.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\CssBrushConverter.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\Converters\\CssBrushConverter.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\CssBrushConverter.cs",
+              "RelativeToolTip": "CMSBuilder\\Converters\\CssBrushConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:30:49.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CssBorderThicknessConverter.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\CssBorderThicknessConverter.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\Converters\\CssBorderThicknessConverter.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\CssBorderThicknessConverter.cs",
+              "RelativeToolTip": "CMSBuilder\\Converters\\CssBorderThicknessConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T15:28:02.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BoolToVisibilityConverter.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\BoolToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\Converters\\BoolToVisibilityConverter.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\BoolToVisibilityConverter.cs",
+              "RelativeToolTip": "CMSBuilder\\Converters\\BoolToVisibilityConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:30:46.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "App.xaml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\App.xaml",
+              "RelativeDocumentMoniker": "CMSBuilder\\App.xaml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\App.xaml",
+              "RelativeToolTip": "CMSBuilder\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-20T14:47:27.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "App.config",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\App.config",
+              "RelativeDocumentMoniker": "CMSBuilder\\App.config",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\App.config",
+              "RelativeToolTip": "CMSBuilder\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-05-22T15:27:53.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ElementCommonPropertiesView.xaml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Properties\\ElementCommonPropertiesView.xaml",
+              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Properties\\ElementCommonPropertiesView.xaml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Properties\\ElementCommonPropertiesView.xaml",
+              "RelativeToolTip": "CMSBuilder\\Views\\Properties\\ElementCommonPropertiesView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-22T15:27:53.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "VideoPlayerElementView.xaml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\VideoPlayerElementView.xaml",
+              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Elements\\VideoPlayerElementView.xaml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\VideoPlayerElementView.xaml",
+              "RelativeToolTip": "CMSBuilder\\Views\\Elements\\VideoPlayerElementView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-22T15:27:49.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "VideoEmbedElementView.xaml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\VideoEmbedElementView.xaml",
+              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Elements\\VideoEmbedElementView.xaml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\VideoEmbedElementView.xaml",
+              "RelativeToolTip": "CMSBuilder\\Views\\Elements\\VideoEmbedElementView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-22T15:27:48.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TextAreaElementView.xaml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\TextAreaElementView.xaml",
+              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Elements\\TextAreaElementView.xaml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\TextAreaElementView.xaml",
+              "RelativeToolTip": "CMSBuilder\\Views\\Elements\\TextAreaElementView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-22T15:27:46.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LinkElementView.xaml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\LinkElementView.xaml",
+              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Elements\\LinkElementView.xaml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\LinkElementView.xaml",
+              "RelativeToolTip": "CMSBuilder\\Views\\Elements\\LinkElementView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-22T15:27:44.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ImageElementView.xaml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\ImageElementView.xaml",
+              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Elements\\ImageElementView.xaml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\ImageElementView.xaml",
+              "RelativeToolTip": "CMSBuilder\\Views\\Elements\\ImageElementView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-20T14:49:48.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TextElementView.xaml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\TextElementView.xaml",
+              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Elements\\TextElementView.xaml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\TextElementView.xaml",
+              "RelativeToolTip": "CMSBuilder\\Views\\Elements\\TextElementView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-20T15:07:34.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "GalleryElementView.xaml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\GalleryElementView.xaml",
+              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Elements\\GalleryElementView.xaml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\GalleryElementView.xaml",
+              "RelativeToolTip": "CMSBuilder\\Views\\Elements\\GalleryElementView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-20T14:49:44.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "NavbarElementView.xaml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\NavbarElementView.xaml",
+              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Elements\\NavbarElementView.xaml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\NavbarElementView.xaml",
+              "RelativeToolTip": "CMSBuilder\\Views\\Elements\\NavbarElementView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-20T15:07:32.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "FormElementView.xaml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\FormElementView.xaml",
+              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Elements\\FormElementView.xaml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\FormElementView.xaml",
+              "RelativeToolTip": "CMSBuilder\\Views\\Elements\\FormElementView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-22T15:27:38.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "InputElementView.xaml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\InputElementView.xaml",
+              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Elements\\InputElementView.xaml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\InputElementView.xaml",
+              "RelativeToolTip": "CMSBuilder\\Views\\Elements\\InputElementView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-20T14:49:50.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "FooterElementView.xaml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\FooterElementView.xaml",
+              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Elements\\FooterElementView.xaml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\FooterElementView.xaml",
+              "RelativeToolTip": "CMSBuilder\\Views\\Elements\\FooterElementView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-22T15:27:35.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "HeaderElementView.xaml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\HeaderElementView.xaml",
+              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Elements\\HeaderElementView.xaml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\HeaderElementView.xaml",
+              "RelativeToolTip": "CMSBuilder\\Views\\Elements\\HeaderElementView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-20T14:49:46.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CommentsViewerElementView.xaml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\CommentsViewerElementView.xaml",
+              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Elements\\CommentsViewerElementView.xaml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\CommentsViewerElementView.xaml",
+              "RelativeToolTip": "CMSBuilder\\Views\\Elements\\CommentsViewerElementView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-22T15:27:32.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CheckboxElementView.xaml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\CheckboxElementView.xaml",
+              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Elements\\CheckboxElementView.xaml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\CheckboxElementView.xaml",
+              "RelativeToolTip": "CMSBuilder\\Views\\Elements\\CheckboxElementView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-22T15:27:31.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CardElementView.xaml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\CardElementView.xaml",
+              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Elements\\CardElementView.xaml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\CardElementView.xaml",
+              "RelativeToolTip": "CMSBuilder\\Views\\Elements\\CardElementView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-22T15:27:30.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "WebsiteSettingsView.xaml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\WebsiteSettingsView.xaml",
+              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Editor\\WebsiteSettingsView.xaml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\WebsiteSettingsView.xaml",
+              "RelativeToolTip": "CMSBuilder\\Views\\Editor\\WebsiteSettingsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-20T15:07:13.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ButtonElementView.xaml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\ButtonElementView.xaml",
+              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Elements\\ButtonElementView.xaml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\ButtonElementView.xaml",
+              "RelativeToolTip": "CMSBuilder\\Views\\Elements\\ButtonElementView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-20T14:49:38.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ContainerElementView.xaml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\ContainerElementView.xaml",
+              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Elements\\ContainerElementView.xaml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\ContainerElementView.xaml",
+              "RelativeToolTip": "CMSBuilder\\Views\\Elements\\ContainerElementView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-20T14:49:42.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "WebsiteEditorView.xaml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\WebsiteEditorView.xaml",
+              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Editor\\WebsiteEditorView.xaml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\WebsiteEditorView.xaml",
+              "RelativeToolTip": "CMSBuilder\\Views\\Editor\\WebsiteEditorView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-20T15:07:12.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "PageTabsView.xaml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\PageTabsView.xaml",
+              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Editor\\PageTabsView.xaml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\PageTabsView.xaml",
+              "RelativeToolTip": "CMSBuilder\\Views\\Editor\\PageTabsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-20T14:48:47.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "PropertiesPanelView.xaml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\PropertiesPanelView.xaml",
+              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Editor\\PropertiesPanelView.xaml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\PropertiesPanelView.xaml",
+              "RelativeToolTip": "CMSBuilder\\Views\\Editor\\PropertiesPanelView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-20T14:48:57.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ToolboxView.xaml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\ToolboxView.xaml",
+              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Editor\\ToolboxView.xaml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\ToolboxView.xaml",
+              "RelativeToolTip": "CMSBuilder\\Views\\Editor\\ToolboxView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-20T14:49:09.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "TopBarView.xaml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\TopBarView.xaml",
+              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Editor\\TopBarView.xaml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\TopBarView.xaml",
+              "RelativeToolTip": "CMSBuilder\\Views\\Editor\\TopBarView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-20T14:49:11.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "OrganizationPanelView.xaml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\OrganizationPanelView.xaml",
+              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Editor\\OrganizationPanelView.xaml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\OrganizationPanelView.xaml",
+              "RelativeToolTip": "CMSBuilder\\Views\\Editor\\OrganizationPanelView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-20T14:48:39.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ElementActionEditorView.xaml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\ElementActionEditorView.xaml",
+              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Editor\\ElementActionEditorView.xaml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\ElementActionEditorView.xaml",
+              "RelativeToolTip": "CMSBuilder\\Views\\Editor\\ElementActionEditorView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-22T15:26:58.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "EditorCanvasView.xaml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\EditorCanvasView.xaml",
+              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Editor\\EditorCanvasView.xaml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\EditorCanvasView.xaml",
+              "RelativeToolTip": "CMSBuilder\\Views\\Editor\\EditorCanvasView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-20T14:48:33.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "WebsiteCardView.xaml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Dashboard\\WebsiteCardView.xaml",
+              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Dashboard\\WebsiteCardView.xaml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Dashboard\\WebsiteCardView.xaml",
+              "RelativeToolTip": "CMSBuilder\\Views\\Dashboard\\WebsiteCardView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-20T14:48:28.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "DashboardView.xaml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Dashboard\\DashboardView.xaml",
+              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Dashboard\\DashboardView.xaml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Dashboard\\DashboardView.xaml",
+              "RelativeToolTip": "CMSBuilder\\Views\\Dashboard\\DashboardView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-20T14:48:19.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "RegisterView.xaml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Auth\\RegisterView.xaml",
+              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Auth\\RegisterView.xaml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Auth\\RegisterView.xaml",
+              "RelativeToolTip": "CMSBuilder\\Views\\Auth\\RegisterView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-20T14:47:17.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "LoginView.xaml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Auth\\LoginView.xaml",
+              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Auth\\LoginView.xaml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Auth\\LoginView.xaml",
+              "RelativeToolTip": "CMSBuilder\\Views\\Auth\\LoginView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-20T14:47:08.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "WebsiteSettingsPanelViewModel.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\WebsiteSettingsPanelViewModel.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Editor\\WebsiteSettingsPanelViewModel.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\WebsiteSettingsPanelViewModel.cs",
+              "RelativeToolTip": "CMSBuilder\\ViewModels\\Editor\\WebsiteSettingsPanelViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:35:25.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
               "Title": "EditorCanvasInteraction.cs",
               "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\EditorCanvasInteraction.cs",
               "RelativeDocumentMoniker": "CMSBuilder\\Views\\Editor\\EditorCanvasInteraction.cs",
@@ -603,39 +1209,274 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
-              "Title": "ButtonPropertiesViewModel.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Properties\\ButtonPropertiesViewModel.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Properties\\ButtonPropertiesViewModel.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Properties\\ButtonPropertiesViewModel.cs",
-              "RelativeToolTip": "CMSBuilder\\ViewModels\\Properties\\ButtonPropertiesViewModel.cs",
+              "DocumentIndex": 51,
+              "Title": "WebsiteEditorViewModel.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\WebsiteEditorViewModel.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Editor\\WebsiteEditorViewModel.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\WebsiteEditorViewModel.cs",
+              "RelativeToolTip": "CMSBuilder\\ViewModels\\Editor\\WebsiteEditorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:35:39.523Z"
+              "WhenOpened": "2026-05-20T16:35:23.769Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 109,
-              "Title": "TextElementViewModel.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Elements\\TextElementViewModel.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Elements\\TextElementViewModel.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Elements\\TextElementViewModel.cs",
-              "RelativeToolTip": "CMSBuilder\\ViewModels\\Elements\\TextElementViewModel.cs",
+              "DocumentIndex": 52,
+              "Title": "PageTabViewModel.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\PageTabViewModel.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Editor\\PageTabViewModel.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\PageTabViewModel.cs",
+              "RelativeToolTip": "CMSBuilder\\ViewModels\\Editor\\PageTabViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:35:38.054Z"
+              "WhenOpened": "2026-05-20T16:35:13.402Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
-              "Title": "NavbarElementViewModel.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Elements\\NavbarElementViewModel.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Elements\\NavbarElementViewModel.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Elements\\NavbarElementViewModel.cs",
-              "RelativeToolTip": "CMSBuilder\\ViewModels\\Elements\\NavbarElementViewModel.cs",
+              "DocumentIndex": 53,
+              "Title": "PageSettingsItemViewModel.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\PageSettingsItemViewModel.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Editor\\PageSettingsItemViewModel.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\PageSettingsItemViewModel.cs",
+              "RelativeToolTip": "CMSBuilder\\ViewModels\\Editor\\PageSettingsItemViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:35:37.523Z"
+              "WhenOpened": "2026-05-20T16:35:09.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "OrganizationPanelViewModel.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\OrganizationPanelViewModel.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Editor\\OrganizationPanelViewModel.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\OrganizationPanelViewModel.cs",
+              "RelativeToolTip": "CMSBuilder\\ViewModels\\Editor\\OrganizationPanelViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:35:08.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "CanvasElementViewModel.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\CanvasElementViewModel.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Editor\\CanvasElementViewModel.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\CanvasElementViewModel.cs",
+              "RelativeToolTip": "CMSBuilder\\ViewModels\\Editor\\CanvasElementViewModel.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:35:03.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "WebsiteCardViewModel.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Dashboard\\WebsiteCardViewModel.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Dashboard\\WebsiteCardViewModel.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Dashboard\\WebsiteCardViewModel.cs",
+              "RelativeToolTip": "CMSBuilder\\ViewModels\\Dashboard\\WebsiteCardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:35:00.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Dashboard\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Dashboard\\DashboardViewModel.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Dashboard\\DashboardViewModel.cs",
+              "RelativeToolTip": "CMSBuilder\\ViewModels\\Dashboard\\DashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:34:56.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Base\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Base\\BaseViewModel.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Base\\BaseViewModel.cs",
+              "RelativeToolTip": "CMSBuilder\\ViewModels\\Base\\BaseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:34:54.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Auth\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Auth\\RegisterViewModel.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Auth\\RegisterViewModel.cs",
+              "RelativeToolTip": "CMSBuilder\\ViewModels\\Auth\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:34:52.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Auth\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Auth\\LoginViewModel.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Auth\\LoginViewModel.cs",
+              "RelativeToolTip": "CMSBuilder\\ViewModels\\Auth\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:34:51.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "AccountViewModel.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Account\\AccountViewModel.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Account\\AccountViewModel.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Account\\AccountViewModel.cs",
+              "RelativeToolTip": "CMSBuilder\\ViewModels\\Account\\AccountViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:34:49.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "WebsiteService.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\WebsiteService.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\Services\\WebsiteService.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\WebsiteService.cs",
+              "RelativeToolTip": "CMSBuilder\\Services\\WebsiteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:34:46.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "WebsiteMemberService.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\WebsiteMemberService.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\Services\\WebsiteMemberService.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\WebsiteMemberService.cs",
+              "RelativeToolTip": "CMSBuilder\\Services\\WebsiteMemberService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:34:43.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "PageService.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\PageService.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\Services\\PageService.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\PageService.cs",
+              "RelativeToolTip": "CMSBuilder\\Services\\PageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:34:37.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "NavigationService.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\NavigationService.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\Services\\NavigationService.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\NavigationService.cs",
+              "RelativeToolTip": "CMSBuilder\\Services\\NavigationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:34:36.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "ElementService.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\ElementService.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\Services\\ElementService.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\ElementService.cs",
+              "RelativeToolTip": "CMSBuilder\\Services\\ElementService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:34:32.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "ComplexElementService.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\ComplexElementService.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\Services\\ComplexElementService.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\ComplexElementService.cs",
+              "RelativeToolTip": "CMSBuilder\\Services\\ComplexElementService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T15:25:18.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\Services\\AuthService.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\AuthService.cs",
+              "RelativeToolTip": "CMSBuilder\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:34:26.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "AppSettingsService.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\AppSettingsService.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\Services\\AppSettingsService.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\AppSettingsService.cs",
+              "RelativeToolTip": "CMSBuilder\\Services\\AppSettingsService.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:34:27.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Colors.xaml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Resources\\Colors.xaml",
+              "RelativeDocumentMoniker": "CMSBuilder\\Resources\\Colors.xaml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Resources\\Colors.xaml",
+              "RelativeToolTip": "CMSBuilder\\Resources\\Colors.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-22T11:39:23.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "ImageElementViewModel.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Elements\\ImageElementViewModel.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Elements\\ImageElementViewModel.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Elements\\ImageElementViewModel.cs",
+              "RelativeToolTip": "CMSBuilder\\ViewModels\\Elements\\ImageElementViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:35:36.489Z"
             },
             {
               "$type": "Document",
@@ -651,15 +1492,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
-              "Title": "ImageElementViewModel.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Elements\\ImageElementViewModel.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Elements\\ImageElementViewModel.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Elements\\ImageElementViewModel.cs",
-              "RelativeToolTip": "CMSBuilder\\ViewModels\\Elements\\ImageElementViewModel.cs",
+              "DocumentIndex": 110,
+              "Title": "NavbarElementViewModel.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Elements\\NavbarElementViewModel.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Elements\\NavbarElementViewModel.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Elements\\NavbarElementViewModel.cs",
+              "RelativeToolTip": "CMSBuilder\\ViewModels\\Elements\\NavbarElementViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:35:36.489Z"
+              "WhenOpened": "2026-05-20T16:35:37.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "TextElementViewModel.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Elements\\TextElementViewModel.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Elements\\TextElementViewModel.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Elements\\TextElementViewModel.cs",
+              "RelativeToolTip": "CMSBuilder\\ViewModels\\Elements\\TextElementViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:35:38.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "CommentService.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\CommentService.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\Services\\CommentService.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\CommentService.cs",
+              "RelativeToolTip": "CMSBuilder\\Services\\CommentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:34:32.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "ButtonPropertiesViewModel.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Properties\\ButtonPropertiesViewModel.cs",
+              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Properties\\ButtonPropertiesViewModel.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Properties\\ButtonPropertiesViewModel.cs",
+              "RelativeToolTip": "CMSBuilder\\ViewModels\\Properties\\ButtonPropertiesViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:35:39.523Z"
             },
             {
               "$type": "Document",
@@ -735,391 +1613,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WebsiteSettingsViewModel.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\WebsiteSettingsViewModel.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Editor\\WebsiteSettingsViewModel.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\WebsiteSettingsViewModel.cs",
-              "RelativeToolTip": "CMSBuilder\\ViewModels\\Editor\\WebsiteSettingsViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:35:27.902Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WebsiteSettingsPanelViewModel.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\WebsiteSettingsPanelViewModel.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Editor\\WebsiteSettingsPanelViewModel.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\WebsiteSettingsPanelViewModel.cs",
-              "RelativeToolTip": "CMSBuilder\\ViewModels\\Editor\\WebsiteSettingsPanelViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:35:25.743Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WebsiteEditorViewModel.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\WebsiteEditorViewModel.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Editor\\WebsiteEditorViewModel.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\WebsiteEditorViewModel.cs",
-              "RelativeToolTip": "CMSBuilder\\ViewModels\\Editor\\WebsiteEditorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:35:23.769Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TopBarViewModel.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\TopBarViewModel.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Editor\\TopBarViewModel.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\TopBarViewModel.cs",
-              "RelativeToolTip": "CMSBuilder\\ViewModels\\Editor\\TopBarViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:35:21.834Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ToolboxViewModel.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\ToolboxViewModel.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Editor\\ToolboxViewModel.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\ToolboxViewModel.cs",
-              "RelativeToolTip": "CMSBuilder\\ViewModels\\Editor\\ToolboxViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:35:19.888Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ThemeSettingsViewModel.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\ThemeSettingsViewModel.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Editor\\ThemeSettingsViewModel.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\ThemeSettingsViewModel.cs",
-              "RelativeToolTip": "CMSBuilder\\ViewModels\\Editor\\ThemeSettingsViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:35:17.948Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PropertiesPanelViewModel.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\PropertiesPanelViewModel.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Editor\\PropertiesPanelViewModel.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\PropertiesPanelViewModel.cs",
-              "RelativeToolTip": "CMSBuilder\\ViewModels\\Editor\\PropertiesPanelViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:35:16.14Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SiteMembersViewModel.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\SiteMembersViewModel.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Editor\\SiteMembersViewModel.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\SiteMembersViewModel.cs",
-              "RelativeToolTip": "CMSBuilder\\ViewModels\\Editor\\SiteMembersViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:35:14.349Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PageTabViewModel.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\PageTabViewModel.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Editor\\PageTabViewModel.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\PageTabViewModel.cs",
-              "RelativeToolTip": "CMSBuilder\\ViewModels\\Editor\\PageTabViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:35:13.402Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PageTabsViewModel.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\PageTabsViewModel.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Editor\\PageTabsViewModel.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\PageTabsViewModel.cs",
-              "RelativeToolTip": "CMSBuilder\\ViewModels\\Editor\\PageTabsViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:35:10.684Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "PageSettingsItemViewModel.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\PageSettingsItemViewModel.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Editor\\PageSettingsItemViewModel.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\PageSettingsItemViewModel.cs",
-              "RelativeToolTip": "CMSBuilder\\ViewModels\\Editor\\PageSettingsItemViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:35:09.746Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "OrganizationPanelViewModel.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\OrganizationPanelViewModel.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Editor\\OrganizationPanelViewModel.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\OrganizationPanelViewModel.cs",
-              "RelativeToolTip": "CMSBuilder\\ViewModels\\Editor\\OrganizationPanelViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:35:08.499Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "EditorCanvasViewModel.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\EditorCanvasViewModel.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Editor\\EditorCanvasViewModel.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\EditorCanvasViewModel.cs",
-              "RelativeToolTip": "CMSBuilder\\ViewModels\\Editor\\EditorCanvasViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:35:06.325Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CanvasElementViewModel.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\CanvasElementViewModel.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Editor\\CanvasElementViewModel.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Editor\\CanvasElementViewModel.cs",
-              "RelativeToolTip": "CMSBuilder\\ViewModels\\Editor\\CanvasElementViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:35:03.495Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "WebsiteCardViewModel.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Dashboard\\WebsiteCardViewModel.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Dashboard\\WebsiteCardViewModel.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Dashboard\\WebsiteCardViewModel.cs",
-              "RelativeToolTip": "CMSBuilder\\ViewModels\\Dashboard\\WebsiteCardViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:35:00.02Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "FilterPanelViewModel.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Dashboard\\FilterPanelViewModel.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Dashboard\\FilterPanelViewModel.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Dashboard\\FilterPanelViewModel.cs",
-              "RelativeToolTip": "CMSBuilder\\ViewModels\\Dashboard\\FilterPanelViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:34:57.592Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "DashboardViewModel.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Dashboard\\DashboardViewModel.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Dashboard\\DashboardViewModel.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Dashboard\\DashboardViewModel.cs",
-              "RelativeToolTip": "CMSBuilder\\ViewModels\\Dashboard\\DashboardViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:34:56.841Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "BaseViewModel.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Base\\BaseViewModel.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Base\\BaseViewModel.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Base\\BaseViewModel.cs",
-              "RelativeToolTip": "CMSBuilder\\ViewModels\\Base\\BaseViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:34:54.748Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "RegisterViewModel.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Auth\\RegisterViewModel.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Auth\\RegisterViewModel.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Auth\\RegisterViewModel.cs",
-              "RelativeToolTip": "CMSBuilder\\ViewModels\\Auth\\RegisterViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:34:52.152Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Auth\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Auth\\LoginViewModel.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Auth\\LoginViewModel.cs",
-              "RelativeToolTip": "CMSBuilder\\ViewModels\\Auth\\LoginViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:34:51.219Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "AccountViewModel.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Account\\AccountViewModel.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\ViewModels\\Account\\AccountViewModel.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\ViewModels\\Account\\AccountViewModel.cs",
-              "RelativeToolTip": "CMSBuilder\\ViewModels\\Account\\AccountViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:34:49.582Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "WebsiteService.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\WebsiteService.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\Services\\WebsiteService.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\WebsiteService.cs",
-              "RelativeToolTip": "CMSBuilder\\Services\\WebsiteService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:34:46.062Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "WebsiteMemberService.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\WebsiteMemberService.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\Services\\WebsiteMemberService.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\WebsiteMemberService.cs",
-              "RelativeToolTip": "CMSBuilder\\Services\\WebsiteMemberService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:34:43.848Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\Services\\UserService.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\UserService.cs",
-              "RelativeToolTip": "CMSBuilder\\Services\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:34:42.128Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "StatisticsService.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\StatisticsService.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\Services\\StatisticsService.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\StatisticsService.cs",
-              "RelativeToolTip": "CMSBuilder\\Services\\StatisticsService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:34:40.077Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ThemeService.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\ThemeService.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\Services\\ThemeService.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\ThemeService.cs",
-              "RelativeToolTip": "CMSBuilder\\Services\\ThemeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:34:38.137Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "PageService.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\PageService.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\Services\\PageService.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\PageService.cs",
-              "RelativeToolTip": "CMSBuilder\\Services\\PageService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:34:37.321Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "NavigationService.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\NavigationService.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\Services\\NavigationService.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\NavigationService.cs",
-              "RelativeToolTip": "CMSBuilder\\Services\\NavigationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:34:36.325Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "ElementService.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\ElementService.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\Services\\ElementService.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\ElementService.cs",
-              "RelativeToolTip": "CMSBuilder\\Services\\ElementService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:34:32.879Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "CommentService.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\CommentService.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\Services\\CommentService.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\CommentService.cs",
-              "RelativeToolTip": "CMSBuilder\\Services\\CommentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:34:32.147Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "AppSettingsService.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\AppSettingsService.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\Services\\AppSettingsService.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\AppSettingsService.cs",
-              "RelativeToolTip": "CMSBuilder\\Services\\AppSettingsService.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:34:27.53Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\Services\\AuthService.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\AuthService.cs",
-              "RelativeToolTip": "CMSBuilder\\Services\\AuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:34:26.854Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 72,
               "Title": "WebsiteExportService.cs",
               "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\Export\\WebsiteExportService.cs",
               "RelativeDocumentMoniker": "CMSBuilder\\Services\\Export\\WebsiteExportService.cs",
@@ -1131,7 +1625,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 73,
               "Title": "HtmlGeneratorService.cs",
               "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\Export\\HtmlGeneratorService.cs",
               "RelativeDocumentMoniker": "CMSBuilder\\Services\\Export\\HtmlGeneratorService.cs",
@@ -1143,7 +1637,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 74,
               "Title": "CssGeneratorService.cs",
               "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\Export\\CssGeneratorService.cs",
               "RelativeDocumentMoniker": "CMSBuilder\\Services\\Export\\CssGeneratorService.cs",
@@ -1155,7 +1649,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 75,
               "Title": "SelectionService.cs",
               "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\Builder\\SelectionService.cs",
               "RelativeDocumentMoniker": "CMSBuilder\\Services\\Builder\\SelectionService.cs",
@@ -1167,7 +1661,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 76,
               "Title": "ElementHierarchyService.cs",
               "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\Builder\\ElementHierarchyService.cs",
               "RelativeDocumentMoniker": "CMSBuilder\\Services\\Builder\\ElementHierarchyService.cs",
@@ -1179,7 +1673,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 77,
               "Title": "ElementFactoryService.cs",
               "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\Builder\\ElementFactoryService.cs",
               "RelativeDocumentMoniker": "CMSBuilder\\Services\\Builder\\ElementFactoryService.cs",
@@ -1191,7 +1685,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 78,
               "Title": "DragDropService.cs",
               "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Services\\Builder\\DragDropService.cs",
               "RelativeDocumentMoniker": "CMSBuilder\\Services\\Builder\\DragDropService.cs",
@@ -1203,7 +1697,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 79,
               "Title": "WebsiteUserRole.cs",
               "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Models\\WebsiteUserRole.cs",
               "RelativeDocumentMoniker": "CMSBuilder\\Models\\WebsiteUserRole.cs",
@@ -1215,7 +1709,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 80,
               "Title": "WebsiteSettings.cs",
               "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Models\\WebsiteSettings.cs",
               "RelativeDocumentMoniker": "CMSBuilder\\Models\\WebsiteSettings.cs",
@@ -1227,7 +1721,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 81,
               "Title": "Website.cs",
               "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Models\\Website.cs",
               "RelativeDocumentMoniker": "CMSBuilder\\Models\\Website.cs",
@@ -1239,7 +1733,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 82,
               "Title": "VisitStatistic.cs",
               "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Models\\VisitStatistic.cs",
               "RelativeDocumentMoniker": "CMSBuilder\\Models\\VisitStatistic.cs",
@@ -1251,7 +1745,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 83,
               "Title": "User.cs",
               "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Models\\User.cs",
               "RelativeDocumentMoniker": "CMSBuilder\\Models\\User.cs",
@@ -1263,7 +1757,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 84,
               "Title": "SiteTheme.cs",
               "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Models\\SiteTheme.cs",
               "RelativeDocumentMoniker": "CMSBuilder\\Models\\SiteTheme.cs",
@@ -1275,7 +1769,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 85,
               "Title": "Role.cs",
               "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Models\\Role.cs",
               "RelativeDocumentMoniker": "CMSBuilder\\Models\\Role.cs",
@@ -1287,7 +1781,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 86,
               "Title": "PageElement.cs",
               "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Models\\PageElement.cs",
               "RelativeDocumentMoniker": "CMSBuilder\\Models\\PageElement.cs",
@@ -1299,7 +1793,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 87,
               "Title": "PageComment.cs",
               "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Models\\PageComment.cs",
               "RelativeDocumentMoniker": "CMSBuilder\\Models\\PageComment.cs",
@@ -1311,7 +1805,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 88,
               "Title": "Page.cs",
               "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Models\\Page.cs",
               "RelativeDocumentMoniker": "CMSBuilder\\Models\\Page.cs",
@@ -1323,7 +1817,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 89,
               "Title": "Invitation.cs",
               "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Models\\Invitation.cs",
               "RelativeDocumentMoniker": "CMSBuilder\\Models\\Invitation.cs",
@@ -1539,7 +2033,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 90,
               "Title": "ElementAction.cs",
               "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Models\\Elements\\ElementAction.cs",
               "RelativeDocumentMoniker": "CMSBuilder\\Models\\Elements\\ElementAction.cs",
@@ -1563,7 +2057,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 91,
               "Title": "WebsiteMemberDto.cs",
               "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Models\\Dto\\WebsiteMemberDto.cs",
               "RelativeDocumentMoniker": "CMSBuilder\\Models\\Dto\\WebsiteMemberDto.cs",
@@ -1575,7 +2069,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 92,
               "Title": "NotifyDto.cs",
               "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Models\\Dto\\NotifyDto.cs",
               "RelativeDocumentMoniker": "CMSBuilder\\Models\\Dto\\NotifyDto.cs",
@@ -1587,7 +2081,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 93,
               "Title": "ElementStyleDto.cs",
               "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Models\\Dto\\ElementStyleDto.cs",
               "RelativeDocumentMoniker": "CMSBuilder\\Models\\Dto\\ElementStyleDto.cs",
@@ -1599,7 +2093,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 94,
               "Title": "ElementPropertiesDto.cs",
               "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Models\\Dto\\ElementPropertiesDto.cs",
               "RelativeDocumentMoniker": "CMSBuilder\\Models\\Dto\\ElementPropertiesDto.cs",
@@ -1659,7 +2153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 95,
               "Title": "ValidationHelper.cs",
               "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Helpers\\ValidationHelper.cs",
               "RelativeDocumentMoniker": "CMSBuilder\\Helpers\\ValidationHelper.cs",
@@ -1671,7 +2165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 96,
               "Title": "ProjectFonts.cs",
               "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Helpers\\ProjectFonts.cs",
               "RelativeDocumentMoniker": "CMSBuilder\\Helpers\\ProjectFonts.cs",
@@ -1683,7 +2177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 97,
               "Title": "PasswordHasher.cs",
               "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Helpers\\PasswordHasher.cs",
               "RelativeDocumentMoniker": "CMSBuilder\\Helpers\\PasswordHasher.cs",
@@ -1695,7 +2189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 98,
               "Title": "PasswordBoxHelper.cs",
               "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Helpers\\PasswordBoxHelper.cs",
               "RelativeDocumentMoniker": "CMSBuilder\\Helpers\\PasswordBoxHelper.cs",
@@ -1707,7 +2201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 99,
               "Title": "HtmlHelper.cs",
               "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Helpers\\HtmlHelper.cs",
               "RelativeDocumentMoniker": "CMSBuilder\\Helpers\\HtmlHelper.cs",
@@ -1719,7 +2213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 100,
               "Title": "FileHelper.cs",
               "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Helpers\\FileHelper.cs",
               "RelativeDocumentMoniker": "CMSBuilder\\Helpers\\FileHelper.cs",
@@ -1731,7 +2225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 101,
               "Title": "ExportLayoutHelper.cs",
               "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Helpers\\ExportLayoutHelper.cs",
               "RelativeDocumentMoniker": "CMSBuilder\\Helpers\\ExportLayoutHelper.cs",
@@ -1743,7 +2237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 102,
               "Title": "ElementJsonHelper.cs",
               "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Helpers\\ElementJsonHelper.cs",
               "RelativeDocumentMoniker": "CMSBuilder\\Helpers\\ElementJsonHelper.cs",
@@ -1755,7 +2249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 103,
               "Title": "CssHelper.cs",
               "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Helpers\\CssHelper.cs",
               "RelativeDocumentMoniker": "CMSBuilder\\Helpers\\CssHelper.cs",
@@ -1767,252 +2261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
-              "Title": "DbInitializer.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Data\\DbInitializer.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\Data\\DbInitializer.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Data\\DbInitializer.cs",
-              "RelativeToolTip": "CMSBuilder\\Data\\DbInitializer.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:31:22.416Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 67,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\Data\\AppDbContext.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "CMSBuilder\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:31:18.844Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 68,
-              "Title": "SessionContext.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Core\\SessionContext.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\Core\\SessionContext.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Core\\SessionContext.cs",
-              "RelativeToolTip": "CMSBuilder\\Core\\SessionContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:31:09.886Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 69,
-              "Title": "RelayCommandGeneric.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Core\\RelayCommandGeneric.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\Core\\RelayCommandGeneric.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Core\\RelayCommandGeneric.cs",
-              "RelativeToolTip": "CMSBuilder\\Core\\RelayCommandGeneric.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:31:04.117Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 70,
-              "Title": "RelayCommand.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Core\\RelayCommand.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\Core\\RelayCommand.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Core\\RelayCommand.cs",
-              "RelativeToolTip": "CMSBuilder\\Core\\RelayCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:31:01.171Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 71,
-              "Title": "StringToVisibilityConverter.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\StringToVisibilityConverter.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\Converters\\StringToVisibilityConverter.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\StringToVisibilityConverter.cs",
-              "RelativeToolTip": "CMSBuilder\\Converters\\StringToVisibilityConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:30:58.884Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 72,
-              "Title": "NullToVisibilityConverter.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\NullToVisibilityConverter.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\Converters\\NullToVisibilityConverter.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\NullToVisibilityConverter.cs",
-              "RelativeToolTip": "CMSBuilder\\Converters\\NullToVisibilityConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:30:58.324Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 73,
-              "Title": "NullableDoubleToSizeConverter.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\NullableDoubleToSizeConverter.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\Converters\\NullableDoubleToSizeConverter.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\NullableDoubleToSizeConverter.cs",
-              "RelativeToolTip": "CMSBuilder\\Converters\\NullableDoubleToSizeConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:30:57.686Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 74,
-              "Title": "NullableDoubleConverter.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\NullableDoubleConverter.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\Converters\\NullableDoubleConverter.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\NullableDoubleConverter.cs",
-              "RelativeToolTip": "CMSBuilder\\Converters\\NullableDoubleConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:30:56.552Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 76,
-              "Title": "InverseBoolToVisibilityConverter.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\InverseBoolToVisibilityConverter.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\Converters\\InverseBoolToVisibilityConverter.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\InverseBoolToVisibilityConverter.cs",
-              "RelativeToolTip": "CMSBuilder\\Converters\\InverseBoolToVisibilityConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:30:51.565Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 75,
-              "Title": "ElementTypeToViewConverter.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\ElementTypeToViewConverter.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\Converters\\ElementTypeToViewConverter.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\ElementTypeToViewConverter.cs",
-              "RelativeToolTip": "CMSBuilder\\Converters\\ElementTypeToViewConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:30:51.012Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 77,
-              "Title": "CssFontSizeConverter.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\CssFontSizeConverter.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\Converters\\CssFontSizeConverter.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\CssFontSizeConverter.cs",
-              "RelativeToolTip": "CMSBuilder\\Converters\\CssFontSizeConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:30:50.415Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 78,
-              "Title": "CssBrushConverter.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\CssBrushConverter.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\Converters\\CssBrushConverter.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\CssBrushConverter.cs",
-              "RelativeToolTip": "CMSBuilder\\Converters\\CssBrushConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:30:49.587Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 79,
-              "Title": "BoolToVisibilityConverter.cs",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\BoolToVisibilityConverter.cs",
-              "RelativeDocumentMoniker": "CMSBuilder\\Converters\\BoolToVisibilityConverter.cs",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Converters\\BoolToVisibilityConverter.cs",
-              "RelativeToolTip": "CMSBuilder\\Converters\\BoolToVisibilityConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:30:46.896Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 80,
-              "Title": "TextElementView.xaml",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\TextElementView.xaml",
-              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Elements\\TextElementView.xaml",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\TextElementView.xaml",
-              "RelativeToolTip": "CMSBuilder\\Views\\Elements\\TextElementView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T15:07:34.437Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 81,
-              "Title": "NavbarElementView.xaml",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\NavbarElementView.xaml",
-              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Elements\\NavbarElementView.xaml",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\NavbarElementView.xaml",
-              "RelativeToolTip": "CMSBuilder\\Views\\Elements\\NavbarElementView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T15:07:32.027Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 84,
-              "Title": "HeaderElementView.xaml",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\HeaderElementView.xaml",
-              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Elements\\HeaderElementView.xaml",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\HeaderElementView.xaml",
-              "RelativeToolTip": "CMSBuilder\\Views\\Elements\\HeaderElementView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:49:46.687Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 83,
-              "Title": "ImageElementView.xaml",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\ImageElementView.xaml",
-              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Elements\\ImageElementView.xaml",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\ImageElementView.xaml",
-              "RelativeToolTip": "CMSBuilder\\Views\\Elements\\ImageElementView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:49:48.574Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 82,
-              "Title": "InputElementView.xaml",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\InputElementView.xaml",
-              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Elements\\InputElementView.xaml",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\InputElementView.xaml",
-              "RelativeToolTip": "CMSBuilder\\Views\\Elements\\InputElementView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:49:50.219Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 85,
-              "Title": "GalleryElementView.xaml",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\GalleryElementView.xaml",
-              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Elements\\GalleryElementView.xaml",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\GalleryElementView.xaml",
-              "RelativeToolTip": "CMSBuilder\\Views\\Elements\\GalleryElementView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:49:44.301Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 86,
-              "Title": "ContainerElementView.xaml",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\ContainerElementView.xaml",
-              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Elements\\ContainerElementView.xaml",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\ContainerElementView.xaml",
-              "RelativeToolTip": "CMSBuilder\\Views\\Elements\\ContainerElementView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:49:42.004Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 104,
               "Title": "CommentsBlockElementView.xaml",
               "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\CommentsBlockElementView.xaml",
               "RelativeDocumentMoniker": "CMSBuilder\\Views\\Elements\\CommentsBlockElementView.xaml",
@@ -2020,193 +2269,6 @@
               "RelativeToolTip": "CMSBuilder\\Views\\Elements\\CommentsBlockElementView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-05-20T14:49:39.676Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 88,
-              "Title": "ButtonElementView.xaml",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\ButtonElementView.xaml",
-              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Elements\\ButtonElementView.xaml",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\ButtonElementView.xaml",
-              "RelativeToolTip": "CMSBuilder\\Views\\Elements\\ButtonElementView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:49:38.115Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 89,
-              "Title": "WebsiteSettingsView.xaml",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\WebsiteSettingsView.xaml",
-              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Editor\\WebsiteSettingsView.xaml",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\WebsiteSettingsView.xaml",
-              "RelativeToolTip": "CMSBuilder\\Views\\Editor\\WebsiteSettingsView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T15:07:13.158Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 90,
-              "Title": "WebsiteEditorView.xaml",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\WebsiteEditorView.xaml",
-              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Editor\\WebsiteEditorView.xaml",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\WebsiteEditorView.xaml",
-              "RelativeToolTip": "CMSBuilder\\Views\\Editor\\WebsiteEditorView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T15:07:12.065Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 93,
-              "Title": "ThemeSettingsView.xaml",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\ThemeSettingsView.xaml",
-              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Editor\\ThemeSettingsView.xaml",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\ThemeSettingsView.xaml",
-              "RelativeToolTip": "CMSBuilder\\Views\\Editor\\ThemeSettingsView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:49:05.211Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 92,
-              "Title": "ToolboxView.xaml",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\ToolboxView.xaml",
-              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Editor\\ToolboxView.xaml",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\ToolboxView.xaml",
-              "RelativeToolTip": "CMSBuilder\\Views\\Editor\\ToolboxView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:49:09.39Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 91,
-              "Title": "TopBarView.xaml",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\TopBarView.xaml",
-              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Editor\\TopBarView.xaml",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\TopBarView.xaml",
-              "RelativeToolTip": "CMSBuilder\\Views\\Editor\\TopBarView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:49:11.511Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 94,
-              "Title": "SiteMembersView.xaml",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\SiteMembersView.xaml",
-              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Editor\\SiteMembersView.xaml",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\SiteMembersView.xaml",
-              "RelativeToolTip": "CMSBuilder\\Views\\Editor\\SiteMembersView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:49:01.123Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 95,
-              "Title": "PropertiesPanelView.xaml",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\PropertiesPanelView.xaml",
-              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Editor\\PropertiesPanelView.xaml",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\PropertiesPanelView.xaml",
-              "RelativeToolTip": "CMSBuilder\\Views\\Editor\\PropertiesPanelView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:48:57.53Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 96,
-              "Title": "PageTabsView.xaml",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\PageTabsView.xaml",
-              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Editor\\PageTabsView.xaml",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\PageTabsView.xaml",
-              "RelativeToolTip": "CMSBuilder\\Views\\Editor\\PageTabsView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:48:47.305Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 97,
-              "Title": "OrganizationPanelView.xaml",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\OrganizationPanelView.xaml",
-              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Editor\\OrganizationPanelView.xaml",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\OrganizationPanelView.xaml",
-              "RelativeToolTip": "CMSBuilder\\Views\\Editor\\OrganizationPanelView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:48:39.901Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 98,
-              "Title": "EditorCanvasView.xaml",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\EditorCanvasView.xaml",
-              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Editor\\EditorCanvasView.xaml",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\EditorCanvasView.xaml",
-              "RelativeToolTip": "CMSBuilder\\Views\\Editor\\EditorCanvasView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:48:33.772Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 99,
-              "Title": "WebsiteCardView.xaml",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Dashboard\\WebsiteCardView.xaml",
-              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Dashboard\\WebsiteCardView.xaml",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Dashboard\\WebsiteCardView.xaml",
-              "RelativeToolTip": "CMSBuilder\\Views\\Dashboard\\WebsiteCardView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:48:28.087Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 100,
-              "Title": "FilterPanelView.xaml",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Dashboard\\FilterPanelView.xaml",
-              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Dashboard\\FilterPanelView.xaml",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Dashboard\\FilterPanelView.xaml",
-              "RelativeToolTip": "CMSBuilder\\Views\\Dashboard\\FilterPanelView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:48:23.096Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 101,
-              "Title": "DashboardView.xaml",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Dashboard\\DashboardView.xaml",
-              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Dashboard\\DashboardView.xaml",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Dashboard\\DashboardView.xaml",
-              "RelativeToolTip": "CMSBuilder\\Views\\Dashboard\\DashboardView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:48:19.691Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 102,
-              "Title": "RegisterView.xaml",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Auth\\RegisterView.xaml",
-              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Auth\\RegisterView.xaml",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Auth\\RegisterView.xaml",
-              "RelativeToolTip": "CMSBuilder\\Views\\Auth\\RegisterView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:47:17.876Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 103,
-              "Title": "LoginView.xaml",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Auth\\LoginView.xaml",
-              "RelativeDocumentMoniker": "CMSBuilder\\Views\\Auth\\LoginView.xaml",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Auth\\LoginView.xaml",
-              "RelativeToolTip": "CMSBuilder\\Views\\Auth\\LoginView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:47:08.582Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 104,
-              "Title": "App.xaml",
-              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\App.xaml",
-              "RelativeDocumentMoniker": "CMSBuilder\\App.xaml",
-              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\App.xaml",
-              "RelativeToolTip": "CMSBuilder\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:47:27.683Z"
             },
             {
               "$type": "Document",

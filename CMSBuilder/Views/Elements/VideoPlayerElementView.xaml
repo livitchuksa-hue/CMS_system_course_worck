@@ -1,0 +1,20 @@
+<UserControl x:Class="CMSBuilder.Views.Elements.VideoPlayerElementView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             MinWidth="200" MinHeight="120">
+    <Border Background="#000000" CornerRadius="8" BorderBrush="#D8E0DC" BorderThickness="1">
+        <Grid>
+            <TextBlock Text="HTML5 Video"
+                       Foreground="White"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       FontWeight="SemiBold" />
+            <StackPanel VerticalAlignment="Bottom" Margin="8" Orientation="Horizontal">
+                <TextBlock Text="controls" Foreground="#AAA" FontSize="10" Margin="0,0,8,0"
+                           Visibility="{Binding Properties.VideoControls, Converter={StaticResource BoolToVis}}" />
+                <TextBlock Text="autoplay" Foreground="#AAA" FontSize="10" Margin="0,0,8,0"
+                           Visibility="{Binding Properties.VideoAutoplay, Converter={StaticResource BoolToVis}}" />
+            </StackPanel>
+        </Grid>
+    </Border>
+</UserControl>

@@ -29,6 +29,8 @@ public class WebsiteExportService
             .Where(e => pages.Select(p => p.Id).Contains(e.PageId))
             .ToList();
 
+        ComplexElementService.HydrateAll(allElements);
+
         var folder = FileHelper.GetWebsiteExportFolder(website.Id, website.Slug);
 
         var allComments = db.PageComments.Where(c => pages.Select(p => p.Id).Contains(c.PageId)).ToList();

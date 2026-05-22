@@ -24,6 +24,13 @@ public class ElementPropertiesDto : NotifyDto
     private string? _gap;
     private bool _allowComments;
     private int? _maxComments;
+    private string? _videoUrl;
+    private string? _videoPosterUrl;
+    private bool _videoAutoplay;
+    private bool _videoControls = true;
+    private bool _videoLoop;
+    private bool _showCommentAuthor = true;
+    private bool _showCommentDate = true;
 
     public string? Text { get => _text; set => SetField(ref _text, value); }
     public string? Description { get => _description; set => SetField(ref _description, value); }
@@ -53,6 +60,15 @@ public class ElementPropertiesDto : NotifyDto
     public string? Gap { get => _gap; set => SetField(ref _gap, value); }
     public bool AllowComments { get => _allowComments; set => SetField(ref _allowComments, value); }
     public int? MaxComments { get => _maxComments; set => SetField(ref _maxComments, value); }
+
+    /// <summary>URL видео (вставка iframe или HTML5-плеер).</summary>
+    public string? VideoUrl { get => _videoUrl; set => SetField(ref _videoUrl, value); }
+    public string? VideoPosterUrl { get => _videoPosterUrl; set => SetField(ref _videoPosterUrl, value); }
+    public bool VideoAutoplay { get => _videoAutoplay; set => SetField(ref _videoAutoplay, value); }
+    public bool VideoControls { get => _videoControls; set => SetField(ref _videoControls, value); }
+    public bool VideoLoop { get => _videoLoop; set => SetField(ref _videoLoop, value); }
+    public bool ShowCommentAuthor { get => _showCommentAuthor; set => SetField(ref _showCommentAuthor, value); }
+    public bool ShowCommentDate { get => _showCommentDate; set => SetField(ref _showCommentDate, value); }
 
     public List<NavItemDto>? NavItems { get; set; }
     public List<string>? GalleryImages { get; set; }

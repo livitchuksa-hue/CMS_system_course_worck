@@ -14,7 +14,7 @@
                 <Button Tag="Image" Content="Image" Style="{StaticResource ToolboxItemButton}" PreviewMouseLeftButtonDown="ToolboxItem_PreviewMouseLeftButtonDown" />
                 <Button Tag="Divider" Content="Divider" Style="{StaticResource ToolboxItemButton}" PreviewMouseLeftButtonDown="ToolboxItem_PreviewMouseLeftButtonDown" />
                 <Button Tag="Container" Content="Container" Style="{StaticResource ToolboxItemButton}" PreviewMouseLeftButtonDown="ToolboxItem_PreviewMouseLeftButtonDown" />
-                <Button Tag="Card" Content="Card" Style="{StaticResource ToolboxItemButton}" PreviewMouseLeftButtonDown="ToolboxItem_PreviewMouseLeftButtonDown" />
+                <Button Tag="VideoEmbed" Content="Video embed" Style="{StaticResource ToolboxItemButton}" PreviewMouseLeftButtonDown="ToolboxItem_PreviewMouseLeftButtonDown" />
                 <TextBlock Text="Functional" Style="{StaticResource SectionHeader}" Margin="0,16,0,12" />
                 <Button Tag="Button" Content="Button" Style="{StaticResource ToolboxItemButton}" PreviewMouseLeftButtonDown="ToolboxItem_PreviewMouseLeftButtonDown" />
                 <Button Tag="Input" Content="Input" Style="{StaticResource ToolboxItemButton}" PreviewMouseLeftButtonDown="ToolboxItem_PreviewMouseLeftButtonDown" />
@@ -26,7 +26,10 @@
                 <Button Tag="Gallery" Content="Gallery" Style="{StaticResource ToolboxItemButton}" PreviewMouseLeftButtonDown="ToolboxItem_PreviewMouseLeftButtonDown" />
                 <Button Tag="Slider" Content="Slider" Style="{StaticResource ToolboxItemButton}" PreviewMouseLeftButtonDown="ToolboxItem_PreviewMouseLeftButtonDown" />
                 <Button Tag="FAQ" Content="FAQ" Style="{StaticResource ToolboxItemButton}" PreviewMouseLeftButtonDown="ToolboxItem_PreviewMouseLeftButtonDown" />
-                <Button Tag="CommentsBlock" Content="Comments" Style="{StaticResource ToolboxItemButton}" PreviewMouseLeftButtonDown="ToolboxItem_PreviewMouseLeftButtonDown" />
+                <Button Tag="Card" Content="Card" Style="{StaticResource ToolboxItemButton}" PreviewMouseLeftButtonDown="ToolboxItem_PreviewMouseLeftButtonDown" />
+                <Button Tag="VideoPlayer" Content="Video player" Style="{StaticResource ToolboxItemButton}" PreviewMouseLeftButtonDown="ToolboxItem_PreviewMouseLeftButtonDown" />
+                <Button Tag="CommentsBlock" Content="Comments (add)" Style="{StaticResource ToolboxItemButton}" PreviewMouseLeftButtonDown="ToolboxItem_PreviewMouseLeftButtonDown" />
+                <Button Tag="CommentsViewer" Content="Comments (view)" Style="{StaticResource ToolboxItemButton}" PreviewMouseLeftButtonDown="ToolboxItem_PreviewMouseLeftButtonDown" />
             </StackPanel>
         </ScrollViewer>
     </Border>
