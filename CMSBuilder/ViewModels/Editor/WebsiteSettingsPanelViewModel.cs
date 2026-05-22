@@ -1,4 +1,5 @@
 using System.Collections.ObjectModel;
+using System.Windows;
 using CMSBuilder.Core;
 using CMSBuilder.Helpers;
 using CMSBuilder.Models;
@@ -13,7 +14,9 @@ public class WebsiteSettingsPanelViewModel : BaseViewModel
     private readonly PageService _pages;
     private readonly int _websiteId;
     private readonly Action _onSaved;
+    private readonly Action? _onDeleted;
     private readonly bool _canSave;
+    private readonly bool _canDelete;
 
     private string _siteTitle = string.Empty;
     private string _metaDescription = string.Empty;
@@ -27,11 +30,13 @@ public class WebsiteSettingsPanelViewModel : BaseViewModel
     private string _selectedPreset = "960 × 640";
     private string _statusMessage = string.Empty;
 
-    public WebsiteSettingsPanelViewModel(int websiteId, Action onSaved, bool canSave = true)
+    public WebsiteSettingsPanelViewModel(int websiteId, Action onSaved, Action? onDeleted = null, bool canSave = true, bool canDelete = false)
     {
         _websiteId = websiteId;
         _onSaved = onSaved;
+        _onDeleted = onDeleted;
         _canSave = canSave;
+        _canDelete = canDelete;
         _websites = App.Websites;
         _pages = App.Pages;
 
@@ -49,6 +54,7 @@ public class WebsiteSettingsPanelViewModel : BaseViewModel
         ApplyPresetCommand = new RelayCommand(ApplyPreset, () => _canSave);
         SyncSlugFromTitleCommand = new RelayCommand(() => Slug = WebsiteService.Slugify(SiteTitle), () => _canSave);
         RefreshCommentsCommand = new RelayCommand(LoadSiteComments);
+        DeleteWebsiteCommand = new RelayCommand(DeleteWebsite, () => _canDelete);
 
         Load();
     }
@@ -57,6 +63,7 @@ public class WebsiteSettingsPanelViewModel : BaseViewModel
     public ObservableCollection<SiteCommentRowViewModel> SiteComments { get; }
     public ObservableCollection<string> SizePresets { get; }
     public bool CanSave => _canSave;
+    public bool CanDeleteWebsite => _canDelete;
 
     public string SiteTitle
     {
@@ -128,6 +135,7 @@ public class WebsiteSettingsPanelViewModel : BaseViewModel
     public RelayCommand ApplyPresetCommand { get; }
     public RelayCommand SyncSlugFromTitleCommand { get; }
     public RelayCommand RefreshCommentsCommand { get; }
+    public RelayCommand DeleteWebsiteCommand { get; }
 
     public void ReloadPages()
     {
@@ -207,6 +215,33 @@ public class WebsiteSettingsPanelViewModel : BaseViewModel
 
         StatusMessage = "Настройки сохранены.";
         _onSaved();
+    }
+
+    private void DeleteWebsite()
+    {
+        if (!_canDelete) return;
+
+        var result = MessageBox.Show(
+            $"Удалить сайт «{SiteTitle}»?\nВсе страницы, элементы и комментарии будут удалены безвозвратно.",
+            "Удаление сайта",
+            MessageBoxButton.YesNo,
+            MessageBoxImage.Warning);
+        if (result != MessageBoxResult.Yes) return;
+
+        var userId = SessionContext.CurrentUser?.Id;
+        if (userId == null)
+        {
+            StatusMessage = "Пользователь не авторизован.";
+            return;
+        }
+
+        if (!_websites.DeleteWebsite(_websiteId, userId.Value))
+        {
+            StatusMessage = "Не удалось удалить сайт. Доступно только владельцу.";
+            return;
+        }
+
+        _onDeleted?.Invoke();
     }
 }
 

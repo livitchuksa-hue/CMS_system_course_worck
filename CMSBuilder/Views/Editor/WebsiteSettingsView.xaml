@@ -136,7 +136,20 @@
             <Button Content="Сохранить настройки"
                     Style="{StaticResource PrimaryButton}"
                     Command="{Binding SaveCommand}"
-                    IsEnabled="{Binding CanSave}" />
+                    IsEnabled="{Binding CanSave}"
+                    Margin="0,0,0,12" />
+
+            <Border Style="{StaticResource CardBorder}" Margin="0,0,0,0"
+                    Visibility="{Binding CanDeleteWebsite, Converter={StaticResource BoolToVis}}">
+                <StackPanel>
+                    <TextBlock Text="Опасная зона" Style="{StaticResource SectionHeader}" />
+                    <TextBlock Text="Сайт будет полностью удалён из базы данных."
+                               Style="{StaticResource CaptionText}" TextWrapping="Wrap" Margin="0,0,0,12" />
+                    <Button Content="Удалить сайт"
+                            Style="{StaticResource DangerButton}"
+                            Command="{Binding DeleteWebsiteCommand}" />
+                </StackPanel>
+            </Border>
         </StackPanel>
     </ScrollViewer>
 </UserControl>

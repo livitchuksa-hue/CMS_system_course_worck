@@ -81,7 +81,8 @@ public class WebsiteEditorViewModel : BaseViewModel
         AddCommentCommand = new RelayCommand(AddComment, () => IsCommentsSelected && SelectedPage != null);
         RefreshCommentsCommand = new RelayCommand(LoadBlockComments, () => IsCommentsSelected);
         OpenAccountCommand = Account.ToggleCommand;
-        Settings = new WebsiteSettingsPanelViewModel(_websiteId, OnSettingsSaved, CanChangeSettings);
+        var canDeleteWebsite = _roleCode == "owner";
+        Settings = new WebsiteSettingsPanelViewModel(_websiteId, OnSettingsSaved, OnWebsiteDeleted, CanChangeSettings, canDeleteWebsite);
         Organization = new OrganizationPanelViewModel(_websiteId, msg => StatusMessage = msg, GoBack);
         ToggleSettingsCommand = new RelayCommand(() =>
         {
@@ -136,6 +137,9 @@ public class WebsiteEditorViewModel : BaseViewModel
         get => _selectedElement;
         set
         {
+            if (_selectedElement != null && !ReferenceEquals(_selectedElement, value))
+                SaveElementToDb(_selectedElement);
+
             if (_selectedElement != null)
                 _selectedElement.PropertyChanged -= OnSelectedElementPropertyChanged;
 
@@ -148,6 +152,7 @@ public class WebsiteEditorViewModel : BaseViewModel
                 OnPropertyChanged(nameof(IsHeaderSelected));
                 OnPropertyChanged(nameof(IsImageSelected));
                 OnPropertyChanged(nameof(IsButtonSelected));
+                OnPropertyChanged(nameof(IsCardSelected));
                 OnPropertyChanged(nameof(IsInputSelected));
                 OnPropertyChanged(nameof(IsContainerSelected));
                 OnPropertyChanged(nameof(IsNavbarSelected));
@@ -444,11 +449,18 @@ public class WebsiteEditorViewModel : BaseViewModel
     public void PersistSelectedElementProperties()
     {
         if (SelectedElement == null) return;
-        SelectedElement.SyncToModel();
-        _elementService.SaveElement(SelectedElement.Model);
+        SaveElementToDb(SelectedElement);
     }
 
     public void PersistSelectedElement() => PersistSelectedElementProperties();
+
+    public void SaveDraggedElement(CanvasElementViewModel element) => SaveElementToDb(element);
+
+    private void SaveElementToDb(CanvasElementViewModel element)
+    {
+        element.SyncToModel();
+        _elementService.SaveElement(element.Model);
+    }
 
     private void LoadWebsite()
     {
@@ -480,6 +492,17 @@ public class WebsiteEditorViewModel : BaseViewModel
                 tab.Name = item.Name;
         }
         IsSettingsOpen = false;
+    }
+
+    private void OnWebsiteDeleted()
+    {
+        IsSettingsOpen = false;
+        if (SessionContext.CurrentWebsite?.Id == _websiteId)
+            SessionContext.CurrentWebsite = null;
+        _navigation.Navigate(new Views.Dashboard.DashboardView
+        {
+            DataContext = new DashboardViewModel(_navigation)
+        });
     }
 
     private void ApplyCanvasFromSettings()
@@ -593,7 +616,7 @@ public class WebsiteEditorViewModel : BaseViewModel
         {
             Id = SelectedElement.Model.ActionId ?? 0,
             WebsiteId = _websiteId,
-            Name = $"Action for button {SelectedElement.Id}",
+            Name = $"Action for {SelectedElement.Type} #{SelectedElement.Id}",
             ActionType = ButtonActionType,
             TargetPageId = ButtonActionType == ActionType.NavigateToPage ? ButtonTargetPageId : null,
             TargetElementId = ButtonActionType == ActionType.SubmitForm ? ButtonTargetElementId : null,
@@ -605,67 +628,66 @@ public class WebsiteEditorViewModel : BaseViewModel
         SelectedElement.Model.Action = action;
         SelectedElement.SyncToModel();
         _elementService.SaveElement(SelectedElement.Model);
-        StatusMessage = "Действие кнопки сохранено.";
+        StatusMessage = SelectedElement.Type == ElementType.Card
+            ? "Действие карточки сохранено."
+            : "Действие кнопки сохранено.";
     }
 
     private void SaveProject()
     {
         if (!CanEdit) return;
         PersistAll();
-
-        try
-        {
-            var folder = App.Export.ExportWebsite(_websiteId);
-            _websiteService.UpdateExportPath(_websiteId, folder);
-            StatusMessage = $"Сохранено в БД. Экспорт: {folder}";
-            MessageBox.Show($"Сайт сохранён и экспортирован в:\n{folder}", "Сохранение", MessageBoxButton.OK, MessageBoxImage.Information);
-        }
-        catch (Exception ex)
-        {
-            StatusMessage = ex.Message;
-            MessageBox.Show(ex.Message, "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
-        }
+        StatusMessage = "Проект сохранён в базе данных.";
+        MessageBox.Show("Все изменения сохранены в базе данных.", "Сохранение",
+            MessageBoxButton.OK, MessageBoxImage.Information);
     }
 
     private void LaunchSite()
     {
         try
         {
-            var website = _websiteService.GetById(_websiteId);
-            string? folder = website?.LastExportPath;
-            if (string.IsNullOrEmpty(folder) || !Directory.Exists(folder))
+            if (!CanEdit)
             {
-                if (!CanEdit)
+                var website = _websiteService.GetById(_websiteId);
+                var folder = website?.LastExportPath;
+                if (string.IsNullOrEmpty(folder) || !Directory.Exists(folder))
                 {
-                    MessageBox.Show("Сайт ещё не публиковался. Попросите редактора сохранить проект.", "Запуск",
+                    MessageBox.Show("Сайт ещё не публиковался. Попросите редактора сохранить и запустить проект.", "Запуск",
                         MessageBoxButton.OK, MessageBoxImage.Information);
                     return;
                 }
-                PersistAll();
-                folder = App.Export.ExportWebsite(_websiteId);
-                _websiteService.UpdateExportPath(_websiteId, folder);
-            }
-
-            var index = Path.Combine(folder, "index.html");
-            if (!File.Exists(index))
-            {
-                MessageBox.Show("Файл index.html не найден. Сохраните проект.", "Запуск",
-                    MessageBoxButton.OK, MessageBoxImage.Warning);
+                OpenExportedSite(folder);
                 return;
             }
 
-            System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
-            {
-                FileName = index,
-                UseShellExecute = true
-            });
-            StatusMessage = "Сайт открыт в браузере.";
+            PersistAll();
+            var exportFolder = App.Export.ExportWebsite(_websiteId);
+            _websiteService.UpdateExportPath(_websiteId, exportFolder);
+            OpenExportedSite(exportFolder);
+            StatusMessage = "Сайт экспортирован из БД и открыт в браузере.";
         }
         catch (Exception ex)
         {
             StatusMessage = ex.Message;
             MessageBox.Show(ex.Message, "Ошибка запуска", MessageBoxButton.OK, MessageBoxImage.Error);
         }
+    }
+
+    private static void OpenExportedSite(string folder)
+    {
+        var index = Path.Combine(folder, "index.html");
+        if (!File.Exists(index))
+        {
+            MessageBox.Show("Файл index.html не найден.", "Запуск",
+                MessageBoxButton.OK, MessageBoxImage.Warning);
+            return;
+        }
+
+        System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
+        {
+            FileName = index,
+            UseShellExecute = true
+        });
     }
 
     private void AddPage()
@@ -680,6 +702,8 @@ public class WebsiteEditorViewModel : BaseViewModel
 
     private void GoBack()
     {
+        if (CanEdit)
+            PersistAll();
         _navigation.Navigate(new Views.Dashboard.DashboardView
         {
             DataContext = new DashboardViewModel(_navigation)

@@ -20,13 +20,6 @@ E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\El
 E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Elements\InputElementView.baml
 E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Elements\NavbarElementView.baml
 E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Elements\TextElementView.baml
-E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Properties\ButtonPropertiesView.baml
-E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Properties\ContainerPropertiesView.baml
-E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Properties\GalleryPropertiesView.baml
-E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Properties\ImagePropertiesView.baml
-E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Properties\InputPropertiesView.baml
-E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Properties\NavbarPropertiesView.baml
-E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Properties\TextPropertiesView.baml
 E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\MainWindow.g.cs
 E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Auth\LoginView.g.cs
 E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Auth\RegisterView.g.cs
@@ -52,13 +45,6 @@ E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\El
 E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Elements\InputElementView.g.cs
 E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Elements\NavbarElementView.g.cs
 E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Elements\TextElementView.g.cs
-E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Properties\ButtonPropertiesView.g.cs
-E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Properties\ContainerPropertiesView.g.cs
-E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Properties\GalleryPropertiesView.g.cs
-E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Properties\ImagePropertiesView.g.cs
-E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Properties\InputPropertiesView.g.cs
-E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Properties\NavbarPropertiesView.g.cs
-E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Properties\TextPropertiesView.g.cs
 E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\App.g.cs
 E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\CMSBuilder_MarkupCompile.cache
@@ -206,3 +192,6 @@ e:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\El
 e:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Elements\TextAreaElementView.g.cs
 e:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Elements\CardElementView.baml
 e:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Elements\CardElementView.g.cs
+E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Editor\ElementActionEditorView.baml
+E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\Views\Editor\ElementActionEditorView.g.cs
+E:\Курсовая бд\CMS_System\CMSBuilder\obj\Debug\net8.0-windows\CMSBuilder.sourcelink.json

@@ -17,4 +17,5 @@ public class WebsiteCardViewModel : BaseViewModel
     public string Name => Website.Name;
     public string Role { get; }
     public string RoleCode { get; }
+    public string CreatedAtText => Website.CreatedAt.ToLocalTime().ToString("dd.MM.yyyy HH:mm");
 }

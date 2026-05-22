@@ -41,4 +41,8 @@ body { margin: 0; font-family: Segoe UI, sans-serif; color: #1A2420; background:
 .comments-form textarea { min-height: 60px; }
 .faq-el details { margin-bottom: 8px; }
 .footer-el { text-align: center; padding: 16px; }
-#el-7 { position:absolute;left:311px;top:80.98000000000002px;width:220px;height:260px;font-family:Arial;background-color:#FFFFFF;padding:0;border-radius:10px;border-color:#D8E0DC;border-width:1px;border-style:solid }
+#el-7 { position:absolute;left:515px;top:192.98000000000002px;width:220px;height:260px;font-family:Arial;background-color:#FFFFFF;padding:0;border-radius:10px;border-color:#D8E0DC;border-width:1px;border-style:solid }
+#el-8 { position:absolute;left:212px;top:245.98000000000002px;width:200px;font-size:16px;color:#1A2420 }
+#el-9 { position:absolute;left:233px;top:4.980000000000018px;width:320px;font-size:28px;color:#1A2420;font-weight:600 }
+#el-10 { position:absolute;left:256px;top:402.98px;width:160px;height:40px }
+#el-14 { position:absolute;left:453px;top:257.98px;width:320px;font-size:28px;color:#1A2420;font-weight:600 }

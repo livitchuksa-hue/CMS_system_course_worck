@@ -17,7 +17,7 @@
             </StackPanel>
         </Border>
 
-        <Grid Grid.Column="1">
+        <Grid Grid.Column="1" Background="{StaticResource WorkspaceBrush}">
             <Border Style="{StaticResource CardBorder}" Width="400" Padding="32"
                     VerticalAlignment="Center" HorizontalAlignment="Center">
                 <StackPanel>

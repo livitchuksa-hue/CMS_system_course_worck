@@ -6,6 +6,7 @@
     <Color x:Key="SurfaceColor">#F6F8F7</Color>
     <Color x:Key="SurfaceMutedColor">#E4EAE7</Color>
     <Color x:Key="CanvasColor">#F2F5F4</Color>
+    <Color x:Key="WorkspaceColor">#303030</Color>
     <Color x:Key="BorderColor">#C5CEC8</Color>
     <Color x:Key="BorderStrongColor">#A8B4AC</Color>
 
@@ -26,6 +27,7 @@
     <SolidColorBrush x:Key="SurfaceBrush" Color="{StaticResource SurfaceColor}" />
     <SolidColorBrush x:Key="SurfaceMutedBrush" Color="{StaticResource SurfaceMutedColor}" />
     <SolidColorBrush x:Key="CanvasBrush" Color="{StaticResource CanvasColor}" />
+    <SolidColorBrush x:Key="WorkspaceBrush" Color="{StaticResource WorkspaceColor}" />
     <SolidColorBrush x:Key="BorderBrush" Color="{StaticResource BorderColor}" />
     <SolidColorBrush x:Key="BorderStrongBrush" Color="{StaticResource BorderStrongColor}" />
 

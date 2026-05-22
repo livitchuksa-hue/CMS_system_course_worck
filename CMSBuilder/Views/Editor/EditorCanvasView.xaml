@@ -1,14 +1,14 @@
 <UserControl x:Class="CMSBuilder.Views.Editor.EditorCanvasView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             Background="{StaticResource BackgroundBrush}"
+             Background="{StaticResource WorkspaceBrush}"
              AllowDrop="True"
              Drop="EditorCanvas_Drop"
              DragOver="EditorCanvas_DragOver">
 
     <Grid Margin="16">
-        <Border Background="{StaticResource CanvasBrush}"
-                BorderBrush="{StaticResource BorderBrush}"
+        <Border Background="{StaticResource WorkspaceBrush}"
+                BorderBrush="{StaticResource BorderStrongBrush}"
                 BorderThickness="1"
                 CornerRadius="10">
             <ScrollViewer x:Name="CanvasScroll" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">

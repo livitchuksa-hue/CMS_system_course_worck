@@ -80,8 +80,7 @@ public static class EditorCanvasInteraction
             if (container != null && container != _dragElement && !IsDescendant(_dragElement, container))
                 vm.AttachToContainer(_dragElement, container, relX, relY);
 
-            _dragElement.SyncToModel();
-            vm.PersistSelectedElement();
+            vm.SaveDraggedElement(_dragElement);
         }
 
         _isDragging = false;

@@ -1,5 +1,6 @@
 using CMSBuilder.Core;
 using CMSBuilder.Data;
+using CMSBuilder.Helpers;
 using CMSBuilder.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -148,5 +149,49 @@ public class WebsiteService
         slug = string.Concat(slug.Select(c => char.IsLetterOrDigit(c) ? c : '-'));
         while (slug.Contains("--")) slug = slug.Replace("--", "-");
         return string.IsNullOrWhiteSpace(slug) ? "site" : slug.Trim('-');
+    }
+
+    public bool DeleteWebsite(int websiteId, int userId)
+    {
+        using var db = new AppDbContext();
+        var website = db.Websites.FirstOrDefault(w => w.Id == websiteId);
+        if (website == null || website.OwnerId != userId)
+            return false;
+
+        var pageIds = db.Pages.Where(p => p.WebsiteId == websiteId).Select(p => p.Id).ToList();
+        if (pageIds.Count > 0)
+        {
+            db.PageComments.RemoveRange(db.PageComments.Where(c => pageIds.Contains(c.PageId)));
+            db.PageElements.RemoveRange(db.PageElements.Where(e => pageIds.Contains(e.PageId)));
+        }
+
+        db.ElementActions.RemoveRange(db.ElementActions.Where(a => a.WebsiteId == websiteId));
+        db.Pages.RemoveRange(db.Pages.Where(p => p.WebsiteId == websiteId));
+        db.WebsiteUserRoles.RemoveRange(db.WebsiteUserRoles.Where(ur => ur.WebsiteId == websiteId));
+        db.Invitations.RemoveRange(db.Invitations.Where(i => i.WebsiteId == websiteId));
+        db.VisitStatistics.RemoveRange(db.VisitStatistics.Where(v => v.WebsiteId == websiteId));
+        db.WebsiteSettings.RemoveRange(db.WebsiteSettings.Where(s => s.WebsiteId == websiteId));
+        db.SiteThemes.RemoveRange(db.SiteThemes.Where(t => t.WebsiteId == websiteId));
+        db.Websites.Remove(website);
+        db.SaveChanges();
+
+        TryDeleteExportFolder(website);
+        return true;
+    }
+
+    private static void TryDeleteExportFolder(Website website)
+    {
+        try
+        {
+            var folder = !string.IsNullOrWhiteSpace(website.LastExportPath) && Directory.Exists(website.LastExportPath)
+                ? website.LastExportPath
+                : FileHelper.GetWebsiteExportFolder(website.Id, website.Slug);
+            if (Directory.Exists(folder))
+                Directory.Delete(folder, recursive: true);
+        }
+        catch
+        {
+            // Экспорт не обязателен для удаления из БД.
+        }
     }
 }

@@ -37,7 +37,8 @@
             </Border>
         </Popup>
 
-        <ScrollViewer Style="{StaticResource AppScrollViewer}" Padding="24">
+        <ScrollViewer Style="{StaticResource AppScrollViewer}" Padding="24"
+                      Background="{StaticResource WorkspaceBrush}">
             <ItemsControl ItemsSource="{Binding Websites}">
                 <ItemsControl.ItemsPanel>
                     <ItemsPanelTemplate>
@@ -58,7 +59,7 @@
                                     <Border Grid.Row="0" CornerRadius="10,10,0,0" Background="{StaticResource SurfaceMutedBrush}" />
                                     <StackPanel Grid.Row="1" Margin="14">
                                         <TextBlock Text="{Binding Name}" Style="{StaticResource Heading3Text}" />
-                                        <TextBlock Text="{Binding Id, StringFormat=ID: {0}}" Style="{StaticResource CaptionText}" Margin="0,6,0,0" />
+                                        <TextBlock Text="{Binding CreatedAtText}" Style="{StaticResource CaptionText}" Margin="0,6,0,0" />
                                         <Border Style="{StaticResource AccentBadge}" Margin="0,10,0,0">
                                             <TextBlock Text="{Binding Role}" Style="{StaticResource AccentBadgeText}" />
                                         </Border>
