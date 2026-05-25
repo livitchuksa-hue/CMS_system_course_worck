@@ -1,5 +1,6 @@
 using CMSBuilder.Helpers;
 using CMSBuilder.Models;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 
 namespace CMSBuilder.Data;
@@ -8,9 +9,20 @@ public static class DbInitializer
 {
     public static void Initialize()
     {
-        using var db = new AppDbContext();
-        EnsureDatabaseReady(db);
-        Seed(db);
+        try
+        {
+            using var db = new AppDbContext();
+            EnsureDatabaseReady(db);
+            Seed(db);
+        }
+        catch (SqlException ex)
+        {
+            throw new InvalidOperationException(
+                "Не удалось подключиться к MS SQL Server. Проверьте, что служба SQL Server или LocalDB запущена, " +
+                "база доступна и строка подключения в appsettings.json верна.\n\n" +
+                $"Строка: {MaskConnectionString(DatabaseSettings.GetConnectionString())}\n\n" +
+                $"Ошибка: {ex.Message}", ex);
+        }
     }
 
     private static void EnsureDatabaseReady(AppDbContext db)
@@ -45,17 +57,16 @@ public static class DbInitializer
         try
         {
             _ = db.Roles.Any();
-            db.Database.ExecuteSqlRaw("SELECT 1 FROM PageElements LIMIT 1");
-            db.Database.ExecuteSqlRaw("SELECT 1 FROM WebsiteSettings LIMIT 1");
-            db.Database.ExecuteSqlRaw("SELECT PageWidth FROM WebsiteSettings LIMIT 1");
-            db.Database.ExecuteSqlRaw("SELECT 1 FROM SiteThemes LIMIT 1");
-            db.Database.ExecuteSqlRaw("SELECT 1 FROM PageComments LIMIT 1");
-            db.Database.ExecuteSqlRaw("SELECT TargetElementId FROM ElementActions LIMIT 1");
-            db.Database.ExecuteSqlRaw("SELECT LastExportPath FROM Websites LIMIT 1");
-            db.Database.ExecuteSqlRaw("SELECT 1 FROM CardElementData LIMIT 1");
-            db.Database.ExecuteSqlRaw("SELECT 1 FROM VideoPlayerElementData LIMIT 1");
-            db.Database.ExecuteSqlRaw("SELECT 1 FROM CommentsViewerElementData LIMIT 1");
-            db.Database.ExecuteSqlRaw("SELECT SourceCommentsBlockId FROM CommentsViewerElementData LIMIT 1");
+            _ = db.PageElements.Any();
+            _ = db.WebsiteSettings.Any();
+            _ = db.SiteThemes.Any();
+            _ = db.PageComments.Any();
+            _ = db.ElementActions.Any();
+            _ = db.CardElementData.Any();
+            _ = db.VideoPlayerElementData.Any();
+            _ = db.CommentsViewerElementData.Any();
+            // Проверка новой колонки (если схема устарела — запрос упадёт)
+            db.Database.ExecuteSqlRaw("SELECT TOP 0 [SourceCommentsBlockId] FROM [CommentsViewerElementData]");
             return true;
         }
         catch
@@ -162,5 +173,17 @@ public static class DbInitializer
             })
         });
         db.SaveChanges();
+    }
+
+    private static string MaskConnectionString(string connectionString)
+    {
+        var parts = connectionString.Split(';', StringSplitOptions.RemoveEmptyEntries);
+        for (var i = 0; i < parts.Length; i++)
+        {
+            if (parts[i].StartsWith("Password=", StringComparison.OrdinalIgnoreCase) ||
+                parts[i].StartsWith("Pwd=", StringComparison.OrdinalIgnoreCase))
+                parts[i] = parts[i].Split('=')[0] + "=***";
+        }
+        return string.Join(';', parts);
     }
 }

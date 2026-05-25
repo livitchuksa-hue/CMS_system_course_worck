@@ -24,9 +24,8 @@ public class AppDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        var dbPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Database", "cms.db");
-        Directory.CreateDirectory(Path.GetDirectoryName(dbPath)!);
-        optionsBuilder.UseSqlite($"Data Source={dbPath}");
+        if (!optionsBuilder.IsConfigured)
+            optionsBuilder.UseSqlServer(DatabaseSettings.GetConnectionString());
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -37,50 +36,83 @@ public class AppDbContext : DbContext
             e.HasIndex(x => x.Email).IsUnique();
         });
 
+        // SQL Server: несколько CASCADE от Website к дочерним таблицам даёт «multiple cascade paths»
+        // (например Website → Pages → … и Website → ElementActions → TargetPage → Pages).
+        // Удаление сайта выполняется вручную в WebsiteService.DeleteWebsite.
         modelBuilder.Entity<Website>(e =>
         {
-            e.HasOne(x => x.Owner).WithMany(u => u.OwnedWebsites).HasForeignKey(x => x.OwnerId);
+            e.HasOne(x => x.Owner).WithMany(u => u.OwnedWebsites).HasForeignKey(x => x.OwnerId)
+                .OnDelete(DeleteBehavior.Restrict);
         });
 
         modelBuilder.Entity<WebsiteSettings>(e =>
         {
             e.HasIndex(x => x.WebsiteId).IsUnique();
-            e.HasOne(x => x.Website).WithOne(w => w.Settings).HasForeignKey<WebsiteSettings>(x => x.WebsiteId);
+            e.HasOne(x => x.Website).WithOne(w => w.Settings).HasForeignKey<WebsiteSettings>(x => x.WebsiteId)
+                .OnDelete(DeleteBehavior.NoAction);
         });
 
         modelBuilder.Entity<SiteTheme>(e =>
         {
             e.HasIndex(x => x.WebsiteId).IsUnique();
-            e.HasOne(x => x.Website).WithOne(w => w.Theme).HasForeignKey<SiteTheme>(x => x.WebsiteId);
+            e.HasOne(x => x.Website).WithOne(w => w.Theme).HasForeignKey<SiteTheme>(x => x.WebsiteId)
+                .OnDelete(DeleteBehavior.NoAction);
         });
 
         modelBuilder.Entity<Page>(e =>
         {
-            e.HasOne(x => x.Website).WithMany(w => w.Pages).HasForeignKey(x => x.WebsiteId);
+            e.HasOne(x => x.Website).WithMany(w => w.Pages).HasForeignKey(x => x.WebsiteId)
+                .OnDelete(DeleteBehavior.NoAction);
             e.HasIndex(x => new { x.WebsiteId, x.Slug }).IsUnique();
         });
 
         modelBuilder.Entity<PageElement>(e =>
         {
-            e.HasOne(x => x.Page).WithMany(p => p.Elements).HasForeignKey(x => x.PageId);
-            e.HasOne(x => x.Parent).WithMany(c => c.Children).HasForeignKey(x => x.ParentElementId);
-            e.HasOne(x => x.Action).WithMany(a => a.Elements).HasForeignKey(x => x.ActionId);
+            e.HasOne(x => x.Page).WithMany(p => p.Elements).HasForeignKey(x => x.PageId)
+                .OnDelete(DeleteBehavior.Cascade);
+            e.HasOne(x => x.Parent).WithMany(c => c.Children).HasForeignKey(x => x.ParentElementId)
+                .OnDelete(DeleteBehavior.Restrict);
+            e.HasOne(x => x.Action).WithMany(a => a.Elements).HasForeignKey(x => x.ActionId)
+                .OnDelete(DeleteBehavior.SetNull);
         });
 
         modelBuilder.Entity<ElementAction>(e =>
         {
-            e.HasOne(x => x.Website).WithMany(w => w.Actions).HasForeignKey(x => x.WebsiteId);
-            e.HasOne(x => x.TargetPage).WithMany().HasForeignKey(x => x.TargetPageId).OnDelete(DeleteBehavior.SetNull);
+            e.HasOne(x => x.Website).WithMany(w => w.Actions).HasForeignKey(x => x.WebsiteId)
+                .OnDelete(DeleteBehavior.NoAction);
+            e.HasOne(x => x.TargetPage).WithMany().HasForeignKey(x => x.TargetPageId)
+                .OnDelete(DeleteBehavior.SetNull);
         });
 
         modelBuilder.Entity<WebsiteUserRole>(e =>
         {
             e.HasIndex(x => new { x.WebsiteId, x.UserId }).IsUnique();
+            e.HasOne(x => x.Website).WithMany(w => w.UserRoles).HasForeignKey(x => x.WebsiteId)
+                .OnDelete(DeleteBehavior.NoAction);
+            e.HasOne(x => x.User).WithMany(u => u.WebsiteRoles).HasForeignKey(x => x.UserId)
+                .OnDelete(DeleteBehavior.NoAction);
+            e.HasOne(x => x.Role).WithMany(r => r.WebsiteUserRoles).HasForeignKey(x => x.RoleId)
+                .OnDelete(DeleteBehavior.Restrict);
+        });
+
+        modelBuilder.Entity<Invitation>(e =>
+        {
+            e.HasOne(x => x.Website).WithMany(w => w.Invitations).HasForeignKey(x => x.WebsiteId)
+                .OnDelete(DeleteBehavior.NoAction);
+            e.HasOne(x => x.Role).WithMany().HasForeignKey(x => x.RoleId)
+                .OnDelete(DeleteBehavior.Restrict);
+        });
+
+        modelBuilder.Entity<VisitStatistic>(e =>
+        {
+            e.HasOne(x => x.Website).WithMany(w => w.VisitStatistics).HasForeignKey(x => x.WebsiteId)
+                .OnDelete(DeleteBehavior.NoAction);
         });
 
         modelBuilder.Entity<PageComment>(e =>
         {
-            e.HasOne(x => x.Page).WithMany().HasForeignKey(x => x.PageId);
+            e.HasOne(x => x.Page).WithMany().HasForeignKey(x => x.PageId)
+                .OnDelete(DeleteBehavior.Cascade);
             e.HasIndex(x => new { x.PageId, x.ElementId });
         });
 
