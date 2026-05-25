@@ -12,7 +12,7 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 E:\Курсовая бд\CMS_System\CMSBuilder\App.xaml
 37615431525
 
-113813592786
+114-92885445
 217-2111878774
 MainWindow.xaml;Resources\Colors.xaml;Resources\Icons.xaml;Resources\Styles.xaml;Resources\Templates.xaml;Views\Auth\LoginView.xaml;Views\Auth\RegisterView.xaml;Views\Dashboard\DashboardView.xaml;Views\Dashboard\WebsiteCardView.xaml;Views\Editor\EditorCanvasView.xaml;Views\Editor\ElementActionEditorView.xaml;Views\Editor\OrganizationPanelView.xaml;Views\Editor\PageTabsView.xaml;Views\Editor\PropertiesPanelView.xaml;Views\Editor\ToolboxView.xaml;Views\Editor\TopBarView.xaml;Views\Editor\WebsiteEditorView.xaml;Views\Editor\WebsiteSettingsView.xaml;Views\Elements\ButtonElementView.xaml;Views\Elements\CardElementView.xaml;Views\Elements\CheckboxElementView.xaml;Views\Elements\CommentsBlockElementView.xaml;Views\Elements\CommentsViewerElementView.xaml;Views\Elements\ContainerElementView.xaml;Views\Elements\FooterElementView.xaml;Views\Elements\FormElementView.xaml;Views\Elements\GalleryElementView.xaml;Views\Elements\HeaderElementView.xaml;Views\Elements\ImageElementView.xaml;Views\Elements\InputElementView.xaml;Views\Elements\LinkElementView.xaml;Views\Elements\NavbarElementView.xaml;Views\Elements\TextAreaElementView.xaml;Views\Elements\TextElementView.xaml;Views\Elements\VideoEmbedElementView.xaml;Views\Elements\VideoPlayerElementView.xaml;Views\Properties\ElementCommonPropertiesView.xaml;
 

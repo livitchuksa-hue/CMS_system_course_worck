@@ -46,7 +46,8 @@ public static class ComplexElementService
                     Title = props.Text ?? "Комментарии",
                     MaxVisible = props.MaxComments ?? 50,
                     ShowAuthor = props.ShowCommentAuthor,
-                    ShowDate = props.ShowCommentDate
+                    ShowDate = props.ShowCommentDate,
+                    SourceCommentsBlockId = props.CommentsSourceElementId
                 });
                 break;
         }
@@ -100,6 +101,7 @@ public static class ComplexElementService
                     viewer.MaxVisible = props.MaxComments ?? 50;
                     viewer.ShowAuthor = props.ShowCommentAuthor;
                     viewer.ShowDate = props.ShowCommentDate;
+                    viewer.SourceCommentsBlockId = props.CommentsSourceElementId;
                 }
                 break;
         }
@@ -155,6 +157,7 @@ public static class ComplexElementService
                     props.MaxComments = viewer.MaxVisible;
                     props.ShowCommentAuthor = viewer.ShowAuthor;
                     props.ShowCommentDate = viewer.ShowDate;
+                    props.CommentsSourceElementId = viewer.SourceCommentsBlockId;
                     props.AllowComments = false;
                 }
                 break;

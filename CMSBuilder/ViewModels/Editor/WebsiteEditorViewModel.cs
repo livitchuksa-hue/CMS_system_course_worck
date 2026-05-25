@@ -3,6 +3,7 @@ using System.ComponentModel;
 using System.IO;
 using System.Windows;
 using CMSBuilder.Core;
+using CMSBuilder.Helpers;
 using CMSBuilder.Models;
 using CMSBuilder.Models.Dto;
 using CMSBuilder.Models.Enums;
@@ -36,6 +37,7 @@ public class WebsiteEditorViewModel : BaseViewModel
     private ObservableCollection<Page> _pagesForAction = new();
     private ObservableCollection<ElementRefOption> _formsOnPage = new();
     private ObservableCollection<ElementRefOption> _buttonsOnPage = new();
+    private ObservableCollection<ElementRefOption> _commentsBlocksOnPage = new();
     private ObservableCollection<PageComment> _blockComments = new();
     private string _newCommentAuthor = string.Empty;
     private string _newCommentText = string.Empty;
@@ -194,6 +196,12 @@ public class WebsiteEditorViewModel : BaseViewModel
     {
         get => _buttonsOnPage;
         set => SetProperty(ref _buttonsOnPage, value);
+    }
+
+    public ObservableCollection<ElementRefOption> CommentsBlocksOnPage
+    {
+        get => _commentsBlocksOnPage;
+        set => SetProperty(ref _commentsBlocksOnPage, value);
     }
 
     public ObservableCollection<PageComment> BlockComments
@@ -728,6 +736,9 @@ public class WebsiteEditorViewModel : BaseViewModel
         ButtonsOnPage = new ObservableCollection<ElementRefOption>(
             CanvasElements.Where(e => e.Type == ElementType.Button)
                 .Select(e => new ElementRefOption(e.Id, $"Кнопка #{e.Id} ({e.Properties.Text})")));
+        CommentsBlocksOnPage = new ObservableCollection<ElementRefOption>(
+            CanvasElements.Where(e => e.Type == ElementType.CommentsBlock)
+                .Select(e => new ElementRefOption(e.Id, $"Блок комментариев #{e.Id}")));
     }
 
     private void LoadGalleryImagesText()
@@ -814,15 +825,25 @@ public class WebsiteEditorViewModel : BaseViewModel
     {
         BlockComments.Clear();
         if (SelectedElement?.Type is not (ElementType.CommentsBlock or ElementType.CommentsViewer) || SelectedPage == null) return;
-        foreach (var c in App.Comments.GetForBlock(SelectedPage.Page.Id, SelectedElement.Id))
+        var sourceId = ResolveSelectedCommentsSourceId();
+        foreach (var c in App.Comments.GetForBlock(SelectedPage.Page.Id, sourceId))
             BlockComments.Add(c);
+    }
+
+    private int ResolveSelectedCommentsSourceId()
+    {
+        if (SelectedElement == null || SelectedPage == null)
+            return SelectedElement?.Id ?? 0;
+        var pageElements = CanvasElements.Select(e => e.Model).ToList();
+        return CommentsHelper.ResolveSourceElementId(SelectedElement.Model, SelectedElement.Properties, pageElements);
     }
 
     private void AddComment()
     {
         if (SelectedElement?.Type is not (ElementType.CommentsBlock or ElementType.CommentsViewer) || SelectedPage == null) return;
         if (string.IsNullOrWhiteSpace(NewCommentText)) return;
-        var c = App.Comments.Add(SelectedPage.Page.Id, SelectedElement.Id, NewCommentAuthor, NewCommentText);
+        var sourceId = ResolveSelectedCommentsSourceId();
+        var c = App.Comments.Add(SelectedPage.Page.Id, sourceId, NewCommentAuthor, NewCommentText);
         BlockComments.Add(c);
         NewCommentText = string.Empty;
         StatusMessage = "Комментарий добавлен.";

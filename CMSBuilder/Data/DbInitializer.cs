@@ -55,6 +55,7 @@ public static class DbInitializer
             db.Database.ExecuteSqlRaw("SELECT 1 FROM CardElementData LIMIT 1");
             db.Database.ExecuteSqlRaw("SELECT 1 FROM VideoPlayerElementData LIMIT 1");
             db.Database.ExecuteSqlRaw("SELECT 1 FROM CommentsViewerElementData LIMIT 1");
+            db.Database.ExecuteSqlRaw("SELECT SourceCommentsBlockId FROM CommentsViewerElementData LIMIT 1");
             return true;
         }
         catch

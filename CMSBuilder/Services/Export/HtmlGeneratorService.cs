@@ -71,7 +71,7 @@ public class HtmlGeneratorService
             ElementType.CommentsBlock => RenderCommentsBlock(el, props, comments, indent),
             ElementType.VideoEmbed => RenderVideoEmbed(el, props, indent, relativePosition),
             ElementType.VideoPlayer => RenderVideoPlayer(el, props, indent, relativePosition),
-            ElementType.CommentsViewer => RenderCommentsViewer(el, props, comments, indent),
+            ElementType.CommentsViewer => RenderCommentsViewer(el, props, comments, all, indent),
             _ => $"{pad}<div {idAttr} class=\"el\" {pos}>{WebUtility.HtmlEncode(props.Text ?? el.Type.ToString())}</div>"
         };
     }
@@ -261,13 +261,14 @@ public class HtmlGeneratorService
     }
 
     private static string RenderCommentsViewer(PageElement el, ElementPropertiesDto props,
-        List<PageComment> comments, int indent)
+        List<PageComment> comments, List<PageElement> pageElements, int indent)
     {
         var pad = new string(' ', indent);
         var max = props.MaxComments ?? 50;
-        var blockComments = comments.Where(c => c.ElementId == el.Id).Take(max).ToList();
+        var sourceId = CommentsHelper.ResolveSourceElementId(el, props, pageElements);
+        var blockComments = comments.Where(c => c.ElementId == sourceId).Take(max).ToList();
         var sb = new StringBuilder();
-        sb.AppendLine($"{pad}<section id=\"el-{el.Id}\" class=\"el comments-viewer\" {Pos(el)} data-comments-viewer=\"{el.Id}\">");
+        sb.AppendLine($"{pad}<section id=\"el-{el.Id}\" class=\"el comments-viewer\" {Pos(el)} data-comments-viewer=\"{el.Id}\" data-comments-source=\"{sourceId}\">");
         sb.AppendLine($"{pad}  <h3 class=\"comments-title\">{WebUtility.HtmlEncode(props.Text ?? "Комментарии")}</h3>");
         sb.AppendLine($"{pad}  <div class=\"comments-list\">");
         foreach (var c in blockComments)

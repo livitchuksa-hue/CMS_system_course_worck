@@ -31,6 +31,7 @@ public class ElementPropertiesDto : NotifyDto
     private bool _videoLoop;
     private bool _showCommentAuthor = true;
     private bool _showCommentDate = true;
+    private int? _commentsSourceElementId;
 
     public string? Text { get => _text; set => SetField(ref _text, value); }
     public string? Description { get => _description; set => SetField(ref _description, value); }
@@ -69,6 +70,8 @@ public class ElementPropertiesDto : NotifyDto
     public bool VideoLoop { get => _videoLoop; set => SetField(ref _videoLoop, value); }
     public bool ShowCommentAuthor { get => _showCommentAuthor; set => SetField(ref _showCommentAuthor, value); }
     public bool ShowCommentDate { get => _showCommentDate; set => SetField(ref _showCommentDate, value); }
+    /// <summary>Id блока CommentsBlock для просмотра (CommentsViewer).</summary>
+    public int? CommentsSourceElementId { get => _commentsSourceElementId; set => SetField(ref _commentsSourceElementId, value); }
 
     public List<NavItemDto>? NavItems { get; set; }
     public List<string>? GalleryImages { get; set; }

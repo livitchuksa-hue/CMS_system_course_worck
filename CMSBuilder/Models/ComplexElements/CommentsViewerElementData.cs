@@ -8,6 +8,8 @@ public class CommentsViewerElementData
     public int MaxVisible { get; set; } = 50;
     public bool ShowAuthor { get; set; } = true;
     public bool ShowDate { get; set; } = true;
+    /// <summary>Блок CommentsBlock, комментарии которого отображаются.</summary>
+    public int? SourceCommentsBlockId { get; set; }
 
     public PageElement PageElement { get; set; } = null!;
 }

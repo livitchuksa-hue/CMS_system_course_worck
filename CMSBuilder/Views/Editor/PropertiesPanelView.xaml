@@ -219,6 +219,13 @@
 
                     <StackPanel Visibility="{Binding IsCommentsViewerSelected, Converter={StaticResource BoolToVis}}">
                         <TextBlock Style="{StaticResource CaptionText}" Text="Только просмотр. Настройки в CommentsViewerElementData." Margin="0,0,0,8" />
+                        <TextBlock Text="Источник комментариев" Style="{StaticResource LabelText}" />
+                        <ComboBox ItemsSource="{Binding CommentsBlocksOnPage}" DisplayMemberPath="Label"
+                                  SelectedValuePath="Id"
+                                  SelectedValue="{Binding SelectedElement.Properties.CommentsSourceElementId, UpdateSourceTrigger=PropertyChanged}"
+                                  Margin="0,0,0,12" />
+                        <TextBlock Style="{StaticResource CaptionText}" TextWrapping="Wrap"
+                                   Text="Выберите блок «Комментарии» на странице. Если на странице один такой блок, он подставится автоматически." Margin="0,0,0,12" />
                         <TextBlock Text="Заголовок" Style="{StaticResource LabelText}" />
                         <TextBox Text="{Binding SelectedElement.Properties.Text, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
                         <TextBlock Text="Макс. на экране" Style="{StaticResource LabelText}" />

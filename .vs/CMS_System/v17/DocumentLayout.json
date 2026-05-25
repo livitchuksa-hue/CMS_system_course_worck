@@ -594,8 +594,7 @@
               "RelativeToolTip": "CMSBuilder\\Data\\Migrations\\.gitkeep",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-05-22T15:39:14.796Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-22T15:39:14.796Z"
             },
             {
               "$type": "Document",
@@ -607,8 +606,7 @@
               "RelativeToolTip": "CMSBuilder\\Database\\cms.db",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAI8SURBVDhPdVNLT1NBGD3a23gJKaJUwsIEUaMoL2NsGyqxoCYEDRuKi0ZW3WHkL0D8BWqkJsLKQlsX9bGrNhqqRKRutCVp1BhFEiUxVyVx0Ud67/DN3EcvsZ7ck2/uN9/MnDkzswsGYrEY0xgD0zQwippGbabBzPEoORxb5Upl6Nrk5HsxiBeaWFhcZKqqWqxyVmuMx\u002BOsUCiwufn5P3dmI6eMYdhtRLEKh0pRVTlVQZpIkMPtduOs398sSdKSSBBqE5hqKJBovW1B/49Go0ilUihXys0iQZCMKPbMYQ7OrmaRza7C6/PBRxwbC4oe8gGzkYio4bApIPOM9v3oAppa23DpSgiyuw13781ZfRwa1ZqwJuAu86p8Lg//uQA6D7cjt/IKPUcOof/CMNbyearSp6HjEpHjHxMzmSU0NjTgUTKJUCiEJw\u002BT2OtyUT5DKkXJjtPbqYAQGBxEsVhEcHwciUQCl0dHsf5tA1W5CS\u002BWV1AqlcivOlvQZTH09vTi9fJLfF7fgGcggHcfvkBpbEc4HIay/zje5tb\u002Bp0A3kXPi6gSUzR94/CCON3Qaw8da8PzrX4x0HsD3n7/rm1i7BxSJHq8X16em4OnrRvrTL1zscOHpRwVn\u002Brrqmyjugf4JmjjdfQL7lALSz9Locm7hYGuL5ReHTUFNlgAVcVV7ZBlDA/0IjpzHyaMdkOnfXmvzgN9BenGSQ6dTgrMORa1tC9ZzvnnrNm2NjKROvjI/KhGNnFiA2vozZ7gxM01jgW0oG0\u002BFgH6cagAAAABJRU5ErkJggg==",
-              "WhenOpened": "2026-05-22T15:28:16.374Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-22T15:28:16.374Z"
             },
             {
               "$type": "Document",
@@ -620,8 +618,7 @@
               "RelativeToolTip": "CMSBuilder\\Converters\\NullToVisibilityConverter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:30:58.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:30:58.324Z"
             },
             {
               "$type": "Document",
@@ -633,8 +630,7 @@
               "RelativeToolTip": "CMSBuilder\\Converters\\StringToVisibilityConverter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:30:58.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:30:58.884Z"
             },
             {
               "$type": "Document",
@@ -646,8 +642,7 @@
               "RelativeToolTip": "CMSBuilder\\Data\\DbInitializer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:31:22.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:31:22.416Z"
             },
             {
               "$type": "Document",
@@ -657,7 +652,7 @@
               "RelativeDocumentMoniker": "CMSBuilder\\Data\\AppDbContext.cs",
               "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Data\\AppDbContext.cs",
               "RelativeToolTip": "CMSBuilder\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAIAxwBoAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAArwBoAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-20T16:31:18.844Z",
               "EditorCaption": ""
@@ -672,8 +667,7 @@
               "RelativeToolTip": "CMSBuilder\\Converters\\NullableDoubleToSizeConverter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:30:57.686Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:30:57.686Z"
             },
             {
               "$type": "Document",
@@ -685,8 +679,7 @@
               "RelativeToolTip": "CMSBuilder\\Core\\WebsitePermissions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T15:28:11.403Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-22T15:28:11.403Z"
             },
             {
               "$type": "Document",
@@ -698,8 +691,7 @@
               "RelativeToolTip": "CMSBuilder\\Core\\RelayCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:31:01.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:31:01.171Z"
             },
             {
               "$type": "Document",
@@ -711,8 +703,7 @@
               "RelativeToolTip": "CMSBuilder\\Core\\RelayCommandGeneric.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:31:04.117Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:31:04.117Z"
             },
             {
               "$type": "Document",
@@ -724,8 +715,7 @@
               "RelativeToolTip": "CMSBuilder\\Converters\\NullableDoubleConverter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:30:56.552Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:30:56.552Z"
             },
             {
               "$type": "Document",
@@ -737,8 +727,7 @@
               "RelativeToolTip": "CMSBuilder\\Core\\SessionContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:31:09.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:31:09.886Z"
             },
             {
               "$type": "Document",
@@ -750,8 +739,7 @@
               "RelativeToolTip": "CMSBuilder\\Converters\\InverseBoolToVisibilityConverter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:30:51.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:30:51.565Z"
             },
             {
               "$type": "Document",
@@ -763,8 +751,7 @@
               "RelativeToolTip": "CMSBuilder\\Converters\\ElementTypeToViewConverter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:30:51.012Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:30:51.012Z"
             },
             {
               "$type": "Document",
@@ -776,8 +763,7 @@
               "RelativeToolTip": "CMSBuilder\\Converters\\CssFontSizeConverter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:30:50.415Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:30:50.415Z"
             },
             {
               "$type": "Document",
@@ -789,8 +775,7 @@
               "RelativeToolTip": "CMSBuilder\\Converters\\CssBrushConverter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:30:49.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:30:49.587Z"
             },
             {
               "$type": "Document",
@@ -802,8 +787,7 @@
               "RelativeToolTip": "CMSBuilder\\Converters\\CssBorderThicknessConverter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T15:28:02.477Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-22T15:28:02.477Z"
             },
             {
               "$type": "Document",
@@ -815,8 +799,7 @@
               "RelativeToolTip": "CMSBuilder\\Converters\\BoolToVisibilityConverter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:30:46.896Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:30:46.896Z"
             },
             {
               "$type": "Document",
@@ -827,8 +810,7 @@
               "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\App.xaml",
               "RelativeToolTip": "CMSBuilder\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:47:27.683Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T14:47:27.683Z"
             },
             {
               "$type": "Document",
@@ -840,8 +822,7 @@
               "RelativeToolTip": "CMSBuilder\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-05-22T15:27:53.004Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-22T15:27:53.004Z"
             },
             {
               "$type": "Document",
@@ -852,8 +833,7 @@
               "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Properties\\ElementCommonPropertiesView.xaml",
               "RelativeToolTip": "CMSBuilder\\Views\\Properties\\ElementCommonPropertiesView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-22T15:27:53.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-22T15:27:53.143Z"
             },
             {
               "$type": "Document",
@@ -864,8 +844,7 @@
               "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\VideoPlayerElementView.xaml",
               "RelativeToolTip": "CMSBuilder\\Views\\Elements\\VideoPlayerElementView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-22T15:27:49.964Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-22T15:27:49.964Z"
             },
             {
               "$type": "Document",
@@ -876,8 +855,7 @@
               "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\VideoEmbedElementView.xaml",
               "RelativeToolTip": "CMSBuilder\\Views\\Elements\\VideoEmbedElementView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-22T15:27:48.984Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-22T15:27:48.984Z"
             },
             {
               "$type": "Document",
@@ -888,8 +866,7 @@
               "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\TextAreaElementView.xaml",
               "RelativeToolTip": "CMSBuilder\\Views\\Elements\\TextAreaElementView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-22T15:27:46.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-22T15:27:46.732Z"
             },
             {
               "$type": "Document",
@@ -900,8 +877,7 @@
               "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\LinkElementView.xaml",
               "RelativeToolTip": "CMSBuilder\\Views\\Elements\\LinkElementView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-22T15:27:44.785Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-22T15:27:44.785Z"
             },
             {
               "$type": "Document",
@@ -912,8 +888,7 @@
               "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\ImageElementView.xaml",
               "RelativeToolTip": "CMSBuilder\\Views\\Elements\\ImageElementView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:49:48.574Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T14:49:48.574Z"
             },
             {
               "$type": "Document",
@@ -924,8 +899,7 @@
               "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\TextElementView.xaml",
               "RelativeToolTip": "CMSBuilder\\Views\\Elements\\TextElementView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T15:07:34.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T15:07:34.437Z"
             },
             {
               "$type": "Document",
@@ -936,8 +910,7 @@
               "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\GalleryElementView.xaml",
               "RelativeToolTip": "CMSBuilder\\Views\\Elements\\GalleryElementView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:49:44.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T14:49:44.301Z"
             },
             {
               "$type": "Document",
@@ -948,8 +921,7 @@
               "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\NavbarElementView.xaml",
               "RelativeToolTip": "CMSBuilder\\Views\\Elements\\NavbarElementView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T15:07:32.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T15:07:32.027Z"
             },
             {
               "$type": "Document",
@@ -960,8 +932,7 @@
               "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\FormElementView.xaml",
               "RelativeToolTip": "CMSBuilder\\Views\\Elements\\FormElementView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-22T15:27:38.623Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-22T15:27:38.623Z"
             },
             {
               "$type": "Document",
@@ -972,8 +943,7 @@
               "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\InputElementView.xaml",
               "RelativeToolTip": "CMSBuilder\\Views\\Elements\\InputElementView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:49:50.219Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T14:49:50.219Z"
             },
             {
               "$type": "Document",
@@ -984,8 +954,7 @@
               "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\FooterElementView.xaml",
               "RelativeToolTip": "CMSBuilder\\Views\\Elements\\FooterElementView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-22T15:27:35.273Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-22T15:27:35.273Z"
             },
             {
               "$type": "Document",
@@ -996,8 +965,7 @@
               "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\HeaderElementView.xaml",
               "RelativeToolTip": "CMSBuilder\\Views\\Elements\\HeaderElementView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:49:46.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T14:49:46.687Z"
             },
             {
               "$type": "Document",
@@ -1008,8 +976,7 @@
               "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\CommentsViewerElementView.xaml",
               "RelativeToolTip": "CMSBuilder\\Views\\Elements\\CommentsViewerElementView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-22T15:27:32.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-22T15:27:32.196Z"
             },
             {
               "$type": "Document",
@@ -1020,8 +987,7 @@
               "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\CheckboxElementView.xaml",
               "RelativeToolTip": "CMSBuilder\\Views\\Elements\\CheckboxElementView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-22T15:27:31.099Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-22T15:27:31.099Z"
             },
             {
               "$type": "Document",
@@ -1032,8 +998,7 @@
               "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\CardElementView.xaml",
               "RelativeToolTip": "CMSBuilder\\Views\\Elements\\CardElementView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-22T15:27:30.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-22T15:27:30.042Z"
             },
             {
               "$type": "Document",
@@ -1044,8 +1009,7 @@
               "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\WebsiteSettingsView.xaml",
               "RelativeToolTip": "CMSBuilder\\Views\\Editor\\WebsiteSettingsView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T15:07:13.158Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T15:07:13.158Z"
             },
             {
               "$type": "Document",
@@ -1056,8 +1020,7 @@
               "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\ButtonElementView.xaml",
               "RelativeToolTip": "CMSBuilder\\Views\\Elements\\ButtonElementView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:49:38.115Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T14:49:38.115Z"
             },
             {
               "$type": "Document",
@@ -1068,8 +1031,7 @@
               "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Elements\\ContainerElementView.xaml",
               "RelativeToolTip": "CMSBuilder\\Views\\Elements\\ContainerElementView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:49:42.004Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T14:49:42.004Z"
             },
             {
               "$type": "Document",
@@ -1080,8 +1042,7 @@
               "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\WebsiteEditorView.xaml",
               "RelativeToolTip": "CMSBuilder\\Views\\Editor\\WebsiteEditorView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T15:07:12.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T15:07:12.065Z"
             },
             {
               "$type": "Document",
@@ -1092,8 +1053,7 @@
               "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\PageTabsView.xaml",
               "RelativeToolTip": "CMSBuilder\\Views\\Editor\\PageTabsView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:48:47.305Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T14:48:47.305Z"
             },
             {
               "$type": "Document",
@@ -1104,8 +1064,7 @@
               "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\PropertiesPanelView.xaml",
               "RelativeToolTip": "CMSBuilder\\Views\\Editor\\PropertiesPanelView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:48:57.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T14:48:57.53Z"
             },
             {
               "$type": "Document",
@@ -1116,8 +1075,7 @@
               "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\ToolboxView.xaml",
               "RelativeToolTip": "CMSBuilder\\Views\\Editor\\ToolboxView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:49:09.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T14:49:09.39Z"
             },
             {
               "$type": "Document",
@@ -1128,8 +1086,7 @@
               "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\TopBarView.xaml",
               "RelativeToolTip": "CMSBuilder\\Views\\Editor\\TopBarView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:49:11.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T14:49:11.511Z"
             },
             {
               "$type": "Document",
@@ -1140,8 +1097,7 @@
               "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\OrganizationPanelView.xaml",
               "RelativeToolTip": "CMSBuilder\\Views\\Editor\\OrganizationPanelView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:48:39.901Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T14:48:39.901Z"
             },
             {
               "$type": "Document",
@@ -1152,8 +1108,7 @@
               "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\ElementActionEditorView.xaml",
               "RelativeToolTip": "CMSBuilder\\Views\\Editor\\ElementActionEditorView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-22T15:26:58.491Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-22T15:26:58.491Z"
             },
             {
               "$type": "Document",
@@ -1164,8 +1119,7 @@
               "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Editor\\EditorCanvasView.xaml",
               "RelativeToolTip": "CMSBuilder\\Views\\Editor\\EditorCanvasView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:48:33.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T14:48:33.772Z"
             },
             {
               "$type": "Document",
@@ -1176,8 +1130,7 @@
               "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Dashboard\\WebsiteCardView.xaml",
               "RelativeToolTip": "CMSBuilder\\Views\\Dashboard\\WebsiteCardView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:48:28.087Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T14:48:28.087Z"
             },
             {
               "$type": "Document",
@@ -1188,8 +1141,7 @@
               "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Dashboard\\DashboardView.xaml",
               "RelativeToolTip": "CMSBuilder\\Views\\Dashboard\\DashboardView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:48:19.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T14:48:19.691Z"
             },
             {
               "$type": "Document",
@@ -1200,8 +1152,7 @@
               "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Auth\\RegisterView.xaml",
               "RelativeToolTip": "CMSBuilder\\Views\\Auth\\RegisterView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:47:17.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T14:47:17.876Z"
             },
             {
               "$type": "Document",
@@ -1212,8 +1163,7 @@
               "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Views\\Auth\\LoginView.xaml",
               "RelativeToolTip": "CMSBuilder\\Views\\Auth\\LoginView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-20T14:47:08.582Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T14:47:08.582Z"
             },
             {
               "$type": "Document",
@@ -1225,8 +1175,7 @@
               "RelativeToolTip": "CMSBuilder\\ViewModels\\Editor\\WebsiteSettingsPanelViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:35:25.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:35:25.743Z"
             },
             {
               "$type": "Document",
@@ -1238,8 +1187,7 @@
               "RelativeToolTip": "CMSBuilder\\Views\\Editor\\EditorCanvasInteraction.cs",
               "ViewState": "AgIAAGEAAAAAAAAAAAAcwGQAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:35:48.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:35:48.324Z"
             },
             {
               "$type": "Document",
@@ -1251,8 +1199,7 @@
               "RelativeToolTip": "CMSBuilder\\ViewModels\\Editor\\WebsiteEditorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:35:23.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:35:23.769Z"
             },
             {
               "$type": "Document",
@@ -1264,8 +1211,7 @@
               "RelativeToolTip": "CMSBuilder\\ViewModels\\Editor\\PageTabViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:35:13.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:35:13.402Z"
             },
             {
               "$type": "Document",
@@ -1277,8 +1223,7 @@
               "RelativeToolTip": "CMSBuilder\\ViewModels\\Editor\\PageSettingsItemViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:35:09.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:35:09.746Z"
             },
             {
               "$type": "Document",
@@ -1290,8 +1235,7 @@
               "RelativeToolTip": "CMSBuilder\\ViewModels\\Editor\\OrganizationPanelViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:35:08.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:35:08.499Z"
             },
             {
               "$type": "Document",
@@ -1303,8 +1247,7 @@
               "RelativeToolTip": "CMSBuilder\\ViewModels\\Editor\\CanvasElementViewModel.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:35:03.495Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:35:03.495Z"
             },
             {
               "$type": "Document",
@@ -1316,8 +1259,7 @@
               "RelativeToolTip": "CMSBuilder\\ViewModels\\Dashboard\\WebsiteCardViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:35:00.02Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:35:00.02Z"
             },
             {
               "$type": "Document",
@@ -1329,8 +1271,7 @@
               "RelativeToolTip": "CMSBuilder\\ViewModels\\Dashboard\\DashboardViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:34:56.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:34:56.841Z"
             },
             {
               "$type": "Document",
@@ -1342,8 +1283,7 @@
               "RelativeToolTip": "CMSBuilder\\ViewModels\\Base\\BaseViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:34:54.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:34:54.748Z"
             },
             {
               "$type": "Document",
@@ -1355,8 +1295,7 @@
               "RelativeToolTip": "CMSBuilder\\ViewModels\\Auth\\RegisterViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:34:52.152Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:34:52.152Z"
             },
             {
               "$type": "Document",
@@ -1368,8 +1307,7 @@
               "RelativeToolTip": "CMSBuilder\\ViewModels\\Auth\\LoginViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:34:51.219Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:34:51.219Z"
             },
             {
               "$type": "Document",
@@ -1381,8 +1319,7 @@
               "RelativeToolTip": "CMSBuilder\\ViewModels\\Account\\AccountViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:34:49.582Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:34:49.582Z"
             },
             {
               "$type": "Document",
@@ -1394,8 +1331,7 @@
               "RelativeToolTip": "CMSBuilder\\Services\\WebsiteService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:34:46.062Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:34:46.062Z"
             },
             {
               "$type": "Document",
@@ -1407,8 +1343,7 @@
               "RelativeToolTip": "CMSBuilder\\Services\\WebsiteMemberService.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:34:43.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:34:43.848Z"
             },
             {
               "$type": "Document",
@@ -1420,8 +1355,7 @@
               "RelativeToolTip": "CMSBuilder\\Services\\PageService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:34:37.321Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:34:37.321Z"
             },
             {
               "$type": "Document",
@@ -1433,8 +1367,7 @@
               "RelativeToolTip": "CMSBuilder\\Services\\NavigationService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:34:36.325Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:34:36.325Z"
             },
             {
               "$type": "Document",
@@ -1446,8 +1379,7 @@
               "RelativeToolTip": "CMSBuilder\\Services\\ElementService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:34:32.879Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:34:32.879Z"
             },
             {
               "$type": "Document",
@@ -1459,8 +1391,7 @@
               "RelativeToolTip": "CMSBuilder\\Services\\ComplexElementService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T15:25:18.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-22T15:25:18.59Z"
             },
             {
               "$type": "Document",
@@ -1472,8 +1403,7 @@
               "RelativeToolTip": "CMSBuilder\\Services\\AuthService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:34:26.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:34:26.854Z"
             },
             {
               "$type": "Document",
@@ -1485,8 +1415,7 @@
               "RelativeToolTip": "CMSBuilder\\Services\\AppSettingsService.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:34:27.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:34:27.53Z"
             },
             {
               "$type": "Document",
@@ -1497,8 +1426,7 @@
               "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\CMS_System\\CMSBuilder\\Resources\\Colors.xaml",
               "RelativeToolTip": "CMSBuilder\\Resources\\Colors.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-22T11:39:23.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-22T11:39:23.53Z"
             },
             {
               "$type": "Document",
@@ -1558,8 +1486,7 @@
               "RelativeToolTip": "CMSBuilder\\Services\\CommentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:34:32.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:34:32.147Z"
             },
             {
               "$type": "Document",
