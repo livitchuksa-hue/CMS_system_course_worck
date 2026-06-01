@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:props="clr-namespace:CMSBuilder.Views.Properties"
              xmlns:editor="clr-namespace:CMSBuilder.Views.Editor"
+             xmlns:helpers="clr-namespace:CMSBuilder.Helpers"
              Width="300"
              Background="{StaticResource SurfaceBrush}">
 
@@ -30,12 +31,14 @@
 
                     <StackPanel Visibility="{Binding IsTextSelected, Converter={StaticResource BoolToVis}}">
                         <TextBlock Text="Текст" Style="{StaticResource LabelText}" />
-                        <TextBox Text="{Binding SelectedElement.Properties.Text, UpdateSourceTrigger=PropertyChanged}" />
+                        <TextBox helpers:TextBoxInputBehavior.Kind="Text"
+                                 Text="{Binding SelectedElement.Properties.Text, UpdateSourceTrigger=PropertyChanged}" />
                     </StackPanel>
 
                     <StackPanel Visibility="{Binding IsHeaderSelected, Converter={StaticResource BoolToVis}}">
                         <TextBlock Text="Заголовок" Style="{StaticResource LabelText}" />
-                        <TextBox Text="{Binding SelectedElement.Properties.Text, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBox helpers:TextBoxInputBehavior.Kind="Text"
+                                 Text="{Binding SelectedElement.Properties.Text, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
                         <TextBlock Text="Уровень (h1-h3)" Style="{StaticResource LabelText}" />
                         <ComboBox SelectedItem="{Binding SelectedElement.Properties.Level}" Margin="0,0,0,8">
                             <ComboBoxItem Content="h1" />
@@ -46,14 +49,17 @@
 
                     <StackPanel Visibility="{Binding IsImageSelected, Converter={StaticResource BoolToVis}}">
                         <TextBlock Text="URL изображения" Style="{StaticResource LabelText}" />
-                        <TextBox Text="{Binding SelectedElement.Properties.Src, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBox helpers:TextBoxInputBehavior.Kind="Url"
+                                 Text="{Binding SelectedElement.Properties.Src, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
                         <TextBlock Text="Alt" Style="{StaticResource LabelText}" />
-                        <TextBox Text="{Binding SelectedElement.Properties.Alt, UpdateSourceTrigger=PropertyChanged}" />
+                        <TextBox helpers:TextBoxInputBehavior.Kind="Text"
+                                 Text="{Binding SelectedElement.Properties.Alt, UpdateSourceTrigger=PropertyChanged}" />
                     </StackPanel>
 
                     <StackPanel Visibility="{Binding IsVideoEmbedSelected, Converter={StaticResource BoolToVis}}">
                         <TextBlock Text="URL видео (YouTube, Vimeo или embed)" Style="{StaticResource LabelText}" />
-                        <TextBox Text="{Binding SelectedElement.Properties.VideoUrl, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,8" />
+                        <TextBox helpers:TextBoxInputBehavior.Kind="Url"
+                                 Text="{Binding SelectedElement.Properties.VideoUrl, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,8" />
                         <TextBlock Style="{StaticResource CaptionText}" TextWrapping="Wrap"
                                    Text="На сайте встраивается через iframe. Данные в PageElements (JSON)." />
                     </StackPanel>
@@ -61,18 +67,22 @@
                     <StackPanel Visibility="{Binding IsCardSelected, Converter={StaticResource BoolToVis}}">
                         <TextBlock Style="{StaticResource CaptionText}" Text="Данные карточки хранятся в таблице CardElementData." Margin="0,0,0,8" />
                         <TextBlock Text="URL изображения" Style="{StaticResource LabelText}" />
-                        <TextBox Text="{Binding SelectedElement.Properties.Src, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBox helpers:TextBoxInputBehavior.Kind="Url"
+                                 Text="{Binding SelectedElement.Properties.Src, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
                         <TextBlock Text="Название" Style="{StaticResource LabelText}" />
-                        <TextBox Text="{Binding SelectedElement.Properties.Text, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBox helpers:TextBoxInputBehavior.Kind="Text"
+                                 Text="{Binding SelectedElement.Properties.Text, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
                         <TextBlock Text="Описание" Style="{StaticResource LabelText}" />
-                        <TextBox Text="{Binding SelectedElement.Properties.Description, UpdateSourceTrigger=PropertyChanged}"
+                        <TextBox helpers:TextBoxInputBehavior.Kind="Multiline"
+                                 Text="{Binding SelectedElement.Properties.Description, UpdateSourceTrigger=PropertyChanged}"
                                  Height="60" AcceptsReturn="True" TextWrapping="Wrap" Margin="0,0,0,16" />
                         <editor:ElementActionEditorView Margin="0,0,0,8" />
                     </StackPanel>
 
                     <StackPanel Visibility="{Binding IsButtonSelected, Converter={StaticResource BoolToVis}}">
                         <TextBlock Text="Текст кнопки" Style="{StaticResource LabelText}" />
-                        <TextBox Text="{Binding SelectedElement.Properties.Text, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,16" />
+                        <TextBox helpers:TextBoxInputBehavior.Kind="Text"
+                                 Text="{Binding SelectedElement.Properties.Text, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,16" />
                         <editor:ElementActionEditorView Margin="0,0,0,12" />
                         <TextBlock Text="Привязка к форме (опционально)" Style="{StaticResource LabelText}" />
                         <ComboBox ItemsSource="{Binding FormsOnPage}" DisplayMemberPath="Label"
@@ -82,7 +92,8 @@
 
                     <StackPanel Visibility="{Binding IsInputSelected, Converter={StaticResource BoolToVis}}">
                         <TextBlock Text="Placeholder" Style="{StaticResource LabelText}" />
-                        <TextBox Text="{Binding SelectedElement.Properties.Placeholder, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBox helpers:TextBoxInputBehavior.Kind="Text"
+                                 Text="{Binding SelectedElement.Properties.Placeholder, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
                         <TextBlock Text="Тип поля" Style="{StaticResource LabelText}" />
                         <ComboBox SelectedItem="{Binding SelectedElement.Properties.InputType, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12">
                             <ComboBoxItem Content="text" />
@@ -92,7 +103,8 @@
                             <ComboBoxItem Content="tel" />
                         </ComboBox>
                         <TextBlock Text="Имя поля (name)" Style="{StaticResource LabelText}" />
-                        <TextBox Text="{Binding SelectedElement.Properties.FieldName, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBox helpers:TextBoxInputBehavior.Kind="Text"
+                                 Text="{Binding SelectedElement.Properties.FieldName, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
                         <CheckBox Content="Обязательное" IsChecked="{Binding SelectedElement.Properties.Required}" Margin="0,0,0,12" />
                         <TextBlock Text="Форма" Style="{StaticResource LabelText}" />
                         <ComboBox ItemsSource="{Binding FormsOnPage}" DisplayMemberPath="Label"
@@ -106,12 +118,14 @@
 
                     <StackPanel Visibility="{Binding IsCheckboxSelected, Converter={StaticResource BoolToVis}}">
                         <TextBlock Text="Подпись" Style="{StaticResource LabelText}" />
-                        <TextBox Text="{Binding SelectedElement.Properties.Text, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBox helpers:TextBoxInputBehavior.Kind="Text"
+                                 Text="{Binding SelectedElement.Properties.Text, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
                         <TextBlock Text="Вид чекбокса" Style="{StaticResource LabelText}" />
                         <ComboBox ItemsSource="{Binding CheckboxVariants}"
                                   SelectedItem="{Binding SelectedElement.Properties.CheckboxVariant, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
                         <TextBlock Text="Имя поля" Style="{StaticResource LabelText}" />
-                        <TextBox Text="{Binding SelectedElement.Properties.FieldName, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBox helpers:TextBoxInputBehavior.Kind="Text"
+                                 Text="{Binding SelectedElement.Properties.FieldName, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
                         <CheckBox Content="Обязательное" IsChecked="{Binding SelectedElement.Properties.Required}" Margin="0,0,0,12" />
                         <TextBlock Text="Форма" Style="{StaticResource LabelText}" />
                         <ComboBox ItemsSource="{Binding FormsOnPage}" DisplayMemberPath="Label"
@@ -121,37 +135,44 @@
 
                     <StackPanel Visibility="{Binding IsContainerSelected, Converter={StaticResource BoolToVis}}">
                         <TextBlock Text="Подпись контейнера" Style="{StaticResource LabelText}" />
-                        <TextBox Text="{Binding SelectedElement.Properties.Text, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBox helpers:TextBoxInputBehavior.Kind="Text"
+                                 Text="{Binding SelectedElement.Properties.Text, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
                         <TextBlock Text="Направление (flex)" Style="{StaticResource LabelText}" />
                         <ComboBox SelectedItem="{Binding SelectedElement.Properties.FlexDirection, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12">
                             <ComboBoxItem Content="row" />
                             <ComboBoxItem Content="column" />
                         </ComboBox>
                         <TextBlock Text="Отступ между элементами (gap)" Style="{StaticResource LabelText}" />
-                        <TextBox Text="{Binding SelectedElement.Properties.Gap, UpdateSourceTrigger=PropertyChanged}" />
+                        <TextBox helpers:TextBoxInputBehavior.Kind="NumericPx"
+                                 Text="{Binding SelectedElement.Properties.Gap, UpdateSourceTrigger=LostFocus, Converter={StaticResource PxString}}" />
                     </StackPanel>
 
                     <StackPanel Visibility="{Binding IsFormSelected, Converter={StaticResource BoolToVis}}">
                         <TextBlock Text="Заголовок формы" Style="{StaticResource LabelText}" />
-                        <TextBox Text="{Binding SelectedElement.Properties.Text, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBox helpers:TextBoxInputBehavior.Kind="Text"
+                                 Text="{Binding SelectedElement.Properties.Text, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
                         <TextBlock Text="Метод" Style="{StaticResource LabelText}" />
                         <ComboBox SelectedItem="{Binding SelectedElement.Properties.FormMethod, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12">
                             <ComboBoxItem Content="post" />
                             <ComboBoxItem Content="get" />
                         </ComboBox>
                         <TextBlock Text="URL отправки (необязательно)" Style="{StaticResource LabelText}" />
-                        <TextBox Text="{Binding SelectedElement.Properties.FormActionUrl, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,8" />
+                        <TextBox helpers:TextBoxInputBehavior.Kind="Url"
+                                 Text="{Binding SelectedElement.Properties.FormActionUrl, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,8" />
                         <TextBlock Style="{StaticResource CaptionText}"
                                    Text="Привяжите поля Input/Checkbox к этой форме через «Форма» в их свойствах." TextWrapping="Wrap" />
                     </StackPanel>
 
                     <StackPanel Visibility="{Binding IsNavbarSelected, Converter={StaticResource BoolToVis}}">
                         <TextBlock Text="Текст логотипа" Style="{StaticResource LabelText}" />
-                        <TextBox Text="{Binding SelectedElement.Properties.LogoText, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBox helpers:TextBoxInputBehavior.Kind="Text"
+                                 Text="{Binding SelectedElement.Properties.LogoText, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
                         <TextBlock Text="URL картинки логотипа" Style="{StaticResource LabelText}" />
-                        <TextBox Text="{Binding SelectedElement.Properties.LogoSrc, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBox helpers:TextBoxInputBehavior.Kind="Url"
+                                 Text="{Binding SelectedElement.Properties.LogoSrc, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
                         <TextBlock Text="Пункты меню (строка: Текст|url или Текст|page:ID)" Style="{StaticResource LabelText}" />
                         <TextBox Height="72" AcceptsReturn="True" TextWrapping="Wrap"
+                                 helpers:TextBoxInputBehavior.Kind="Multiline"
                                  Text="{Binding NavItemsText, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,8" />
                         <Button Content="Добавить пункт" Style="{StaticResource SecondaryButton}"
                                 Command="{Binding AddNavItemCommand}" />
@@ -160,14 +181,17 @@
                     <StackPanel Visibility="{Binding IsGallerySelected, Converter={StaticResource BoolToVis}}">
                         <TextBlock Text="URL картинок (по одному в строке)" Style="{StaticResource LabelText}" />
                         <TextBox Height="80" AcceptsReturn="True" TextWrapping="Wrap"
+                                 helpers:TextBoxInputBehavior.Kind="Multiline"
                                  Text="{Binding GalleryImagesText, UpdateSourceTrigger=PropertyChanged}" />
                     </StackPanel>
 
                     <StackPanel Visibility="{Binding IsLinkSelected, Converter={StaticResource BoolToVis}}">
                         <TextBlock Text="Текст ссылки" Style="{StaticResource LabelText}" />
-                        <TextBox Text="{Binding SelectedElement.Properties.Text, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBox helpers:TextBoxInputBehavior.Kind="Text"
+                                 Text="{Binding SelectedElement.Properties.Text, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
                         <TextBlock Text="Href" Style="{StaticResource LabelText}" />
-                        <TextBox Text="{Binding SelectedElement.Properties.Href, UpdateSourceTrigger=PropertyChanged}" />
+                        <TextBox helpers:TextBoxInputBehavior.Kind="Url"
+                                 Text="{Binding SelectedElement.Properties.Href, UpdateSourceTrigger=PropertyChanged}" />
                     </StackPanel>
 
                     <StackPanel Visibility="{Binding IsDividerSelected, Converter={StaticResource BoolToVis}}">
@@ -181,14 +205,17 @@
 
                     <StackPanel Visibility="{Binding IsFooterSelected, Converter={StaticResource BoolToVis}}">
                         <TextBlock Text="Текст подвала" Style="{StaticResource LabelText}" />
-                        <TextBox Text="{Binding SelectedElement.Properties.Text, UpdateSourceTrigger=PropertyChanged}" />
+                        <TextBox helpers:TextBoxInputBehavior.Kind="Text"
+                                 Text="{Binding SelectedElement.Properties.Text, UpdateSourceTrigger=PropertyChanged}" />
                     </StackPanel>
 
                     <StackPanel Visibility="{Binding IsTextAreaSelected, Converter={StaticResource BoolToVis}}">
                         <TextBlock Text="Placeholder" Style="{StaticResource LabelText}" />
-                        <TextBox Text="{Binding SelectedElement.Properties.Placeholder, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBox helpers:TextBoxInputBehavior.Kind="Text"
+                                 Text="{Binding SelectedElement.Properties.Placeholder, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
                         <TextBlock Text="Имя поля" Style="{StaticResource LabelText}" />
-                        <TextBox Text="{Binding SelectedElement.Properties.FieldName, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBox helpers:TextBoxInputBehavior.Kind="Text"
+                                 Text="{Binding SelectedElement.Properties.FieldName, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
                         <TextBlock Text="Форма" Style="{StaticResource LabelText}" />
                         <ComboBox ItemsSource="{Binding FormsOnPage}" DisplayMemberPath="Label"
                                   SelectedValuePath="Id"
@@ -198,20 +225,24 @@
                     <StackPanel Visibility="{Binding IsFaqSelected, Converter={StaticResource BoolToVis}}">
                         <TextBlock Text="Вопросы (Вопрос|Ответ, по строке)" Style="{StaticResource LabelText}" />
                         <TextBox Height="100" AcceptsReturn="True" TextWrapping="Wrap"
+                                 helpers:TextBoxInputBehavior.Kind="Multiline"
                                  Text="{Binding FaqItemsText, UpdateSourceTrigger=PropertyChanged}" />
                     </StackPanel>
 
                     <StackPanel Visibility="{Binding IsSliderSelected, Converter={StaticResource BoolToVis}}">
                         <TextBlock Text="Подпись слайдера" Style="{StaticResource LabelText}" />
-                        <TextBox Text="{Binding SelectedElement.Properties.Text, UpdateSourceTrigger=PropertyChanged}" />
+                        <TextBox helpers:TextBoxInputBehavior.Kind="Text"
+                                 Text="{Binding SelectedElement.Properties.Text, UpdateSourceTrigger=PropertyChanged}" />
                     </StackPanel>
 
                     <StackPanel Visibility="{Binding IsVideoPlayerSelected, Converter={StaticResource BoolToVis}}">
                         <TextBlock Style="{StaticResource CaptionText}" Text="HTML5-плеер. Данные в таблице VideoPlayerElementData." Margin="0,0,0,8" />
                         <TextBlock Text="URL видеофайла (.mp4)" Style="{StaticResource LabelText}" />
-                        <TextBox Text="{Binding SelectedElement.Properties.VideoUrl, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBox helpers:TextBoxInputBehavior.Kind="Url"
+                                 Text="{Binding SelectedElement.Properties.VideoUrl, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
                         <TextBlock Text="Постер (URL)" Style="{StaticResource LabelText}" />
-                        <TextBox Text="{Binding SelectedElement.Properties.VideoPosterUrl, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBox helpers:TextBoxInputBehavior.Kind="Url"
+                                 Text="{Binding SelectedElement.Properties.VideoPosterUrl, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
                         <CheckBox Content="Элементы управления" IsChecked="{Binding SelectedElement.Properties.VideoControls}" Margin="0,0,0,8" />
                         <CheckBox Content="Автовоспроизведение" IsChecked="{Binding SelectedElement.Properties.VideoAutoplay}" Margin="0,0,0,8" />
                         <CheckBox Content="Зациклить" IsChecked="{Binding SelectedElement.Properties.VideoLoop}" />
@@ -227,9 +258,12 @@
                         <TextBlock Style="{StaticResource CaptionText}" TextWrapping="Wrap"
                                    Text="Выберите блок «Комментарии» на странице. Если на странице один такой блок, он подставится автоматически." Margin="0,0,0,12" />
                         <TextBlock Text="Заголовок" Style="{StaticResource LabelText}" />
-                        <TextBox Text="{Binding SelectedElement.Properties.Text, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBox helpers:TextBoxInputBehavior.Kind="Text"
+                                 Text="{Binding SelectedElement.Properties.Text, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
                         <TextBlock Text="Макс. на экране" Style="{StaticResource LabelText}" />
-                        <TextBox Text="{Binding SelectedElement.Properties.MaxComments, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBox helpers:TextBoxInputBehavior.Kind="Integer"
+                                 Text="{Binding SelectedElement.Properties.MaxComments, UpdateSourceTrigger=LostFocus, Converter={StaticResource IntegerString}}"
+                                 Margin="0,0,0,12" />
                         <CheckBox Content="Показывать автора" IsChecked="{Binding SelectedElement.Properties.ShowCommentAuthor}" Margin="0,0,0,8" />
                         <CheckBox Content="Показывать дату" IsChecked="{Binding SelectedElement.Properties.ShowCommentDate}" Margin="0,0,0,12" />
                         <TextBlock Text="Комментарии (из БД)" Style="{StaticResource SectionHeader}" />
@@ -249,8 +283,10 @@
                                 Command="{Binding RefreshCommentsCommand}" Margin="0,0,0,8" />
                         <TextBlock Style="{StaticResource CaptionText}" TextWrapping="Wrap"
                                    Text="Для теста можно добавить комментарий ниже (сохраняется в PageComments)." />
-                        <TextBox Text="{Binding NewCommentAuthor, UpdateSourceTrigger=PropertyChanged}" Tag="Имя" Margin="0,8,0,8" />
-                        <TextBox Text="{Binding NewCommentText, UpdateSourceTrigger=PropertyChanged}"
+                        <TextBox helpers:TextBoxInputBehavior.Kind="Text"
+                                 Text="{Binding NewCommentAuthor, UpdateSourceTrigger=PropertyChanged}" Tag="Имя" Margin="0,8,0,8" />
+                        <TextBox helpers:TextBoxInputBehavior.Kind="Multiline"
+                                 Text="{Binding NewCommentText, UpdateSourceTrigger=PropertyChanged}"
                                  Height="48" AcceptsReturn="True" TextWrapping="Wrap" Margin="0,0,0,8" />
                         <Button Content="Добавить в БД (превью)" Style="{StaticResource PrimaryButton}"
                                 Command="{Binding AddCommentCommand}" />
@@ -258,10 +294,13 @@
 
                     <StackPanel Visibility="{Binding IsCommentsSelected, Converter={StaticResource BoolToVis}}">
                         <TextBlock Text="Заголовок блока" Style="{StaticResource LabelText}" />
-                        <TextBox Text="{Binding SelectedElement.Properties.Text, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBox helpers:TextBoxInputBehavior.Kind="Text"
+                                 Text="{Binding SelectedElement.Properties.Text, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
                         <CheckBox Content="Разрешить добавление" IsChecked="{Binding SelectedElement.Properties.AllowComments}" Margin="0,0,0,12" />
                         <TextBlock Text="Макс. комментариев" Style="{StaticResource LabelText}" />
-                        <TextBox Text="{Binding SelectedElement.Properties.MaxComments, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                        <TextBox helpers:TextBoxInputBehavior.Kind="Integer"
+                                 Text="{Binding SelectedElement.Properties.MaxComments, UpdateSourceTrigger=LostFocus, Converter={StaticResource IntegerString}}"
+                                 Margin="0,0,0,12" />
                         <TextBlock Text="Комментарии (превью / БД)" Style="{StaticResource SectionHeader}" />
                         <ItemsControl ItemsSource="{Binding BlockComments}" MaxHeight="120" Margin="0,0,0,8">
                             <ItemsControl.ItemTemplate>
@@ -275,9 +314,11 @@
                                 </DataTemplate>
                             </ItemsControl.ItemTemplate>
                         </ItemsControl>
-                        <TextBox Text="{Binding NewCommentAuthor, UpdateSourceTrigger=PropertyChanged}"
+                        <TextBox helpers:TextBoxInputBehavior.Kind="Text"
+                                 Text="{Binding NewCommentAuthor, UpdateSourceTrigger=PropertyChanged}"
                                  Tag="Имя" Margin="0,0,0,8" />
-                        <TextBox Text="{Binding NewCommentText, UpdateSourceTrigger=PropertyChanged}"
+                        <TextBox helpers:TextBoxInputBehavior.Kind="Multiline"
+                                 Text="{Binding NewCommentText, UpdateSourceTrigger=PropertyChanged}"
                                  Height="48" AcceptsReturn="True" TextWrapping="Wrap" Margin="0,0,0,8" />
                         <Button Content="Добавить комментарий" Style="{StaticResource PrimaryButton}"
                                 Command="{Binding AddCommentCommand}" />

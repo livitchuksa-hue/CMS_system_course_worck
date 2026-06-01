@@ -18,8 +18,12 @@
             </Grid.RowDefinitions>
             <TextBlock Text="X" Style="{StaticResource LabelText}" />
             <TextBlock Grid.Column="2" Text="Y" Style="{StaticResource LabelText}" />
-            <TextBox Grid.Row="1" Text="{Binding X, UpdateSourceTrigger=PropertyChanged}" />
-            <TextBox Grid.Row="1" Grid.Column="2" Text="{Binding Y, UpdateSourceTrigger=PropertyChanged}" />
+            <TextBox Grid.Row="1"
+                     helpers:TextBoxInputBehavior.Kind="Numeric"
+                     Text="{Binding X, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource PositiveDouble}}" />
+            <TextBox Grid.Row="1" Grid.Column="2"
+                     helpers:TextBoxInputBehavior.Kind="Numeric"
+                     Text="{Binding Y, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource PositiveDouble}}" />
         </Grid>
 
         <Grid Margin="0,0,0,12">
@@ -34,8 +38,12 @@
             </Grid.RowDefinitions>
             <TextBlock Text="Ширина" Style="{StaticResource LabelText}" />
             <TextBlock Grid.Column="2" Text="Высота" Style="{StaticResource LabelText}" />
-            <TextBox Grid.Row="1" Text="{Binding Width, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource NullableDouble}}" />
-            <TextBox Grid.Row="1" Grid.Column="2" Text="{Binding Height, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource NullableDouble}}" />
+            <TextBox Grid.Row="1"
+                     helpers:TextBoxInputBehavior.Kind="Numeric"
+                     Text="{Binding Width, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource NullableDouble}}" />
+            <TextBox Grid.Row="1" Grid.Column="2"
+                     helpers:TextBoxInputBehavior.Kind="Numeric"
+                     Text="{Binding Height, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource NullableDouble}}" />
         </Grid>
 
         <CheckBox Content="Масштабируется (адаптивно)"
@@ -50,23 +58,38 @@
                   Text="{Binding Style.FontFamily, UpdateSourceTrigger=PropertyChanged}"
                   IsEditable="True" />
 
-        <TextBlock Text="Размер шрифта" Style="{StaticResource LabelText}" />
-        <TextBox Text="{Binding Style.FontSize, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+        <TextBlock Text="Размер шрифта (px)" Style="{StaticResource LabelText}" />
+        <TextBox helpers:TextBoxInputBehavior.Kind="NumericPx"
+                 Text="{Binding Style.FontSize, UpdateSourceTrigger=LostFocus, Converter={StaticResource PxString}}"
+                 Margin="0,0,0,12" />
 
         <TextBlock Text="Цвет текста" Style="{StaticResource LabelText}" />
-        <TextBox Text="{Binding Style.Color, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+        <TextBox helpers:TextBoxInputBehavior.Kind="HexColor"
+                 MaxLength="7"
+                 Text="{Binding Style.Color, UpdateSourceTrigger=LostFocus, Converter={StaticResource HexColorString}}"
+                 Margin="0,0,0,12" />
 
         <TextBlock Text="Фон" Style="{StaticResource LabelText}" />
-        <TextBox Text="{Binding Style.BackgroundColor, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+        <TextBox helpers:TextBoxInputBehavior.Kind="HexColor"
+                 MaxLength="7"
+                 Text="{Binding Style.BackgroundColor, UpdateSourceTrigger=LostFocus, Converter={StaticResource HexColorString}}"
+                 Margin="0,0,0,12" />
 
         <TextBlock Text="Цвет обводки" Style="{StaticResource LabelText}" />
-        <TextBox Text="{Binding Style.BorderColor, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+        <TextBox helpers:TextBoxInputBehavior.Kind="HexColor"
+                 MaxLength="7"
+                 Text="{Binding Style.BorderColor, UpdateSourceTrigger=LostFocus, Converter={StaticResource HexColorString}}"
+                 Margin="0,0,0,12" />
 
-        <TextBlock Text="Толщина обводки" Style="{StaticResource LabelText}" />
-        <TextBox Text="{Binding Style.BorderWidth, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+        <TextBlock Text="Толщина обводки (px)" Style="{StaticResource LabelText}" />
+        <TextBox helpers:TextBoxInputBehavior.Kind="NumericPx"
+                 Text="{Binding Style.BorderWidth, UpdateSourceTrigger=LostFocus, Converter={StaticResource PxString}}"
+                 Margin="0,0,0,12" />
 
-        <TextBlock Text="Жирность" Style="{StaticResource LabelText}" />
-        <TextBox Text="{Binding Style.FontWeight, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+        <TextBlock Text="Жирность (100–900)" Style="{StaticResource LabelText}" />
+        <TextBox helpers:TextBoxInputBehavior.Kind="Numeric"
+                 Text="{Binding Style.FontWeight, UpdateSourceTrigger=PropertyChanged}"
+                 Margin="0,0,0,12" />
 
         <TextBlock Text="Выравнивание" Style="{StaticResource LabelText}" />
         <ComboBox SelectedValue="{Binding Style.TextAlign}" Margin="0,0,0,12">
@@ -75,13 +98,18 @@
             <ComboBoxItem Content="right" />
         </ComboBox>
 
-        <TextBlock Text="Отступы (padding)" Style="{StaticResource LabelText}" />
-        <TextBox Text="{Binding Style.Padding, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+        <TextBlock Text="Отступы padding (px)" Style="{StaticResource LabelText}" />
+        <TextBox helpers:TextBoxInputBehavior.Kind="NumericPx"
+                 Text="{Binding Style.Padding, UpdateSourceTrigger=LostFocus, Converter={StaticResource PxString}}"
+                 Margin="0,0,0,12" />
 
-        <TextBlock Text="Внешний отступ (margin)" Style="{StaticResource LabelText}" />
-        <TextBox Text="{Binding Style.Margin, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+        <TextBlock Text="Внешний отступ margin (px)" Style="{StaticResource LabelText}" />
+        <TextBox helpers:TextBoxInputBehavior.Kind="NumericPx"
+                 Text="{Binding Style.Margin, UpdateSourceTrigger=LostFocus, Converter={StaticResource PxString}}"
+                 Margin="0,0,0,12" />
 
-        <TextBlock Text="Скругление" Style="{StaticResource LabelText}" />
-        <TextBox Text="{Binding Style.BorderRadius, UpdateSourceTrigger=PropertyChanged}" />
+        <TextBlock Text="Скругление (px)" Style="{StaticResource LabelText}" />
+        <TextBox helpers:TextBoxInputBehavior.Kind="NumericPx"
+                 Text="{Binding Style.BorderRadius, UpdateSourceTrigger=LostFocus, Converter={StaticResource PxString}}" />
     </StackPanel>
 </UserControl>

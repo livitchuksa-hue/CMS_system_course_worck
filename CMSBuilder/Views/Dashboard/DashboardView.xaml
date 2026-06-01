@@ -1,6 +1,7 @@
 <UserControl x:Class="CMSBuilder.Views.Dashboard.DashboardView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:helpers="clr-namespace:CMSBuilder.Helpers"
              Background="{StaticResource BackgroundBrush}">
 
     <DockPanel>
@@ -15,6 +16,7 @@
                 <TextBlock Text="CMS Builder" Style="{StaticResource Heading2Text}" VerticalAlignment="Center"
                            Foreground="{StaticResource AccentBrush}" />
                 <TextBox Grid.Column="1" Width="420" VerticalAlignment="Center" HorizontalAlignment="Center"
+                         helpers:TextBoxInputBehavior.Kind="Text"
                          Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}" />
                 <StackPanel Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center">
                     <Button Content="Новый сайт" Style="{StaticResource PrimaryButton}" Width="130" Margin="0,0,10,0"

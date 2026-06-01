@@ -16,6 +16,7 @@
                     <TextBlock Text="Основное" Style="{StaticResource SectionHeader}" />
                     <TextBlock Text="Название сайта" Style="{StaticResource LabelText}" />
                     <TextBox Margin="0,0,0,8"
+                             helpers:TextBoxInputBehavior.Kind="Text"
                              Text="{Binding SiteTitle, UpdateSourceTrigger=PropertyChanged}" />
                     <Button Content="Сгенерировать slug из названия"
                             Style="{StaticResource SecondaryButton}"
@@ -28,9 +29,11 @@
                              TextWrapping="Wrap"
                              VerticalContentAlignment="Top"
                              Margin="0,0,0,12"
+                             helpers:TextBoxInputBehavior.Kind="Multiline"
                              Text="{Binding MetaDescription, UpdateSourceTrigger=PropertyChanged}" />
                     <TextBlock Text="URL (slug)" Style="{StaticResource LabelText}" />
-                    <TextBox Text="{Binding Slug, UpdateSourceTrigger=PropertyChanged}" />
+                    <TextBox helpers:TextBoxInputBehavior.Kind="Slug"
+                             Text="{Binding Slug, UpdateSourceTrigger=LostFocus}" />
                 </StackPanel>
             </Border>
 
@@ -38,11 +41,19 @@
                 <StackPanel>
                     <TextBlock Text="Цвета сайта" Style="{StaticResource SectionHeader}" />
                     <TextBlock Text="Основной" Style="{StaticResource LabelText}" />
-                    <TextBox Text="{Binding PrimaryColor, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,8" />
+                    <TextBox helpers:TextBoxInputBehavior.Kind="HexColor"
+                             MaxLength="7"
+                             Text="{Binding PrimaryColor, UpdateSourceTrigger=LostFocus, Converter={StaticResource HexColorString}}"
+                             Margin="0,0,0,8" />
                     <TextBlock Text="Вторичный" Style="{StaticResource LabelText}" />
-                    <TextBox Text="{Binding SecondaryColor, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,8" />
+                    <TextBox helpers:TextBoxInputBehavior.Kind="HexColor"
+                             MaxLength="7"
+                             Text="{Binding SecondaryColor, UpdateSourceTrigger=LostFocus, Converter={StaticResource HexColorString}}"
+                             Margin="0,0,0,8" />
                     <TextBlock Text="Акцентный" Style="{StaticResource LabelText}" />
-                    <TextBox Text="{Binding AccentColor, UpdateSourceTrigger=PropertyChanged}" />
+                    <TextBox helpers:TextBoxInputBehavior.Kind="HexColor"
+                             MaxLength="7"
+                             Text="{Binding AccentColor, UpdateSourceTrigger=LostFocus, Converter={StaticResource HexColorString}}" />
                 </StackPanel>
             </Border>
 
@@ -66,15 +77,19 @@
                         </Grid.ColumnDefinitions>
                         <StackPanel>
                             <TextBlock Text="Ширина (px)" Style="{StaticResource LabelText}" />
-                            <TextBox Text="{Binding PageWidth, UpdateSourceTrigger=PropertyChanged}" />
+                            <TextBox helpers:TextBoxInputBehavior.Kind="Numeric"
+                                     Text="{Binding PageWidth, UpdateSourceTrigger=LostFocus, Converter={StaticResource PositiveDouble}}" />
                         </StackPanel>
                         <StackPanel Grid.Column="2">
                             <TextBlock Text="Высота (px)" Style="{StaticResource LabelText}" />
-                            <TextBox Text="{Binding PageHeight, UpdateSourceTrigger=PropertyChanged}" />
+                            <TextBox helpers:TextBoxInputBehavior.Kind="Numeric"
+                                     Text="{Binding PageHeight, UpdateSourceTrigger=LostFocus, Converter={StaticResource PositiveDouble}}" />
                         </StackPanel>
                     </Grid>
                     <TextBlock Text="Фон страницы" Style="{StaticResource LabelText}" />
-                    <TextBox Text="{Binding PageBackground, UpdateSourceTrigger=PropertyChanged}" />
+                    <TextBox helpers:TextBoxInputBehavior.Kind="HexColor"
+                             MaxLength="7"
+                             Text="{Binding PageBackground, UpdateSourceTrigger=LostFocus, Converter={StaticResource HexColorString}}" />
                 </StackPanel>
             </Border>
 
@@ -92,11 +107,13 @@
                                     </Grid.ColumnDefinitions>
                                     <StackPanel>
                                         <TextBlock Text="Название" Style="{StaticResource CaptionText}" />
-                                        <TextBox Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}" />
+                                        <TextBox helpers:TextBoxInputBehavior.Kind="Text"
+                                                 Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}" />
                                     </StackPanel>
                                     <StackPanel Grid.Column="2">
                                         <TextBlock Text="Slug" Style="{StaticResource CaptionText}" />
-                                        <TextBox Text="{Binding Slug, UpdateSourceTrigger=PropertyChanged}" />
+                                        <TextBox helpers:TextBoxInputBehavior.Kind="Slug"
+                                                 Text="{Binding Slug, UpdateSourceTrigger=LostFocus}" />
                                     </StackPanel>
                                 </Grid>
                             </DataTemplate>
