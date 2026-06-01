@@ -21,6 +21,10 @@
             <conv:NullableDoubleConverter x:Key="NullableDouble" />
             <conv:NullableDoubleToSizeConverter x:Key="NullableDoubleToSize" />
             <conv:CssBorderThicknessConverter x:Key="CssBorderThickness" />
+            <conv:PxStringConverter x:Key="PxString" />
+            <conv:HexColorStringConverter x:Key="HexColorString" />
+            <conv:PositiveDoubleConverter x:Key="PositiveDouble" />
+            <conv:IntegerStringConverter x:Key="IntegerString" />
         </ResourceDictionary>
     </Application.Resources>
 </Application>

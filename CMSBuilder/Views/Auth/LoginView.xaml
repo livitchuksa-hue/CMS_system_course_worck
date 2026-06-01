@@ -29,7 +29,8 @@
                                Visibility="{Binding ErrorMessage, Converter={StaticResource StringToVis}}" />
 
                     <TextBlock Text="Логин" Style="{StaticResource LabelText}" />
-                    <TextBox Text="{Binding LoginName, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
+                    <TextBox helpers:TextBoxInputBehavior.Kind="Text"
+                             Text="{Binding LoginName, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,12" />
 
                     <TextBlock Text="Пароль" Style="{StaticResource LabelText}" />
                     <PasswordBox Margin="0,0,0,12"

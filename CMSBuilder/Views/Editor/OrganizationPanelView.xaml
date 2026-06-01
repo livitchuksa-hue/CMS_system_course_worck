@@ -1,6 +1,7 @@
 <UserControl x:Class="CMSBuilder.Views.Editor.OrganizationPanelView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:helpers="clr-namespace:CMSBuilder.Helpers"
              MinWidth="360">
 
     <Border Style="{StaticResource CardBorder}" Padding="16">
@@ -12,6 +13,7 @@
             <StackPanel Visibility="{Binding IsOwner, Converter={StaticResource BoolToVis}}" Margin="0,0,0,12">
                 <TextBlock Text="Логин пользователя" Style="{StaticResource LabelText}" />
                 <TextBox Margin="0,0,0,8"
+                         helpers:TextBoxInputBehavior.Kind="Text"
                          Text="{Binding InviteLogin, UpdateSourceTrigger=PropertyChanged}" />
                 <TextBlock Text="Роль" Style="{StaticResource LabelText}" />
                 <ComboBox Margin="0,0,0,12"
